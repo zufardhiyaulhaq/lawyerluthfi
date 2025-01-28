@@ -1,0 +1,15 @@
+logo_image:
+background_image: /images/building.png
+navigation_items:
+  - label: About
+    link_url: /about/
+    link_type: Text
+  - label: Services
+    link_url: /services/
+    link_type: Text
+  - label: Contact
+    link_url: /contact/
+    link_type: Text
+  - label: Blog
+    link_url: /blog/
+    link_type: Text

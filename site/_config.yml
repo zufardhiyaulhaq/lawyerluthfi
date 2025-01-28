@@ -1,0 +1,49 @@
+plugins:
+  - jekyll-bookshop
+  - jekyll-postcss-v2
+  - jekyll-archives
+  - jekyll-feed
+
+jekyll-archives:
+  enabled:
+    - categories
+
+# Multiple bookshops can be used on one website,
+# or different production / staging locations.
+bookshop_locations:
+  - ../component-library/
+
+exclude:
+  - postcss.config.js
+  - node_modules
+
+permalink: pretty
+
+collections_dir: collections
+collections:
+  pages:
+    _slug: 'pages'
+    output: true
+    permalink: /:title/
+  staff_members:
+    _slug: 'staff_members'
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      type: pages
+      path: _pages/index.html
+    values:
+      permalink: /
+  - scope:
+      type: posts
+    values:
+      layout: post
+  - scope:
+      type: clients
+    values:
+      layout: client
