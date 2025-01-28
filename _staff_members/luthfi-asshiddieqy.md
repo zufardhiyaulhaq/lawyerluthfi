@@ -1,8 +1,7 @@
 ---
 name: Luthfi Asshiddieqy
 image: "//i.ibb.co.com/nbZQNL2/Screenshot-2025-01-28-at-23-45-24.png"
-credentials: LLB
-phone_extension: "11"
+credentials: TBD
 ---
 
-With an interest in employment law, John works tirelessly to improve workplaces.
+Luthfi Asshiddieqy adalah pengacara yang berkomitmen membantu masyarakat dengan pengalaman luas di bidang Perkawinan & Perceraian, Waris, Pertahanan, dan Perdata. Dikenal sebagai pekerja keras dan menjunjung tinggi keadilan, Luthfi selalu memberikan solusi hukum terbaik dengan integritas tinggi.
