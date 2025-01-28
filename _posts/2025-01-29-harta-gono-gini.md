@@ -3,6 +3,8 @@ title: Harta Gono-Gini di Indonesia, Pengertian, Dasar Hukum, dan Pembagian
 date: 2025-01-29 00:00:00
 categories:
   - Perkawinan & Perceraian
+author_staff_member:
+image: "https://placehold.it/600/450?a=.png"
 large_header: false
 ---
 
