@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Advokat Pengacara Luthfi
+title: Advokat, Lawyer, Bantuan Hukum Pidana, Perceraian, Waris, Perdata Purbalingga, Banjarnegara, Purwokerto, Banyumas, Cilacap
 url: "https://advokatluthfi.com"
 baseurl:
 google_analytics_key:
@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Pengacara Hukum Pidana, Perceraian, Waris, Perdata untuk Purbalingga, Purwokerto, Banyumas, Cilacap.
+description: Advokat, Lawyer, Bantuan Hukum Pidana, Perceraian, Waris, Perdata Purbalingga, Banjarnegara, Purwokerto, Banyumas, Cilacap.
 author:
   name:
   email:
