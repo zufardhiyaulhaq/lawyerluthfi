@@ -1,5 +1,5 @@
 ---
-name: Luthfi Asshiddieqy
+name: Luthfi Asshiddieqy, S.H
 image: "//i.ibb.co.com/nbZQNL2/Screenshot-2025-01-28-at-23-45-24.png"
 credentials: TBD
 ---
