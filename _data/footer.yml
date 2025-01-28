@@ -1,16 +1,16 @@
-- title: Pages
+- title: Halaman
   links:
-    - name: Home
+    - name: Utama
       link: /
-    - name: About
+    - name: Tentang
       link: /about/
-    - name: Services
+    - name: Layanan
       link: /services/
-    - name: Contact
+    - name: Kontak
       link: /contact/
     - name: Blog
       link: /blog/
-- title: Social
+- title: Media Social
   links:
     - name: Facebook
       link: http://facebook.com/cloudcannon/
