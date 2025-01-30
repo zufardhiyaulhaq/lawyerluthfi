@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Advokat, Lawyer, Bantuan Hukum Pernikahan, Perceraian, Waris, Perdata Purbalingga, Banjarnegara, Purwokerto, Banyumas, Cilacap
+title: Bantuan Hukum Pernikahan, Perceraian, Waris, Perdata Purbalingga, Banjarnegara, Purwokerto, Banyumas.
 url: "https://advokatluthfi.com"
 baseurl:
 google_analytics_key:
@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Advokat, Lawyer, Bantuan Hukum Pernikahan, Perceraian, Waris, Perdata Purbalingga, Banjarnegara, Purwokerto, Banyumas, Cilacap.
+description: Advokat, Pengacara, Bantuan Hukum Pernikahan, Perceraian, Waris, Perdata, Pertanahan di Purbalingga, Banjarnegara, Purwokerto, Banyumas. Transparan dan berintegritas tinggi. Konsultasi pertama Anda gratis!
 author:
   name:
   email:
