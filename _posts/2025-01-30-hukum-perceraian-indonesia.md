@@ -2,7 +2,7 @@
 title: "Hukum Perceraian di Indonesia: Syarat, Prosedur, dan Dampak Hukum"
 date: 2025-01-30 00:00:00
 author_staff_member: luthfi-asshiddieqy
-image: "https://placehold.it/600/450?a=.png"
+image: "https://i.ibb.co.com/qMg3nfs8/ilustrasi-perceraian-169.jpg"
 large_header: false
 categories:
   - Perkawinan & Perceraian

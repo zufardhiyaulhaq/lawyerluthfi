@@ -4,7 +4,7 @@ date: 2025-02-15 00:00:00
 categories:
   - Sengketa
 author_staff_member: luthfi-asshiddieqy
-image: "https://placehold.it/600/450?a=.png"
+image: "https://i.ibb.co.com/VcWBSq2B/12133-1.jpg"
 large_header: false
 ---
 
