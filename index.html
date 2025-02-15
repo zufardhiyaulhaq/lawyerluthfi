@@ -42,7 +42,7 @@ _options:
 	{% for testimonial in page.testimonials %}
 		<blockquote class="testimonial">
 			<p class="testimonial-message">{{ testimonial.message }}</p>
-			<p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}</p>
+      <p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}" width="60" height="60"> {{ testimonial.name }}</p>
 		</blockquote>
 	{% endfor %}
 </div>
