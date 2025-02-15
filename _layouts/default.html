@@ -47,7 +47,14 @@
 	</head>
 
 	<body>
-		<header style="background-image: url('{% include relative-src.html src=page.background_image_path %}');" {% if page.large_header %}class="main-hero"{% endif %}>
+		<header style="background-image: url('{% include relative-src.html src=page.background_image_path %}');" {% if page.large_header %}class="main-hero"{% endif %} class="header">
+		<style>
+			@media (max-width: 768px) {
+				.header {
+					background-image: none !important;
+				}
+			}
+		</style>
 			<div class="container">
 				<h1 style="text-shadow: 1px 1px #fefefe;"><a href="{{ site.baseurl }}/">{{ site.data.company.title }}</a></h1>
 				<nav>
