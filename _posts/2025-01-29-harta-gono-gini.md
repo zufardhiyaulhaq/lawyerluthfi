@@ -5,7 +5,7 @@ categories:
   - Perkawinan & Perceraian
 author_staff_member: luthfi-asshiddieqy
 image: "https://i.ibb.co.com/d0sZTx4D/2151202429.jpg"
-large_header: true
+large_header: false
 ---
 
 ![Harta Gono-Gini](https://i.ibb.co.com/d0sZTx4D/2151202429.jpg)  
