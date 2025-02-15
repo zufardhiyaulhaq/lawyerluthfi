@@ -8,8 +8,7 @@ image: "https://placehold.it/600/450?a=.png"
 large_header: false
 ---
 
-![Harta Gono-Gini](https://via.placeholder.com/800x400)  
-*Ilustrasi: Pengelolaan harta bersama dalam perkawinan (Sumber: Biro Hukum Indonesia)*
+![Harta Gono-Gini](https://i.ibb.co.com/d0sZTx4D/2151202429.jpg)  
 
 ### Apa Itu Harta Gono-Gini? :cite[1]:cite[5]
 **Harta Gono-Gini** merujuk pada harta bersama yang diperoleh suami dan istri selama masa perkawinan. Istilah ini berasal dari tradisi Jawa, tetapi diakui secara hukum di Indonesia sebagai **harta bersama** (_community property_). Contohnya meliputi rumah, mobil, tabungan, atau investasi yang dibeli selama pernikahan. Harta bawaan (milik sebelum menikah) dan warisan/hadiah yang dinyatakan sebagai harta pribadi **tidak termasuk** dalam kategori ini :cite[6]:cite[5].
@@ -48,6 +47,8 @@ Harta bersama menjadi bagian warisan. Ahli waris (anak, pasangan) berhak atas ba
 1. **Buat Perjanjian Pranikah** untuk memisahkan harta pribadi.  
 2. **Transparansi Keuangan**: Diskusikan pendapatan, pengeluaran, dan investasi.  
 3. **Hindari Utang Berlebihan** yang memberatkan harta bersama.  
+
+<b><a href="https://advokatluthfi.com/contact/">Konsultasikan dengan kantor hukum Advokat Pengacara Luthfi</a></b> untuk dapatkan solusi efektif terkait harta gono gini Anda!
 
 ---
 
