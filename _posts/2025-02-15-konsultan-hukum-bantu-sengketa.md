@@ -53,6 +53,8 @@ Menggunakan jasa konsultan hukum dalam penyelesaian sengketa memberikan berbagai
 
 ---
 
+![infografik](https://ik.imagekit.io/4mjt7d3c3/image.png)
+
 Dalam menghadapi sengketa hukum, baik dalam bisnis maupun aspek lainnya, peran konsultan hukum sangat penting untuk memastikan bahwa penyelesaian sengketa dapat dilakukan dengan cara yang paling efektif dan sesuai hukum. Dengan bantuan konsultan hukum, Anda dapat memperoleh solusi hukum yang adil, mengurangi risiko, serta menjaga stabilitas bisnis atau hubungan kerja sama yang dijalankan. Oleh karena itu, memiliki konsultan hukum yang kompeten bukan hanya sebagai langkah antisipatif, tetapi juga sebagai strategi jangka panjang untuk memastikan keberlanjutan usaha dan kepentingan hukum yang lebih baik. 
 <b><a href="https://advokatluthfi.com/contact/">Konsultasikan dengan kantor hukum Advokat Luthfi</a></b> untuk dapatkan solusi efektif atas sengketa Anda!
 
