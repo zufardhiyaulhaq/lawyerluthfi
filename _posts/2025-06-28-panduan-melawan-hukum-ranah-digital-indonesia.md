@@ -46,6 +46,9 @@ Kabar baiknya, UU ITE mengakui bukti elektronik seperti screenshot, URL, dan rek
 Saat menuntut ganti rugi:
 1. Kerugian Materiil: Kumpulkan bukti konkret seperti laporan keuangan yang menunjukkan penurunan pendapatan, serta kuitansi biaya-biaya yang Anda keluarkan untuk pemulihan.   
 2. Kerugian Immateriil: Meskipun sulit diukur, jelaskan secara rinci penderitaan batin, rasa malu, dan stres yang Anda alami dalam surat gugatan. Jangan hanya menyebut angka. Bukti pendukung seperti surat keterangan dari psikolog dapat memperkuat tuntutan Anda.
+3. 
+
+![infografik hukum ranah digital indonesia](https://ik.imagekit.io/4mjt7d3c3/infografik-kejahatan-digital.png)
 
 ### Langkah Praktis Jika Anda Menjadi Korban
 
