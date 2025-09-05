@@ -48,6 +48,7 @@ Namun, perlu diingat, meskipun terkuat, SHM tidak kebal hukum 100%. SHM dapat di
 ### Perbandingan Kekuatan di Mata Hukum
 
 Untuk melihat perbedaan secara jelas, perhatikan tabel perbandingan berikut:
+
 | Aspek Yuridis          | Girik                                                      | Eigendom Verponding (Tidak Dikonversi)       | Sertifikat Hak Milik (SHM)                                          |
 | ---------------------- | ---------------------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------- |
 | Status Hukum           | Bukti Pembayaran Pajak (Alat Bukti Permulaan)              | Hak Atas Tanah Barat (Status Hukum Berakhir) | Bukti Hak Milik Mutlak (Alat Bukti Kuat)                            |
