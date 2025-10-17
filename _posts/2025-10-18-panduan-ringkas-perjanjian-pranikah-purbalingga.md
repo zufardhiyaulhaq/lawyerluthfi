@@ -1,6 +1,6 @@
 ---
 title: Panduan Ringkas Perjanjian Pranikah di Purbalingga
-date: 2025-11-17 00:00:00
+date: 2025-10-18 00:00:00
 categories:
   - Perkawinan & Perceraian
 author_staff_member: luthfi-asshiddieqy
