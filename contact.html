@@ -1,69 +1,71 @@
 ---
 title: Kontak
-call_to_action: Map
+layout: page
 background_image_path:
 large_header: false
 show_in_navigation: true
 navigation_order: 3
-map:
-  latitude: -45.8787605
-  longitude: 170.5027976
-  zoom: 13
 ---
 
-<p class="editable">
-	Kunjungi kantor kami secara langsung, hubungi kami melalui telepon, atau kirim pesan dengan detail Anda, dan kami akan segera menghubungi Anda. Tanpa kewajiban apa pun, dan konsultasi pertama Anda sepenuhnya <b>gratis</b>. Kami siap membantu Anda dengan solusi hukum terbaik!
-</p>
-
-<div class="columns">
-	<div class="column">
-		<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update Company Details</a></p>
-
-		<label>WhatsApp</label>
-		<p class="contact-info"><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a></p>
-
-		<label>Email</label>
-		<p class="contact-info"><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
-
-		<label>Alamat</label>
-		<address class="contact-info">{{ site.data.company.address | replace: ',', '<br>' }}</address>
+<section class="section no-rule" style="padding-bottom: 0;">
+	<div class="container">
+		<div class="sec-head" style="margin-bottom: 0;">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>Kontak</div>
+				<h1 style="margin-top:16px;">Mari bicarakan kasus Anda.</h1>
+			</div>
+			<p class="lead">Kunjungi kantor kami, hubungi melalui telepon, atau kirim pesan — konsultasi pertama Anda sepenuhnya <b>gratis</b>.</p>
+		</div>
 	</div>
+</section>
 
-	<div class="column">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.5022195177826!2d109.3726551759374!3d-7.409532792600681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65593cd9ad2b15%3A0x67037e4dd2407edd!2sAdvokat%20Pengacara%20Luthfi%20Asshiddieqy!5e0!3m2!1sen!2sid!4v1738081988315!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<section class="section">
+	<div class="container">
+		<div class="contact-grid">
+			<div class="contact-info-block">
+				<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn btn-sm btn-outline"><strong>&#9998;</strong> Update Company Details</a></p>
+
+				<div class="item">
+					<div class="k">WhatsApp</div>
+					<a class="v" href="https://wa.me/6282393395426" target="_blank" rel="noopener">{{ site.data.company.phone }}</a>
+				</div>
+				<div class="item">
+					<div class="k">Email</div>
+					<a class="v small" href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a>
+				</div>
+				<div class="item">
+					<div class="k">Alamat Kantor</div>
+					<address class="v small" style="font-style: normal;">{{ site.data.company.address }}</address>
+				</div>
+				<div class="item">
+					<div class="k">Jam Operasional</div>
+					<span class="v small">Senin – Sabtu · 09.00 – 17.00 WIB</span>
+				</div>
+			</div>
+
+			<div>
+				<div class="map-frame">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.5022195177826!2d109.3726551759374!3d-7.409532792600681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65593cd9ad2b15%3A0x67037e4dd2407edd!2sAdvokat%20Pengacara%20Luthfi%20Asshiddieqy!5e0!3m2!1sen!2sid!4v1738081988315!5m2!1sen!2sid" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</div>
 	</div>
-</div>
+</section>
 
-
-{% if site.google_maps_javascript_api_key and page.call_to_action == 'Map' %}
-	<script>
-		window.mapData = {{ page.map | jsonify }};
-
-		function initMap() {
-			var myOptions = {
-				scrollwheel: false,
-				draggable: false,
-				panControl: false,
-				disableDefaultUI: true,
-				styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}],
-				zoom: window.mapData.zoom,
-				maxZoom: window.mapData.zoom,
-				minZoom: window.mapData.zoom,
-				center: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude),
-				mapTypeId: google.maps.MapTypeId.ROADMAP
-			};
-
-			var map = new google.maps.Map(document.getElementById('map'), myOptions);
-
-			var marker = new google.maps.Marker({
-				map: map,
-				position: new google.maps.LatLng(window.mapData.latitude, window.mapData.longitude)
-			});
-
-			google.maps.event.addDomListener(window, 'resize', function() {
-				map.setCenter(myOptions.center);
-			});
-		}
-	</script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
-{% endif %}
+<section class="cta-banner">
+	<div class="container">
+		<div class="cta-grid">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>Konsultasi Gratis</div>
+				<h2 style="margin-top:16px;">Hubungi kami hari ini.</h2>
+				<p class="subtext">Tanpa kewajiban apa pun. Diskusikan kasus Anda dengan advokat berpengalaman dan dapatkan langkah hukum yang jelas.</p>
+			</div>
+			<div style="display:flex; gap:12px; flex-wrap:wrap; justify-content:flex-end;">
+				<a class="btn btn-accent" href="https://wa.me/6282393395426" target="_blank" rel="noopener">
+					Chat WhatsApp
+					<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>

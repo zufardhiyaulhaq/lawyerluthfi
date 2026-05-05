@@ -1,13 +1,11 @@
-<p class="post-summary-details">
-	{{ include.post.date | date: '%B %d, %Y' }}
-
-	{% assign categories_size = include.post.categories | size %}
-	{% if categories_size > 0 %}
-		&bull;
+<div class="post-meta">
+	<span>{{ include.post.date | date: '%-d %B %Y' }}</span>
+	{% if include.post.content %}
+		<span>·</span>
+		<span>{{ include.post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} menit baca</span>
 	{% endif %}
-
 	{% for category in include.post.categories %}
-		{% unless forloop.first %}&bull;{% endunless %}
-		<a class="post-summary-category" href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+		<span>·</span>
+		<a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
 	{% endfor %}
-</p>
+</div>

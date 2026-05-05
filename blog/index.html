@@ -1,5 +1,6 @@
 ---
-title: Blog
+title: Jurnal
+layout: page
 call_to_action: Contact
 background_image_path:
 large_header: false
@@ -7,30 +8,86 @@ show_in_navigation: true
 navigation_order: 4
 ---
 
-<p class="editable">Dapatkan pengenalan tentang berbagai topik hukum dan tetap terinformasi dengan artikel mendalam kami.</p>
+{% assign featured = paginator.posts | first %}
 
-<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Update Posts</a></p>
+<section class="section no-rule" style="padding-bottom: 32px;">
+	<div class="container">
+		<div class="sec-head" style="margin-bottom: 0;">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>Jurnal Hukum</div>
+				<h1 style="margin-top:16px;">Wawasan &amp; panduan praktis seputar hukum keluarga, tanah, dan perdata.</h1>
+			</div>
+			<p class="lead">Dapatkan pengenalan tentang berbagai topik hukum dan tetap terinformasi dengan artikel mendalam kami.</p>
+		</div>
 
-<ol class="post-list">
-	{% for post in paginator.posts %}
-		{% include post-summary.html post=post %}
-	{% endfor %}
-</ol>
+		<p class="editor-link" style="margin-top:24px;"><a href="cloudcannon:collections/_posts" class="btn btn-sm btn-outline"><strong>&#9998;</strong> Update Posts</a></p>
+	</div>
+</section>
 
-{% if paginator.total_pages > 1 %}
-	<div class="pagination">
-		{% if paginator.previous_page %}
-			<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer</a>
-		{% elsif paginator.next_page %}
-			<span></span>
-		{% endif %}
+{% if featured and paginator.page == 1 %}
+	<section class="section no-rule" style="padding-top: 0;">
+		<div class="container">
+			<a class="blog-hero" href="{{ site.baseurl }}{{ featured.url }}" style="text-decoration: none; color: inherit;">
+				<div class="feat-thumb">
+					{% if featured.image %}
+						<img src="{% include relative-src.html src=featured.image %}" alt="{{ featured.title }}">
+					{% else %}
+						<div class="stripes"></div>
+					{% endif %}
+				</div>
+				<div>
+					<div class="meta" style="display:flex; gap:12px; font-family: var(--font-mono); font-size:11px; color: var(--muted); letter-spacing:.04em; text-transform:uppercase;">
+						{% if featured.categories.first %}<span>{{ featured.categories.first }}</span><span>·</span>{% endif %}
+						<span>{{ featured.date | date: '%-d %b %Y' }}</span>
+						<span>·</span>
+						<span>{{ featured.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} mnt baca</span>
+					</div>
+					<h2 style="margin-top: 16px;">{{ featured.title }}</h2>
+					<p class="lead" style="margin-top: 16px;">{{ featured.excerpt | strip_html | truncate: 200 }}</p>
+				</div>
+			</a>
+		</div>
+	</section>
+{% endif %}
 
-		<span>{{ paginator.page }} of {{ paginator.total_pages }}</span>
+{% assign all_categories = site.posts | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
+<section class="section no-rule" style="padding: 0;">
+	<div class="container">
+		<ul class="filter-bar">
+			<li><a class="chip on" href="{{ site.baseurl }}/blog/">Semua</a></li>
+			{% for cat in all_categories %}
+				{% if cat != "" %}
+					<li><a class="chip" href="{{ site.baseurl }}/category/{{ cat | slugify }}/">{{ cat }}</a></li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+</section>
 
-		{% if paginator.next_page %}
-			<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older &rarr;</a>
-		{% elsif paginator.previous_page %}
-			<span></span>
+<section class="section no-rule">
+	<div class="container">
+		<ol class="blog-list">
+			{% for post in paginator.posts %}
+				{% unless paginator.page == 1 and forloop.first %}
+					{% include post-summary.html post=post %}
+				{% endunless %}
+			{% endfor %}
+		</ol>
+
+		{% if paginator.total_pages > 1 %}
+			<div class="pagination">
+				<div>
+					{% if paginator.previous_page %}
+						<a class="btn btn-outline btn-sm" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">← Sebelumnya</a>
+					{% endif %}
+				</div>
+				<span>Halaman {{ paginator.page }} / {{ paginator.total_pages }}</span>
+				<div>
+					{% if paginator.next_page %}
+						<a class="btn btn-outline btn-sm" href="{{ site.baseurl }}{{ paginator.next_page_path }}">Berikutnya →</a>
+					{% endif %}
+				</div>
+			</div>
 		{% endif %}
 	</div>
-{% endif %}
+</section>

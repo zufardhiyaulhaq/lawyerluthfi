@@ -1,48 +1,75 @@
 ---
-layout: page
+layout: default
 ---
 
-{% include post-summary-details.html post=page %}
+{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
+{% assign author = site.staff_members | where: "url", author_id | first %}
 
-<div>{{ content }}</div>
+<article>
+	<header class="post-header">
+		<div class="container narrow">
+			<div class="post-meta">
+				{% for category in page.categories %}
+					<a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+					<span>·</span>
+				{% endfor %}
+				<span>{{ page.date | date: '%-d %B %Y' }}</span>
+				<span>·</span>
+				<span>{{ page.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} menit baca</span>
+			</div>
+			<h1>{{ page.title }}</h1>
+			{% if author %}
+				<div class="post-meta" style="margin-top: 24px; margin-bottom: 0;">
+					<span>oleh {{ author.name }}</span>
+				</div>
+			{% endif %}
+		</div>
+	</header>
 
-<h2>Meet the author</h2>
-<div class="post-author staff">
-	{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
-	{% assign author = site.staff_members | where: "url", author_id | first %}
+	<div class="post-body">
+		{{ content }}
+	</div>
 
-	{% include staff-member.html member=author %}
-</div>
-
-<h2>Keep reading</h2>
-<ol class="post-links post-list">
-	{% if page.next %}
-		{% include post-summary.html post=page.next %}
-	{% elsif page.previous %}
-		{% include post-summary.html post=page.previous %}
+	{% if author %}
+		<aside class="post-author-card">
+			<div class="eyebrow"><span class="dot"></span>Penulis</div>
+			<div class="author">
+				<div class="avatar">
+					<img src="{% include relative-src.html src=author.image %}" alt="{{ author.name }}">
+				</div>
+				<div>
+					<div class="name">{{ author.name }}</div>
+					<div class="creds">NIA {{ author.credentials }} · PERADI</div>
+				</div>
+			</div>
+		</aside>
 	{% endif %}
-</ol>
 
-{% if site.disqus_shortname %}
-	<h2>Have your say</h2>
-	<div class="post-comments" id="disqus_thread"></div>
+	{% if page.next or page.previous %}
+		<aside class="keep-reading">
+			<div class="eyebrow"><span class="dot"></span>Lanjut Membaca</div>
+			<ol class="posts" style="grid-template-columns: 1fr;">
+				{% if page.next %}
+					{% include post-summary.html post=page.next %}
+				{% elsif page.previous %}
+					{% include post-summary.html post=page.previous %}
+				{% endif %}
+			</ol>
+		</aside>
+	{% endif %}
 
-	<script>
-		/**
-		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-		/*
-		var disqus_config = function () {
-		this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-		this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-		};
-		*/
-		(function() { // DON'T EDIT BELOW THIS LINE
-		var d = document, s = d.createElement('script');
-		s.src = '//{{ site.disqus_shortname }}.disqus.com/embed.js';
-		s.setAttribute('data-timestamp', +new Date());
-		(d.head || d.body).appendChild(s);
-		})();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
+	{% if site.disqus_shortname %}
+		<aside class="keep-reading">
+			<div class="eyebrow"><span class="dot"></span>Diskusi</div>
+			<div id="disqus_thread"></div>
+			<script>
+				(function() {
+					var d = document, s = d.createElement('script');
+					s.src = '//{{ site.disqus_shortname }}.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+			</script>
+		</aside>
+	{% endif %}
+</article>

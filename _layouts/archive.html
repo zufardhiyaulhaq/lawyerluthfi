@@ -4,18 +4,24 @@ call_to_action: Contact
 background_image_path:
 ---
 
-{% if page.title %}
-	<div class="page-header">
-		<h2>{{ page.title }} Blog</h2>
+<section class="section no-rule" style="padding-bottom: 32px;">
+	<div class="container">
+		<div class="sec-head" style="margin-bottom: 0;">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>Kategori</div>
+				<h1 style="margin-top:16px;">{{ page.title }}</h1>
+			</div>
+			<p class="lead">Anda sedang melihat semua artikel pada kategori <strong>{{ page.title }}</strong>. <a href="{{ site.baseurl }}/blog/">Lihat semua artikel</a> sebagai gantinya.</p>
+		</div>
 	</div>
-{% endif %}
+</section>
 
-<article class="content">
-	<p class="editable">You're currently looking at posts categorised under <strong>{{ page.title }}</strong>. <a href="{{ site.baseurl }}/blog/">View all posts</a> instead.</p>
-
-	<ol class="post-list">
-		{% for post in page.posts %}
-			{% include post-summary.html post=post %}
-		{% endfor %}
-	</ol>
-</article>
+<section class="section no-rule">
+	<div class="container">
+		<ol class="blog-list">
+			{% for post in page.posts %}
+				{% include post-summary.html post=post %}
+			{% endfor %}
+		</ol>
+	</div>
+</section>

@@ -1,5 +1,6 @@
 ---
 title: Tentang
+layout: page
 call_to_action: Contact
 background_image_path:
 large_header: false
@@ -7,33 +8,67 @@ show_in_navigation: true
 navigation_order: 1
 ---
 
-<div class="editable">
-	<p>
-		Telah melayani masyarakat selama bertahun-tahun, Advokat Pengacara Luthfi berkomitmen untuk membantu Anda melalui berbagai layanan hukum. Kami menyediakan layanan bantuan hukum bidang Perkawinan & Perceraian, Waris, Pertanahan, dan Perdata.
-	</p>
+{% capture arrow %}<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 8h10M9 4l4 4-4 4" /></svg>{% endcapture %}
 
-	<p>Kenali anggota tim kami yang andal:</p>
-</div>
+<section class="section no-rule" style="padding-bottom: 0;">
+	<div class="container">
+		<div class="sec-head" style="margin-bottom: 0;">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>Tentang Kami</div>
+				<h1 style="margin-top:16px;">Bertahun-tahun melayani Banyumas Raya dengan integritas.</h1>
+			</div>
+			<p class="lead">Kantor Hukum kami melayani masyarakat di Purbalingga dan sekitarnya dengan layanan hukum yang tepat, transparan, dan berkomitmen tinggi pada keadilan.</p>
+		</div>
+	</div>
+</section>
 
-<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Update Staff Members</a></p>
+<section class="section">
+	<div class="container">
+		<div class="about-grid">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>01 — Filosofi</div>
+				<h2 style="margin-top:16px;">Hukum bukan sekadar pasal — tapi keadilan yang bisa dirasakan.</h2>
+			</div>
+			<div>
+				<p class="lead">Kami percaya pendampingan hukum adalah pekerjaan yang sangat manusiawi. Setiap kasus melibatkan kehidupan, harta, atau hubungan keluarga seseorang. Karena itu kami menangani setiap klien dengan kesabaran, kejelasan, dan komitmen penuh.</p>
+				<p class="lead">Telah melayani masyarakat selama bertahun-tahun, Advokat Pengacara Luthfi berkomitmen untuk membantu Anda melalui berbagai layanan hukum bidang Perkawinan &amp; Perceraian, Waris, Pertanahan, dan Perdata.</p>
+			</div>
+		</div>
+	</div>
+</section>
 
-<ul class="staff-list">
-	{% for member in site.staff_members %}
-		<li class="staff">
-			<div class="staff-details">
-				<div class="staff-image">
-					<img src="{{ member.image }}" alt="Staff photo for {{ member.name }}" width="120" height="120">
+<section class="section soft">
+	<div class="container">
+		<div class="sec-head">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>02 — Tim</div>
+				<h2 style="margin-top:16px;">Profil Advokat</h2>
+			</div>
+		</div>
+
+		<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn btn-sm btn-outline"><strong>&#9998;</strong> Update Staff Members</a></p>
+
+		{% for member in site.staff_members %}
+			<div class="about-grid" style="margin-top: 32px;">
+				<div class="portrait">
+					{% if member.image contains '.png' or member.image contains '.jpg' or member.image contains 'http' %}
+						<img src="{% include relative-src.html src=member.image %}" alt="{{ member.name }}">
+					{% else %}
+						<img src="{{ site.baseurl }}/uploads/luthfi.png" alt="{{ member.name }}">
+					{% endif %}
 				</div>
-				<ul class="staff-info">
-					<li>{{ member.name }}</li>
-					<li><small>NIA: {{ member.credentials }}</small></li>
-					<li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a> </li>
-				</ul>
+				<div>
+					<div class="eyebrow"><span class="dot"></span>Advokat</div>
+					<h2 style="margin-top:16px; margin-bottom: 24px;">{{ member.name }}</h2>
+					<p class="lead">{{ member.content | markdownify | strip_html }}</p>
+					<ul class="creds-list">
+						<li><span class="k">NIA</span><span>{{ member.credentials }}</span></li>
+						<li><span class="k">Asosiasi</span><span>PERADI — Perhimpunan Advokat Indonesia</span></li>
+						<li><span class="k">Telepon</span><span><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a></span></li>
+						<li><span class="k">Email</span><span><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></span></li>
+					</ul>
+				</div>
 			</div>
-
-			<div class="staff-bio">
-				<p>{{ member.content | markdownify }}</p>
-			</div>
-		</li>
-	{% endfor %}
-</ul>
+		{% endfor %}
+	</div>
+</section>
