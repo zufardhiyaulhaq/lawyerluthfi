@@ -57,7 +57,7 @@ i18n_key: nav.about
 				<div>
 					<div class="eyebrow"><span class="dot"></span><span data-i18n="about.team.role">Advokat</span></div>
 					<h2 style="margin-top:16px; margin-bottom: 24px;">{{ member.name }}</h2>
-					<p class="lead">{{ member.content | markdownify | strip_html }}</p>
+					<p class="lead" data-i18n="about.staff.bio">{{ member.content | markdownify | strip_html }}</p>
 					<ul class="creds-list">
 						<li><span class="k" data-i18n="home.about.cred.nia">NIA</span><span>{{ member.credentials }}</span></li>
 						<li><span class="k" data-i18n="home.about.cred.assoc">Asosiasi</span><span data-i18n="home.about.cred.assoc_v">PERADI — Perhimpunan Advokat Indonesia</span></li>

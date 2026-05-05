@@ -1,16 +1,23 @@
 - title: Halaman
+  i18n_key: footer.col.pages
   links:
     - name: Utama
+      i18n_key: nav.home
       link: /
     - name: Tentang
+      i18n_key: nav.about
       link: /about/
     - name: Layanan
+      i18n_key: nav.services
       link: /services/
     - name: Kontak
+      i18n_key: nav.contact
       link: /contact/
     - name: Blog
+      i18n_key: nav.blog
       link: /blog/
 - title: Media Sosial
+  i18n_key: footer.col.social
   links:
     - name: Facebook
       link: https://facebook.com/luthfi.asshiddieqy/
