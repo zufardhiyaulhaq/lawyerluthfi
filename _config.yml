@@ -63,12 +63,7 @@ defaults:
 
 permalink: pretty
 
-jekyll-archives:
-  enabled:
-    - categories
-
 plugins:
-  - jekyll-archives
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed

@@ -9,7 +9,7 @@ navigation_order: 4
 i18n_key: nav.blog
 ---
 
-{% assign featured = paginator.posts | first %}
+{% assign featured = site.posts | first %}
 
 <section class="section no-rule" style="padding-bottom: 32px;">
 	<div class="container">
@@ -25,8 +25,8 @@ i18n_key: nav.blog
 	</div>
 </section>
 
-{% if featured and paginator.page == 1 %}
-	<section class="section no-rule" style="padding-top: 0;">
+{% if featured %}
+	<section class="section no-rule" style="padding-top: 0;" id="blog-featured">
 		<div class="container">
 			<a class="blog-hero" href="{{ site.baseurl }}{{ featured.url }}" style="text-decoration: none; color: inherit;">
 				<div class="feat-thumb">
@@ -54,11 +54,11 @@ i18n_key: nav.blog
 {% assign all_categories = site.posts | map: 'categories' | join: ',' | split: ',' | uniq | sort %}
 <section class="section no-rule" style="padding: 0;">
 	<div class="container">
-		<ul class="filter-bar">
-			<li><a class="chip on" href="{{ site.baseurl }}/blog/" data-i18n="blog.filter.all">Semua</a></li>
+		<ul class="filter-bar" id="blog-filters">
+			<li><button type="button" class="chip on" data-filter="*"><span data-i18n="blog.filter.all">Semua</span></button></li>
 			{% for cat in all_categories %}
 				{% if cat != "" %}
-					<li><a class="chip" href="{{ site.baseurl }}/category/{{ cat | slugify }}/">{{ cat }}</a></li>
+					<li><button type="button" class="chip" data-filter="{{ cat | slugify }}">{{ cat }}</button></li>
 				{% endif %}
 			{% endfor %}
 		</ul>
@@ -67,28 +67,74 @@ i18n_key: nav.blog
 
 <section class="section no-rule">
 	<div class="container">
-		<ol class="blog-list">
-			{% for post in paginator.posts %}
-				{% unless paginator.page == 1 and forloop.first %}
-					{% include post-summary.html post=post %}
+		<ol class="blog-list" id="blog-list">
+			{% for post in site.posts %}
+				{% unless forloop.first %}
+				{% capture cat_slugs %}{% for c in post.categories %}{{ c | slugify }}{% unless forloop.last %} {% endunless %}{% endfor %}{% endcapture %}
+				<li class="post-card" data-cat="{{ cat_slugs }}">
+					<a href="{{ site.baseurl }}{{ post.url }}" style="display:block;">
+						<div class="post-thumb">
+							{% if post.image %}
+								<img src="{% include relative-src.html src=post.image %}" alt="{{ post.title }}">
+							{% else %}
+								<div class="stripes" style="background-image: repeating-linear-gradient({{ forloop.index0 | times: 30 | minus: 30 }}deg, transparent 0 14px, rgba(26,31,44,.06) 14px 15px);"></div>
+							{% endif %}
+							{% if post.categories.first %}<span class="cat">{{ post.categories.first }}</span>{% endif %}
+						</div>
+					</a>
+					<div class="meta">
+						<span>{{ post.date | date: '%-d %b %Y' }}</span>
+						<span>·</span>
+						<span>{{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} <span data-i18n="home.read_min">mnt baca</span></span>
+					</div>
+					<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+					<p class="excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+				</li>
 				{% endunless %}
 			{% endfor %}
 		</ol>
-
-		{% if paginator.total_pages > 1 %}
-			<div class="pagination">
-				<div>
-					{% if paginator.previous_page %}
-						<a class="btn btn-outline btn-sm" href="{{ site.baseurl }}{{ paginator.previous_page_path }}" data-i18n="blog.prev">← Sebelumnya</a>
-					{% endif %}
-				</div>
-				<span><span data-i18n="blog.page">Halaman</span> {{ paginator.page }} / {{ paginator.total_pages }}</span>
-				<div>
-					{% if paginator.next_page %}
-						<a class="btn btn-outline btn-sm" href="{{ site.baseurl }}{{ paginator.next_page_path }}" data-i18n="blog.next">Berikutnya →</a>
-					{% endif %}
-				</div>
-			</div>
-		{% endif %}
+		<p id="blog-empty" style="display:none; text-align:center; color:var(--muted); padding:48px 0; font-family:var(--font-mono); font-size:12px; letter-spacing:.1em; text-transform:uppercase;" data-i18n="blog.empty">Belum ada artikel pada kategori ini.</p>
 	</div>
 </section>
+
+<script>
+(function () {
+	var chips = document.querySelectorAll("#blog-filters .chip");
+	var cards = document.querySelectorAll("#blog-list .post-card");
+	var featured = document.getElementById("blog-featured");
+	var empty = document.getElementById("blog-empty");
+
+	function applyFilter(filter) {
+		var visible = 0;
+		cards.forEach(function (card) {
+			var cats = (card.getAttribute("data-cat") || "").split(/\s+/);
+			var match = (filter === "*") || cats.indexOf(filter) !== -1;
+			card.style.display = match ? "" : "none";
+			if (match) visible++;
+		});
+		if (featured) featured.style.display = (filter === "*") ? "" : "none";
+		if (empty) empty.style.display = (visible === 0) ? "" : "none";
+		chips.forEach(function (c) {
+			c.classList.toggle("on", c.getAttribute("data-filter") === filter);
+		});
+		// keep filter in URL hash for shareable links
+		if (filter === "*") {
+			history.replaceState(null, "", window.location.pathname);
+		} else {
+			history.replaceState(null, "", "#" + filter);
+		}
+	}
+
+	chips.forEach(function (chip) {
+		chip.addEventListener("click", function () {
+			applyFilter(chip.getAttribute("data-filter"));
+		});
+	});
+
+	// honor incoming hash, e.g. /blog/#hukum-perdata
+	var initial = (window.location.hash || "").replace(/^#/, "");
+	if (initial && document.querySelector('#blog-filters .chip[data-filter="' + initial + '"]')) {
+		applyFilter(initial);
+	}
+})();
+</script>
