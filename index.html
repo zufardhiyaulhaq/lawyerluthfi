@@ -1,62 +1,227 @@
 ---
 title: Advokat Pengacara Luthfi
-call_to_action: Contact
+layout: page
 background_image_path:
-large_header: true
+large_header: false
 testimonials:
-  - message: Terimakasih banyak mas Luthfi, kerja cepat, tepat dan amanah. semoga semakin sukses🤲😇.
-    image: "https://placebear.com/60/60?a=.png"
+  - message: Kerja cepat, tepat dan amanah. Semoga semakin sukses.
     name: Mita
-  - message: Alhamdulillah Terimakasih Mas Luthfi, kerja cepat, Amanah dan Tidak diragukan 😇🙏
-    image: "https://placecats.com/60/60?a=.png"
+    where: Klien Cerai · Purbalingga
+  - message: Alhamdulillah Terimakasih, kerja cepat, amanah dan tidak diragukan.
     name: Ade Triani
-  - message: Alhamdulillah di lancarkan prosesnya.
-    image: "https://placebear.com/60/60?a=.png"
-    name: Melianti
-  - message: Kerja cepat, efektif, dan nyaman
-    image: "https://placecats.com/60/60?a=.png"
-    name: Yulia
-  - message: Terimakasih sudah mendampingi proses cerai saya sampai selesai🙏🙏 
-    image: "https://placebear.com/60/60?a=.png"
+    where: Klien Waris · Banyumas
+  - message: Sudah mendampingi proses cerai saya sampai selesai.
     name: Aulia
-_options:
-  image:
-    width: 60
-    height: 60
+    where: Klien Cerai · Purwokerto
+practice_areas:
+  - name: Perkawinan & Perceraian
+    desc: Gugatan cerai, harta gono-gini, hak asuh anak, perkawinan beda kewarganegaraan, itsbat nikah.
+  - name: Waris
+    desc: Pembagian harta waris yang adil, surat keterangan waris, sengketa pembagian, wasiat.
+  - name: Pertanahan
+    desc: Sengketa tanah, jual beli rumah, pembebasan lahan, pemalsuan dokumen, eksekusi jaminan.
+  - name: Perdata Umum
+    desc: Wanprestasi, perbuatan melawan hukum, hutang piutang, sengketa kerjasama bisnis.
+trust_items:
+  - num: "8+"
+    lab: Tahun Pengalaman
+  - num: "240"
+    plus: true
+    lab: Klien Terlayani
+  - num: PERADI
+    lab: Anggota Resmi
+  - num: 24h
+    lab: Respon Maksimal
+cities:
+  - nm: Purbalingga
+    meta: Kantor Pusat
+  - nm: Banjarnegara
+    meta: Kunjungan Klien
+  - nm: Purwokerto
+    meta: Kunjungan Klien
+  - nm: Banyumas
+    meta: Kunjungan Klien
+  - nm: Cilacap
+    meta: Kunjungan Klien
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16842537238">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+{% capture arrow %}<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 8h10M9 4l4 4-4 4" /></svg>{% endcapture %}
 
-  gtag('config', 'AW-16842537238');
-</script>
+<section class="hero">
+	<div class="container">
+		<div class="hero-grid">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>Bantuan Hukum Proffesional</div>
+				<h1 style="margin-top:24px;">
+					Advokat &amp; Pengacara untuk <em>Perceraian</em>, <em>Waris, Perdata &amp; Pertanahan</em> di Purbalingga.
+				</h1>
+				<div class="meta-line"><span class="bar"></span><span>NIA 17.01703 · PERADI</span></div>
+				<p class="lead">Kantor Hukum kami hadir di wilayah Purbalingga, Banjarnegara, Purwokerto, Banyumas, dan Cilacap untuk memberikan solusi komprehensif. Transparan dan berintegritas tinggi — konsultasi pertama Anda gratis!</p>
+				<div class="hero-cta">
+					<a class="btn btn-primary" href="{{ site.baseurl }}/contact/">Jadwalkan Konsultasi{{ arrow }}</a>
+					<a class="btn btn-ghost" href="{{ site.baseurl }}/services/">Selengkapnya{{ arrow }}</a>
+				</div>
+			</div>
+			<div class="hero-art">
+				<div class="stripes-bg"></div>
+				<img src="{{ site.baseurl }}/uploads/building.jpg" alt="Justitia — Advokat Luthfi">
+				<div class="label">
+					<span>FILE / 001</span>
+					<span>JUSTITIA · {{ site.time | date: '%Y' }}</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-<div class="editable">
-	<p>Kantor Hukum kami hadir di wilayah Purbalingga, Banjarnegara, Purwokerto, Banyumas, dan Cilacap untuk memberikan solusi komprehensif dalam bidang Perkawinan & Perceraian, Waris, Pertanahan, dan Perdata.</p>
+<section class="section tight no-rule" style="padding-top:0;">
+	<div class="container">
+		<div class="trust-strip">
+			{% for it in page.trust_items %}
+				<div class="item">
+					<div class="num">{{ it.num }}{% if it.plus %}<span class="plus">+</span>{% endif %}</div>
+					<div class="lab">{{ it.lab }}</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
 
-	<p>Dengan pengalaman bertahun-tahun, tim advokat kami berkomitmen memberikan pendampingan hukum yang tepat, transparan, dan berintegritas tinggi.</p>
+<section class="section">
+	<div class="container">
+		<div class="sec-head">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>Bidang Praktik</div>
+				<h2 style="margin-top:16px;">Empat pilar utama, ditangani dengan kedalaman.</h2>
+			</div>
+			<p class="desc">Setiap kasus didampingi langsung oleh advokat — bukan diserahkan ke staf magang.</p>
+		</div>
+		<div class="practice-list">
+			{% for p in page.practice_areas %}
+				<a class="practice-row" href="{{ site.baseurl }}/services/">
+					<span class="idx">/ {% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+					<span class="name">{{ p.name }}</span>
+					<span class="desc">{{ p.desc }}</span>
+					<span class="go">→</span>
+				</a>
+			{% endfor %}
+		</div>
+	</div>
+</section>
 
-  <ul>
-    <li><a href="https://pengacara-purbalingga.com">pengacara-purbalingga.com</a></li>
-    <li><a href="https://lawyerpurbalingga.com">lawyerpurbalingga.com</a></li>
-    <li><a href="https://advokatpurbalingga.com">advokatpurbalingga.com</a></li>
-    <li><a href="https://notarispurbalingga.com">notarispurbalingga.com</a></li>
-	<li><a href="https://notarispurwokerto.com">notarispurwokerto.com</a></li>
-	<li><a href="https://advokatpurwokerto.com">advokatpurwokerto.com</a></li>
-	<li><a href="https://advokatbanyumas.com">advokatbanyumas.com</a></li>
-  </ul>
-</div>
+<section class="section soft">
+	<div class="container">
+		<div class="about-grid">
+			<div class="portrait">
+				<img src="{{ site.baseurl }}/uploads/luthfi.png" alt="Luthfi Asshiddieqy, S.H.">
+			</div>
+			<div>
+				<div class="eyebrow"><span class="dot"></span>Profil Singkat</div>
+				<h2 style="margin-top:16px; margin-bottom:24px;">Luthfi Asshiddieqy, S.H.</h2>
+				<p class="lead" style="margin-bottom:8px;">Advokat yang berkomitmen membantu masyarakat dengan pengalaman luas di bidang Perkawinan &amp; Perceraian, Waris, Pertanahan, dan Perdata. Dikenal sebagai pekerja keras dan menjunjung tinggi keadilan, dengan integritas tinggi pada setiap kasus.</p>
+				<ul class="creds-list">
+					<li><span class="k">NIA</span><span>17.01703</span></li>
+					<li><span class="k">Asosiasi</span><span>PERADI — Perhimpunan Advokat Indonesia</span></li>
+					<li><span class="k">Pendidikan</span><span>Sarjana Hukum (S.H.)</span></li>
+					<li><span class="k">Wilayah</span><span>Pengadilan Agama &amp; Negeri se-Banyumas Raya</span></li>
+				</ul>
+				<a class="btn btn-outline btn-sm" style="margin-top:32px;" href="{{ site.baseurl }}/about/">Selengkapnya{{ arrow }}</a>
+			</div>
+		</div>
+	</div>
+</section>
 
-<div class="testimonials">
-	{% for testimonial in page.testimonials %}
-		<blockquote class="testimonial">
-			<p class="testimonial-message">{{ testimonial.message }}</p>
-      <p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}" width="60" height="60"> {{ testimonial.name }}</p>
-		</blockquote>
-	{% endfor %}
-</div>
+<section class="section">
+	<div class="container">
+		<div class="sec-head">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>Wilayah Layanan</div>
+				<h2 style="margin-top:16px;">Hadir di lima wilayah.</h2>
+			</div>
+		</div>
+		<div class="cities">
+			{% for c in page.cities %}
+				<div class="city">
+					<div class="nm">{{ c.nm }}</div>
+					<div class="meta">— {{ c.meta }}</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<section class="section soft">
+	<div class="container">
+		<div class="sec-head">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>Suara Klien</div>
+				<h2 style="margin-top:16px;">Apa kata klien yang telah kami dampingi.</h2>
+			</div>
+		</div>
+		<div class="testimonial-grid">
+			{% for t in page.testimonials %}
+				<blockquote class="testimonial-card">
+					<div class="quote-mark">&ldquo;</div>
+					<p style="margin:0; font-family: var(--font-display); font-size:19px; line-height:1.4; font-style:italic; color: var(--ink);">{{ t.message }}</p>
+					<cite>
+						<span class="avatar">{{ t.name | slice: 0, 1 }}</span>
+						<span>
+							<span class="who" style="display:block;">{{ t.name }}</span>
+							{% if t.where %}<span class="where">{{ t.where }}</span>{% endif %}
+						</span>
+					</cite>
+				</blockquote>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+<section class="section">
+	<div class="container">
+		<div class="sec-head">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>Jurnal Hukum</div>
+				<h2 style="margin-top:16px;">Wawasan praktis dari meja kerja kami.</h2>
+			</div>
+			<a class="btn btn-ghost" href="{{ site.baseurl }}/blog/">Baca Artikel{{ arrow }}</a>
+		</div>
+		<ol class="posts">
+			{% for post in site.posts limit:3 %}
+				<li class="post-card">
+					<a href="{{ site.baseurl }}{{ post.url }}" style="display:block;">
+						<div class="post-thumb">
+							{% if post.image %}
+								<img src="{% include relative-src.html src=post.image %}" alt="{{ post.title }}">
+							{% else %}
+								<div class="stripes" style="background-image: repeating-linear-gradient({{ forloop.index0 | times: 30 | minus: 30 }}deg, transparent 0 14px, rgba(26,31,44,.06) 14px 15px);"></div>
+							{% endif %}
+							{% if post.categories.first %}<span class="cat">{{ post.categories.first }}</span>{% endif %}
+						</div>
+					</a>
+					<div class="meta">
+						<span>{{ post.date | date: '%-d %b %Y' }}</span>
+						<span>·</span>
+						<span>{{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} mnt baca</span>
+					</div>
+					<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+					<p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+				</li>
+			{% endfor %}
+		</ol>
+	</div>
+</section>
+
+<section class="cta-banner">
+	<div class="container">
+		<div class="cta-grid">
+			<div>
+				<div class="eyebrow"><span class="dot"></span>Konsultasi Gratis</div>
+				<h2 style="margin-top:16px;">Konsultasi pertama Anda — sepenuhnya gratis.</h2>
+				<p class="subtext">Tanpa kewajiban apa pun. Diskusikan kasus Anda dengan advokat berpengalaman dan dapatkan langkah hukum yang jelas.</p>
+			</div>
+			<div style="display:flex; gap:12px; flex-wrap:wrap; justify-content:flex-end;">
+				<a class="btn btn-accent" href="{{ site.baseurl }}/contact/">Jadwalkan Konsultasi{{ arrow }}</a>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="id">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,20 +7,12 @@
 		{% seo %}
 		{% feed_meta %}
 
-		<style>
-			/* Critical CSS */
-			body {
-				font-family: 'Quattrocento', serif;
-			}
-			h1, h2, h3, h4, h5, h6 {
-				font-family: 'Vollkorn', serif;
-			}
-			/* Add other critical CSS here */
-		</style>
-		<link rel="preload" href="//fonts.googleapis.com/css?family=Quattrocento|Vollkorn:400,400i,700,700i" as="style" onload="this.onload=null;this.rel='stylesheet'">
-		<noscript><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Quattrocento|Vollkorn:400,400i,700,700i"></noscript>
-		<link rel="preload" href="{{ site.baseurl }}/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-		<noscript><link rel="stylesheet" href="{{ site.baseurl }}/css/main.css"></noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+
 		<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.png">
@@ -38,105 +29,152 @@
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16842537238"></script>
 		<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'AW-16842537238');
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'AW-16842537238');
 		</script>
 	</head>
 
 	<body>
-		<header style="background-image: url('{% include relative-src.html src=page.background_image_path %}');" class="header {% if page.large_header %}main-hero{% endif %}">
-		<style>
-			@media (max-width: 768px) {
-				.header {
-					background-image: none !important;
-				}
-			}
-		</style>
+		<header class="site-header">
 			<div class="container">
-				<h1 style="text-shadow: 1px 1px #fefefe;"><a href="{{ site.baseurl }}/">{{ site.data.company.title }}</a></h1>
-				<nav>
-					<ul>
-						{% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
+				<div class="nav">
+					<a class="brand" href="{{ site.baseurl }}/">
+						<span class="brand-name">
+							Advokat Pengacara Luthfi
+							<span class="sub">Bantuan Hukum Proffesional · Purbalingga</span>
+						</span>
+					</a>
+
+					{% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
+					<ul class="nav-links">
+						<li><a href="{{ site.baseurl }}/" {% if page.url == '/' %}class="active"{% endif %}>Beranda</a></li>
 						{% for nav_page in nav_pages %}
-							{% if previous_page.path != nav_page.path %}
-								{% assign previous_page = nav_page %}
-								<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ nav_page.url }}" style="text-shadow: 1px 1px #fefefe;">{{ nav_page.title }}</a></li>
-							{% endif %}
+							<li><a href="{{ site.baseurl }}{{ nav_page.url }}" {% if nav_page.url == page.url %}class="active"{% endif %}>{{ nav_page.title }}</a></li>
 						{% endfor %}
 					</ul>
-				</nav>
-			</div>
-		</header>
 
-		<section class="main">
-			<div class="container">
-				{{ content }}
-			</div>
-		</section>
-
-		{% if page.call_to_action == 'Map' and site.google_maps_javascript_api_key %}
-			<section class="map-section">
-				<div id="map"></div>
-			</section>
-		{% elsif page.call_to_action == 'Contact' %}
-			<section class="quote-section">
-				<p class="container editable">
-					<a href="{{ site.baseurl }}/contact/">Hubungi kami</a> hari ini untuk mengetahui bagaimana kami dapat membantu Anda. Konsultasi pertama Anda <b>gratis</b>!.
-				</p>
-			</section>
-		{% else %}
-			<section class="quote-section">
-				<p class="container editable">
-					<a href="{{ site.baseurl }}/blog/">Baca blog kami</a> untuk mendapatkan pengenalan dan tips praktis seputar berbagai aspek hukum. 
-				</p>
-			</section>
-		{% endif %}
-
-		<footer>
-			<div class="container">
-				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
-
-				<div class="footer-columns">
-					{% for column in site.data.footer %}
-						<ul class="footer-links">
-							<li>
-								<h2>{{ column.title }}</h2>
-							</li>
-							{% for link in column.links %}
-								<li>
-									<a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
-										{% if link.social_icon %}
-											{% include social-icon.html icon=link.social_icon %}
-										{% endif %}
-
-										{{ link.name }}
-									</a>
-								</li>
-							{% endfor %}
-						</ul>
-					{% endfor %}
-
-					<ul class="footer-links">
-						<li>
-							<h2>{{ site.data.company.title }}</h2>
-						</li>
-						<li>{{ site.data.company.description }}</li>
-						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
-					</ul>
+					<div class="nav-actions">
+						<a class="btn btn-primary btn-sm" href="{{ site.baseurl }}/contact/">
+							Konsultasi Gratis
+							<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+						</a>
+						<label class="hamburger" for="nav-toggle" aria-label="menu">
+							<span></span><span></span><span></span>
+						</label>
+					</div>
 				</div>
 			</div>
 
-			<div class="legal-line">
-				<p class="container">
-					&copy; {{ site.time | date: '%Y' }} Advokat Luthfi &bull;
-					<a href="{{ site.baseurl }}/terms/">Terms</a>
-					&bull;
-					Template by <a href="http://cloudcannon.com/">CloudCannon</a>
-				</p>
+			<input type="checkbox" id="nav-toggle">
+			<nav class="mobile-menu">
+				<label class="close" for="nav-toggle" aria-label="close">×</label>
+				<ul>
+					<li><a href="{{ site.baseurl }}/">Beranda</a></li>
+					{% for nav_page in nav_pages %}
+						<li><a href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a></li>
+					{% endfor %}
+					<li><a href="{{ site.baseurl }}/contact/">Konsultasi Gratis →</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			{{ content }}
+		</main>
+
+		{% if page.call_to_action == 'Contact' %}
+			<section class="cta-banner">
+				<div class="container">
+					<div class="cta-grid">
+						<div>
+							<div class="eyebrow"><span class="dot"></span>Konsultasi Gratis</div>
+							<h2 style="margin-top:16px;">Konsultasi pertama Anda — sepenuhnya gratis.</h2>
+							<p class="subtext">Tanpa kewajiban apa pun. Diskusikan kasus Anda dengan advokat berpengalaman dan dapatkan langkah hukum yang jelas.</p>
+						</div>
+						<div style="display:flex; gap:12px; flex-wrap:wrap; justify-content:flex-end;">
+							<a class="btn btn-accent" href="{{ site.baseurl }}/contact/">
+								Jadwalkan Konsultasi
+								<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		{% elsif page.call_to_action == 'Blog' %}
+			<section class="cta-banner">
+				<div class="container">
+					<div class="cta-grid">
+						<div>
+							<div class="eyebrow"><span class="dot"></span>Jurnal Hukum</div>
+							<h2 style="margin-top:16px;">Wawasan praktis dari meja kerja kami.</h2>
+							<p class="subtext">Baca artikel kami untuk mendapatkan pengenalan dan tips praktis seputar berbagai aspek hukum.</p>
+						</div>
+						<div style="display:flex; gap:12px; flex-wrap:wrap; justify-content:flex-end;">
+							<a class="btn btn-accent" href="{{ site.baseurl }}/blog/">
+								Baca Artikel
+								<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		{% endif %}
+
+		<footer class="site-footer">
+			<div class="container">
+				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn btn-sm btn-outline" style="border-color: rgba(247,245,240,.3); color: var(--bg);"><strong>&#9998;</strong> Update Footer Sections</a></p>
+
+				<div class="footer-grid">
+					<div class="brand-block">
+						<div class="brand">
+							<span class="brand-name">
+								Advokat Pengacara Luthfi
+								<span class="sub">Bantuan Hukum Proffesional · Purbalingga</span>
+							</span>
+						</div>
+						<p>{{ site.data.company.description }}</p>
+					</div>
+
+					{% for column in site.data.footer %}
+						<div class="col">
+							<h4>{{ column.title }}</h4>
+							<ul>
+								{% for link in column.links %}
+									<li>
+										<a {% if link.new_window %}target="_blank" rel="noopener"{% endif %} href="{% include relative-src.html src=link.link %}">
+											{{ link.name }}
+										</a>
+									</li>
+								{% endfor %}
+							</ul>
+						</div>
+					{% endfor %}
+
+					<div class="col">
+						<h4>Kontak</h4>
+						<ul>
+							<li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a></li>
+							<li><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></li>
+							<li><a href="{{ site.baseurl }}/feed.xml">Subscribe with RSS</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="legal">
+					<span>&copy; {{ site.time | date: '%Y' }} Advokat Luthfi · NIA 17.01703 · PERADI</span>
+					<span><a href="{{ site.baseurl }}/terms/">Syarat &amp; Ketentuan</a></span>
+				</div>
 			</div>
 		</footer>
+
+		<a class="fab-wa" href="https://wa.me/6282393395426" target="_blank" rel="noopener" aria-label="WhatsApp">
+			<span class="pulse"></span>
+			<svg viewBox="0 0 32 32" aria-hidden="true">
+				<path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.4 1.7 6.3L3 29l6.9-1.7c1.8 1 3.9 1.5 6.1 1.5 7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-2 0-3.9-.5-5.5-1.5l-.4-.2-4 1 1-3.9-.3-.4c-1-1.7-1.6-3.6-1.6-5.6 0-5.9 4.8-10.8 10.8-10.8s10.8 4.8 10.8 10.8S22 26.6 16 26.6zm5.9-7.9l-1.5-.7c-.2-.1-.4-.1-.5.1l-.7 1c-.2.2-.4.3-.6.1-1-.5-2.3-1.4-3-2.6-.2-.3 0-.5.2-.7l.6-.8c.1-.2.2-.4.1-.5l-.7-1.6c-.1-.2-.3-.4-.5-.4h-.7c-.3 0-.6.1-.8.3-.5.5-.8 1.2-.8 2 0 .3 0 .6.1.9.4 1.2 1.1 2.3 2 3.2.6.6 1.3 1.1 2 1.5.7.4 1.5.6 2.3.6.4 0 .7-.1 1-.3.3-.2.6-.4.8-.7.1-.2.2-.4.2-.6v-.4c-.1-.1-.3-.2-.4-.4z"/>
+			</svg>
+			<span>Hubungi WhatsApp</span>
+		</a>
 	</body>
 </html>
