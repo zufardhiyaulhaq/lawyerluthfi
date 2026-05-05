@@ -6,61 +6,79 @@ background_image_path:
 large_header: false
 show_in_navigation: true
 navigation_order: 2
+i18n_key: nav.services
 blocks:
   - num: "01"
+    i18n_title: home.practice.0.name
     title: Perkawinan & Perceraian
+    i18n_desc: services.0.desc
     desc: Pendampingan hukum untuk menyelesaikan masalah keluarga dengan solusi yang adil dan sesuai dengan ketentuan hukum.
     items:
-      - Gugatan Cerai di Pengadilan Agama / Negeri
-      - Pembagian Harta Gono-Gini yang adil
-      - Sengketa Hak Asuh Anak
-      - Dispensasi Perkawinan
-      - Perkawinan WNI dengan WNA
-      - Itsbat Nikah (Pengesahan Perkawinan)
-      - Pembatalan Perkawinan
+      - { id: Gugatan Cerai di Pengadilan Agama / Negeri, en: "Divorce filings (Religious / Civil Court)" }
+      - { id: Pembagian Harta Gono-Gini yang adil, en: "Fair marital property division" }
+      - { id: Sengketa Hak Asuh Anak, en: "Child custody disputes" }
+      - { id: Dispensasi Perkawinan, en: "Marriage dispensation" }
+      - { id: Perkawinan WNI dengan WNA, en: "Mixed-citizenship marriages" }
+      - { id: Itsbat Nikah (Pengesahan Perkawinan), en: "Marriage validation (Itsbat Nikah)" }
+      - { id: Pembatalan Perkawinan, en: "Marriage annulment" }
   - num: "02"
+    i18n_title: home.practice.3.name
     title: Perdata Umum
+    i18n_desc: services.1.desc
     desc: Solusi hukum yang cepat, efisien, dan adil sesuai dengan kebutuhan Anda di ranah perdata.
     items:
-      - Penyelesaian Kasus Hutang Piutang
-      - Gugatan Wanprestasi
-      - Sengketa Perbuatan Melawan Hukum
-      - Gugatan Lelang Eksekusi
-      - Sengketa Kerjasama Bisnis
-      - Pembagian Harta Waris
-      - Permohonan Ganti Nama
-      - Permohonan Eksekusi
+      - { id: Penyelesaian Kasus Hutang Piutang, en: "Debt recovery cases" }
+      - { id: Gugatan Wanprestasi, en: "Breach of contract claims" }
+      - { id: Sengketa Perbuatan Melawan Hukum, en: "Tort claims" }
+      - { id: Gugatan Lelang Eksekusi, en: "Auction execution suits" }
+      - { id: Sengketa Kerjasama Bisnis, en: "Business partnership disputes" }
+      - { id: Pembagian Harta Waris, en: "Estate distribution" }
+      - { id: Permohonan Ganti Nama, en: "Name change petitions" }
+      - { id: Permohonan Eksekusi, en: "Execution petitions" }
   - num: "03"
+    i18n_title: home.practice.2.name
     title: Pertanahan
+    i18n_desc: services.2.desc
     desc: Keahlian mendalam dalam menangani berbagai masalah pertanahan dengan solusi hukum yang efektif dan tegas.
     items:
-      - Sengketa Pembangunan Rumah
-      - Sengketa Jual Beli Rumah/Tanah
-      - Pembebasan Tanah untuk Proyek
-      - Sewa Menyewa Tanah & Bangunan
-      - Eksekusi Tanah Jaminan Kredit
-      - Sengketa Pembelian Apartemen
-      - Pemalsuan Dokumen Tanah
-      - Penempatan Tanah Tanpa Hak
+      - { id: Sengketa Pembangunan Rumah, en: "Building disputes" }
+      - { id: Sengketa Jual Beli Rumah/Tanah, en: "Property sale disputes" }
+      - { id: Pembebasan Tanah untuk Proyek, en: "Land acquisition for projects" }
+      - { id: Sewa Menyewa Tanah & Bangunan, en: "Land & building leases" }
+      - { id: Eksekusi Tanah Jaminan Kredit, en: "Collateral land execution" }
+      - { id: Sengketa Pembelian Apartemen, en: "Apartment purchase disputes" }
+      - { id: Pemalsuan Dokumen Tanah, en: "Land document fraud" }
+      - { id: Penempatan Tanah Tanpa Hak, en: "Unauthorized occupation" }
   - num: "04"
+    i18n_title: home.practice.1.name
     title: Waris
+    i18n_desc: services.3.desc
     desc: Pembagian harta waris yang adil, transparan, dan sesuai aturan hukum yang berlaku.
     items:
-      - Pembagian Harta Waris
-      - Surat Keterangan Waris
-      - Sengketa Pembagian Waris
-      - Wasiat & Hibah
-      - Penetapan Ahli Waris
+      - { id: Pembagian Harta Waris, en: "Estate distribution" }
+      - { id: Surat Keterangan Waris, en: "Certificate of inheritance" }
+      - { id: Sengketa Pembagian Waris, en: "Distribution disputes" }
+      - { id: Wasiat & Hibah, en: "Wills & gifts" }
+      - { id: Penetapan Ahli Waris, en: "Determination of heirs" }
+i18n_extra:
+  services.0.desc:
+    en: "Legal counsel to resolve family matters with fair, lawful solutions."
+  services.1.desc:
+    en: "Fast, efficient, and fair legal solutions for civil matters."
+  services.2.desc:
+    en: "Deep expertise across land disputes, with effective and decisive legal solutions."
+  services.3.desc:
+    en: "Fair, transparent estate distribution under prevailing law."
 ---
 
 <section class="section no-rule" style="padding-bottom: 0;">
 	<div class="container">
-		<div class="sec-head" style="margin-bottom: 0;">
+		<div class="sec-head page-head" style="margin-bottom: 0;">
 			<div>
-				<div class="eyebrow"><span class="dot"></span>Layanan</div>
-				<h1 style="margin-top:16px;">Empat bidang praktik utama, ditangani dengan kedalaman.</h1>
+				<div class="eyebrow"><span class="dot"></span><span data-i18n="services.eyebrow">Layanan</span></div>
+				<h1 style="margin-top:16px;" data-i18n="services.title">Empat bidang praktik utama, ditangani dengan kedalaman.</h1>
 			</div>
-			<p class="lead">Tim kami yang terampil dan berpengalaman siap memberikan berbagai layanan hukum dengan perhatian penuh terhadap setiap detail pekerjaan.</p>
+			<p class="lead" data-i18n="services.lead">Tim kami yang terampil dan berpengalaman siap memberikan berbagai layanan hukum dengan perhatian penuh terhadap setiap detail pekerjaan.</p>
 		</div>
 	</div>
 </section>
@@ -71,13 +89,13 @@ blocks:
 			<div class="service-block">
 				<div>
 					<div class="num-tag">/ {{ b.num }}</div>
-					<h2>{{ b.title }}</h2>
+					<h2 data-i18n="{{ b.i18n_title }}">{{ b.title }}</h2>
 				</div>
 				<div>
-					<p class="lead">{{ b.desc }}</p>
+					<p class="lead" data-i18n="{{ b.i18n_desc }}">{{ b.desc }}</p>
 					<ul>
 						{% for item in b.items %}
-							<li>{{ item }}</li>
+							<li><span data-i18n-en="{{ item.en | xml_escape }}">{{ item.id }}</span></li>
 						{% endfor %}
 					</ul>
 				</div>
@@ -85,3 +103,32 @@ blocks:
 		{% endfor %}
 	</div>
 </section>
+
+<script>
+(function () {
+	var EXTRA = {
+		"services.0.desc": { id: "Pendampingan hukum untuk menyelesaikan masalah keluarga dengan solusi yang adil dan sesuai dengan ketentuan hukum.", en: "Legal counsel to resolve family matters with fair, lawful solutions." },
+		"services.1.desc": { id: "Solusi hukum yang cepat, efisien, dan adil sesuai dengan kebutuhan Anda di ranah perdata.", en: "Fast, efficient, and fair legal solutions for civil matters." },
+		"services.2.desc": { id: "Keahlian mendalam dalam menangani berbagai masalah pertanahan dengan solusi hukum yang efektif dan tegas.", en: "Deep expertise across land disputes, with effective and decisive legal solutions." },
+		"services.3.desc": { id: "Pembagian harta waris yang adil, transparan, dan sesuai aturan hukum yang berlaku.", en: "Fair, transparent estate distribution under prevailing law." }
+	};
+	function applyServices() {
+		var lang = (window.__i18n && window.__i18n.get()) || "id";
+		Object.keys(EXTRA).forEach(function (k) {
+			document.querySelectorAll('[data-i18n="' + k + '"]').forEach(function (el) {
+				el.textContent = EXTRA[k][lang] || EXTRA[k].id;
+			});
+		});
+		document.querySelectorAll("[data-i18n-en]").forEach(function (el) {
+			if (!el.dataset.i18nIdCache) el.dataset.i18nIdCache = el.textContent;
+			el.textContent = (lang === "en") ? el.getAttribute("data-i18n-en") : el.dataset.i18nIdCache;
+		});
+	}
+	document.addEventListener("DOMContentLoaded", function () {
+		applyServices();
+		document.querySelectorAll(".lang-toggle button").forEach(function (b) {
+			b.addEventListener("click", function () { setTimeout(applyServices, 0); });
+		});
+	});
+})();
+</script>

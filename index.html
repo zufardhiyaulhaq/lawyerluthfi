@@ -14,34 +14,51 @@ testimonials:
     name: Aulia
     where: Klien Cerai · Purwokerto
 practice_areas:
-  - name: Perkawinan & Perceraian
+  - i18n_name: home.practice.0.name
+    i18n_desc: home.practice.0.desc
+    name: Perkawinan & Perceraian
     desc: Gugatan cerai, harta gono-gini, hak asuh anak, perkawinan beda kewarganegaraan, itsbat nikah.
-  - name: Waris
+  - i18n_name: home.practice.1.name
+    i18n_desc: home.practice.1.desc
+    name: Waris
     desc: Pembagian harta waris yang adil, surat keterangan waris, sengketa pembagian, wasiat.
-  - name: Pertanahan
+  - i18n_name: home.practice.2.name
+    i18n_desc: home.practice.2.desc
+    name: Pertanahan
     desc: Sengketa tanah, jual beli rumah, pembebasan lahan, pemalsuan dokumen, eksekusi jaminan.
-  - name: Perdata Umum
+  - i18n_name: home.practice.3.name
+    i18n_desc: home.practice.3.desc
+    name: Perdata Umum
     desc: Wanprestasi, perbuatan melawan hukum, hutang piutang, sengketa kerjasama bisnis.
 trust_items:
   - num: "8+"
+    i18n_lab: home.trust.years
     lab: Tahun Pengalaman
   - num: "240"
     plus: true
+    i18n_lab: home.trust.clients
     lab: Klien Terlayani
   - num: PERADI
+    i18n_lab: home.trust.bar
     lab: Anggota Resmi
   - num: 24h
+    i18n_lab: home.trust.response
     lab: Respon Maksimal
 cities:
   - nm: Purbalingga
+    i18n_meta: home.loc.main
     meta: Kantor Pusat
   - nm: Banjarnegara
+    i18n_meta: home.loc.visit
     meta: Kunjungan Klien
   - nm: Purwokerto
+    i18n_meta: home.loc.visit
     meta: Kunjungan Klien
   - nm: Banyumas
+    i18n_meta: home.loc.visit
     meta: Kunjungan Klien
   - nm: Cilacap
+    i18n_meta: home.loc.visit
     meta: Kunjungan Klien
 ---
 
@@ -51,23 +68,23 @@ cities:
 	<div class="container">
 		<div class="hero-grid">
 			<div>
-				<div class="eyebrow"><span class="dot"></span>Bantuan Hukum Proffesional</div>
-				<h1 style="margin-top:24px;">
+				<div class="eyebrow"><span class="dot"></span><span data-i18n="home.eyebrow">Bantuan Hukum Proffesional</span></div>
+				<h1 style="margin-top:24px;" data-i18n="home.h1.html">
 					Advokat &amp; Pengacara untuk <em>Perceraian</em>, <em>Waris, Perdata &amp; Pertanahan</em> di Purbalingga.
 				</h1>
 				<div class="meta-line"><span class="bar"></span><span>NIA 17.01703 · PERADI</span></div>
-				<p class="lead">Kantor Hukum kami hadir di wilayah Purbalingga, Banjarnegara, Purwokerto, Banyumas, dan Cilacap untuk memberikan solusi komprehensif. Transparan dan berintegritas tinggi — konsultasi pertama Anda gratis!</p>
+				<p class="lead" data-i18n="home.lead">Kantor Hukum kami hadir di wilayah Purbalingga, Banjarnegara, Purwokerto, Banyumas, dan Cilacap untuk memberikan solusi komprehensif. Transparan dan berintegritas tinggi — konsultasi pertama Anda gratis!</p>
 				<div class="hero-cta">
-					<a class="btn btn-primary" href="{{ site.baseurl }}/contact/">Jadwalkan Konsultasi{{ arrow }}</a>
-					<a class="btn btn-ghost" href="{{ site.baseurl }}/services/">Selengkapnya{{ arrow }}</a>
+					<a class="btn btn-primary" href="{{ site.baseurl }}/contact/"><span data-i18n="cta.book">Jadwalkan Konsultasi</span>{{ arrow }}</a>
+					<a class="btn btn-ghost" href="{{ site.baseurl }}/services/"><span data-i18n="cta.more">Selengkapnya</span>{{ arrow }}</a>
 				</div>
 			</div>
 			<div class="hero-art">
 				<div class="stripes-bg"></div>
 				<img src="{{ site.baseurl }}/uploads/building.jpg" alt="Justitia — Advokat Luthfi">
 				<div class="label">
-					<span>FILE / 001</span>
-					<span>JUSTITIA · {{ site.time | date: '%Y' }}</span>
+					<span data-i18n="home.hero.label_left">FILE / 001</span>
+					<span data-i18n="home.hero.label_right">JUSTITIA · {{ site.time | date: '%Y' }}</span>
 				</div>
 			</div>
 		</div>
@@ -80,7 +97,7 @@ cities:
 			{% for it in page.trust_items %}
 				<div class="item">
 					<div class="num">{{ it.num }}{% if it.plus %}<span class="plus">+</span>{% endif %}</div>
-					<div class="lab">{{ it.lab }}</div>
+					<div class="lab" data-i18n="{{ it.i18n_lab }}">{{ it.lab }}</div>
 				</div>
 			{% endfor %}
 		</div>
@@ -91,17 +108,17 @@ cities:
 	<div class="container">
 		<div class="sec-head">
 			<div>
-				<div class="eyebrow"><span class="dot"></span>Bidang Praktik</div>
-				<h2 style="margin-top:16px;">Empat pilar utama, ditangani dengan kedalaman.</h2>
+				<div class="eyebrow"><span class="dot"></span><span data-i18n="home.practice.eyebrow">Bidang Praktik</span></div>
+				<h2 style="margin-top:16px;" data-i18n="home.practice.title">Empat pilar utama, ditangani dengan kedalaman.</h2>
 			</div>
-			<p class="desc">Setiap kasus didampingi langsung oleh advokat — bukan diserahkan ke staf magang.</p>
+			<p class="desc" data-i18n="home.practice.desc">Setiap kasus didampingi langsung oleh advokat — bukan diserahkan ke staf magang.</p>
 		</div>
 		<div class="practice-list">
 			{% for p in page.practice_areas %}
 				<a class="practice-row" href="{{ site.baseurl }}/services/">
 					<span class="idx">/ {% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
-					<span class="name">{{ p.name }}</span>
-					<span class="desc">{{ p.desc }}</span>
+					<span class="name" data-i18n="{{ p.i18n_name }}">{{ p.name }}</span>
+					<span class="desc" data-i18n="{{ p.i18n_desc }}">{{ p.desc }}</span>
 					<span class="go">→</span>
 				</a>
 			{% endfor %}
@@ -116,16 +133,16 @@ cities:
 				<img src="{{ site.baseurl }}/uploads/luthfi.png" alt="Luthfi Asshiddieqy, S.H.">
 			</div>
 			<div>
-				<div class="eyebrow"><span class="dot"></span>Profil Singkat</div>
-				<h2 style="margin-top:16px; margin-bottom:24px;">Luthfi Asshiddieqy, S.H.</h2>
-				<p class="lead" style="margin-bottom:8px;">Advokat yang berkomitmen membantu masyarakat dengan pengalaman luas di bidang Perkawinan &amp; Perceraian, Waris, Pertanahan, dan Perdata. Dikenal sebagai pekerja keras dan menjunjung tinggi keadilan, dengan integritas tinggi pada setiap kasus.</p>
+				<div class="eyebrow"><span class="dot"></span><span data-i18n="home.about.eyebrow">Profil Singkat</span></div>
+				<h2 style="margin-top:16px; margin-bottom:24px;" data-i18n="home.about.title">Luthfi Asshiddieqy, S.H.</h2>
+				<p class="lead" style="margin-bottom:8px;" data-i18n="home.about.body">Advokat yang berkomitmen membantu masyarakat dengan pengalaman luas di bidang Perkawinan &amp; Perceraian, Waris, Pertanahan, dan Perdata. Dikenal sebagai pekerja keras dan menjunjung tinggi keadilan, dengan integritas tinggi pada setiap kasus.</p>
 				<ul class="creds-list">
-					<li><span class="k">NIA</span><span>17.01703</span></li>
-					<li><span class="k">Asosiasi</span><span>PERADI — Perhimpunan Advokat Indonesia</span></li>
-					<li><span class="k">Pendidikan</span><span>Sarjana Hukum (S.H.)</span></li>
-					<li><span class="k">Wilayah</span><span>Pengadilan Agama &amp; Negeri se-Banyumas Raya</span></li>
+					<li><span class="k" data-i18n="home.about.cred.nia">NIA</span><span>17.01703</span></li>
+					<li><span class="k" data-i18n="home.about.cred.assoc">Asosiasi</span><span data-i18n="home.about.cred.assoc_v">PERADI — Perhimpunan Advokat Indonesia</span></li>
+					<li><span class="k" data-i18n="home.about.cred.edu">Pendidikan</span><span data-i18n="home.about.cred.edu_v">Sarjana Hukum (S.H.)</span></li>
+					<li><span class="k" data-i18n="home.about.cred.region">Wilayah</span><span data-i18n="home.about.cred.region_v">Pengadilan Agama &amp; Negeri se-Banyumas Raya</span></li>
 				</ul>
-				<a class="btn btn-outline btn-sm" style="margin-top:32px;" href="{{ site.baseurl }}/about/">Selengkapnya{{ arrow }}</a>
+				<a class="btn btn-outline btn-sm" style="margin-top:32px;" href="{{ site.baseurl }}/about/"><span data-i18n="cta.more">Selengkapnya</span>{{ arrow }}</a>
 			</div>
 		</div>
 	</div>
@@ -135,15 +152,15 @@ cities:
 	<div class="container">
 		<div class="sec-head">
 			<div>
-				<div class="eyebrow"><span class="dot"></span>Wilayah Layanan</div>
-				<h2 style="margin-top:16px;">Hadir di lima wilayah.</h2>
+				<div class="eyebrow"><span class="dot"></span><span data-i18n="home.loc.eyebrow">Wilayah Layanan</span></div>
+				<h2 style="margin-top:16px;" data-i18n="home.loc.title">Hadir di lima wilayah.</h2>
 			</div>
 		</div>
 		<div class="cities">
 			{% for c in page.cities %}
 				<div class="city">
 					<div class="nm">{{ c.nm }}</div>
-					<div class="meta">— {{ c.meta }}</div>
+					<div class="meta">— <span data-i18n="{{ c.i18n_meta }}">{{ c.meta }}</span></div>
 				</div>
 			{% endfor %}
 		</div>
@@ -154,8 +171,8 @@ cities:
 	<div class="container">
 		<div class="sec-head">
 			<div>
-				<div class="eyebrow"><span class="dot"></span>Suara Klien</div>
-				<h2 style="margin-top:16px;">Apa kata klien yang telah kami dampingi.</h2>
+				<div class="eyebrow"><span class="dot"></span><span data-i18n="home.t.eyebrow">Suara Klien</span></div>
+				<h2 style="margin-top:16px;" data-i18n="home.t.title">Apa kata klien yang telah kami dampingi.</h2>
 			</div>
 		</div>
 		<div class="testimonial-grid">
@@ -180,10 +197,10 @@ cities:
 	<div class="container">
 		<div class="sec-head">
 			<div>
-				<div class="eyebrow"><span class="dot"></span>Jurnal Hukum</div>
-				<h2 style="margin-top:16px;">Wawasan praktis dari meja kerja kami.</h2>
+				<div class="eyebrow"><span class="dot"></span><span data-i18n="home.b.eyebrow">Jurnal Hukum</span></div>
+				<h2 style="margin-top:16px;" data-i18n="home.b.title">Wawasan praktis dari meja kerja kami.</h2>
 			</div>
-			<a class="btn btn-ghost" href="{{ site.baseurl }}/blog/">Baca Artikel{{ arrow }}</a>
+			<a class="btn btn-ghost" href="{{ site.baseurl }}/blog/"><span data-i18n="cta.read">Baca Artikel</span>{{ arrow }}</a>
 		</div>
 		<ol class="posts">
 			{% for post in site.posts limit:3 %}
@@ -201,7 +218,7 @@ cities:
 					<div class="meta">
 						<span>{{ post.date | date: '%-d %b %Y' }}</span>
 						<span>·</span>
-						<span>{{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} mnt baca</span>
+						<span>{{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} <span data-i18n="home.read_min">mnt baca</span></span>
 					</div>
 					<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 					<p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
@@ -215,12 +232,12 @@ cities:
 	<div class="container">
 		<div class="cta-grid">
 			<div>
-				<div class="eyebrow"><span class="dot"></span>Konsultasi Gratis</div>
-				<h2 style="margin-top:16px;">Konsultasi pertama Anda — sepenuhnya gratis.</h2>
-				<p class="subtext">Tanpa kewajiban apa pun. Diskusikan kasus Anda dengan advokat berpengalaman dan dapatkan langkah hukum yang jelas.</p>
+				<div class="eyebrow"><span class="dot"></span><span data-i18n="home.cta.eyebrow">Konsultasi Gratis</span></div>
+				<h2 style="margin-top:16px;" data-i18n="home.cta.title">Konsultasi pertama Anda — sepenuhnya gratis.</h2>
+				<p class="subtext" data-i18n="home.cta.sub">Tanpa kewajiban apa pun. Diskusikan kasus Anda dengan advokat berpengalaman dan dapatkan langkah hukum yang jelas.</p>
 			</div>
 			<div style="display:flex; gap:12px; flex-wrap:wrap; justify-content:flex-end;">
-				<a class="btn btn-accent" href="{{ site.baseurl }}/contact/">Jadwalkan Konsultasi{{ arrow }}</a>
+				<a class="btn btn-accent" href="{{ site.baseurl }}/contact/"><span data-i18n="cta.book">Jadwalkan Konsultasi</span>{{ arrow }}</a>
 			</div>
 		</div>
 	</div>

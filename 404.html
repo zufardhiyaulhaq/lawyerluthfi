@@ -11,10 +11,11 @@ sitemap: false
 
 <section class="section no-rule">
 	<div class="container narrow" style="text-align:center;">
-		<div class="eyebrow"><span class="dot"></span>404</div>
-		<h1 style="margin-top:24px;">Halaman tidak ditemukan.</h1>
-		<p class="lead" style="margin: 24px auto 32px;">Halaman yang Anda cari mungkin telah dipindahkan atau tidak tersedia.</p>
-		<a class="btn btn-primary" href="{{ site.baseurl }}/">Kembali ke Beranda
+		<div class="eyebrow"><span class="dot"></span><span data-i18n="404.eyebrow">404</span></div>
+		<h1 style="margin-top:24px;" data-i18n="404.title">Halaman tidak ditemukan.</h1>
+		<p class="lead" style="margin: 24px auto 32px;" data-i18n="404.lead">Halaman yang Anda cari mungkin telah dipindahkan atau tidak tersedia.</p>
+		<a class="btn btn-primary" href="{{ site.baseurl }}/">
+			<span data-i18n="cta.back_home">Kembali ke Beranda</span>
 			<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
 		</a>
 	</div>

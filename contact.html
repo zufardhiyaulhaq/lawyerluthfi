@@ -5,16 +5,17 @@ background_image_path:
 large_header: false
 show_in_navigation: true
 navigation_order: 3
+i18n_key: nav.contact
 ---
 
 <section class="section no-rule" style="padding-bottom: 0;">
 	<div class="container">
-		<div class="sec-head" style="margin-bottom: 0;">
+		<div class="sec-head page-head" style="margin-bottom: 0;">
 			<div>
-				<div class="eyebrow"><span class="dot"></span>Kontak</div>
-				<h1 style="margin-top:16px;">Mari bicarakan kasus Anda.</h1>
+				<div class="eyebrow"><span class="dot"></span><span data-i18n="contact.eyebrow">Kontak</span></div>
+				<h1 style="margin-top:16px;" data-i18n="contact.title">Mari bicarakan kasus Anda.</h1>
 			</div>
-			<p class="lead">Kunjungi kantor kami, hubungi melalui telepon, atau kirim pesan — konsultasi pertama Anda sepenuhnya <b>gratis</b>.</p>
+			<p class="lead" data-i18n="contact.lead.html">Kunjungi kantor kami, hubungi melalui telepon, atau kirim pesan — konsultasi pertama Anda sepenuhnya <b>gratis</b>.</p>
 		</div>
 	</div>
 </section>
@@ -26,20 +27,20 @@ navigation_order: 3
 				<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn btn-sm btn-outline"><strong>&#9998;</strong> Update Company Details</a></p>
 
 				<div class="item">
-					<div class="k">WhatsApp</div>
+					<div class="k" data-i18n="contact.k.wa">WhatsApp</div>
 					<a class="v" href="https://wa.me/6282393395426" target="_blank" rel="noopener">{{ site.data.company.phone }}</a>
 				</div>
 				<div class="item">
-					<div class="k">Email</div>
+					<div class="k" data-i18n="contact.k.email">Email</div>
 					<a class="v small" href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a>
 				</div>
 				<div class="item">
-					<div class="k">Alamat Kantor</div>
+					<div class="k" data-i18n="contact.k.address">Alamat Kantor</div>
 					<address class="v small" style="font-style: normal;">{{ site.data.company.address }}</address>
 				</div>
 				<div class="item">
-					<div class="k">Jam Operasional</div>
-					<span class="v small">Senin – Sabtu · 09.00 – 17.00 WIB</span>
+					<div class="k" data-i18n="contact.k.hours">Jam Operasional</div>
+					<span class="v small" data-i18n="contact.v.hours">Senin – Sabtu · 09.00 – 17.00 WIB</span>
 				</div>
 			</div>
 
@@ -56,13 +57,13 @@ navigation_order: 3
 	<div class="container">
 		<div class="cta-grid">
 			<div>
-				<div class="eyebrow"><span class="dot"></span>Konsultasi Gratis</div>
-				<h2 style="margin-top:16px;">Hubungi kami hari ini.</h2>
-				<p class="subtext">Tanpa kewajiban apa pun. Diskusikan kasus Anda dengan advokat berpengalaman dan dapatkan langkah hukum yang jelas.</p>
+				<div class="eyebrow"><span class="dot"></span><span data-i18n="home.cta.eyebrow">Konsultasi Gratis</span></div>
+				<h2 style="margin-top:16px;" data-i18n="contact.cta.title">Hubungi kami hari ini.</h2>
+				<p class="subtext" data-i18n="home.cta.sub">Tanpa kewajiban apa pun. Diskusikan kasus Anda dengan advokat berpengalaman dan dapatkan langkah hukum yang jelas.</p>
 			</div>
 			<div style="display:flex; gap:12px; flex-wrap:wrap; justify-content:flex-end;">
 				<a class="btn btn-accent" href="https://wa.me/6282393395426" target="_blank" rel="noopener">
-					Chat WhatsApp
+					<span data-i18n="cta.whatsapp_chat">Chat WhatsApp</span>
 					<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
 				</a>
 			</div>
