@@ -4,7 +4,7 @@ date: 2026-05-05 00:00:01
 categories:
   - Perkawinan & Perceraian
 author_staff_member: luthfi-asshiddieqy
-image: "https://ik.imagekit.io/4mjt7d3c3/202605/perkawinan-campuran.jpg"
+image: "https://marinews.mahkamahagung.go.id/static/2025/08/07/campuran-antara-wni-dengan-wna-ZcPke.jpg"
 large_header: false
 ---
 

@@ -10,7 +10,7 @@ layout: default
 		<div class="container narrow">
 			<div class="post-meta">
 				{% for category in page.categories %}
-					<a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+					<a href="{{ site.baseurl }}/blog/#{{ category | slugify }}">{{ category }}</a>
 					<span>·</span>
 				{% endfor %}
 				<span>{{ page.date | date: '%-d %B %Y' }}</span>
