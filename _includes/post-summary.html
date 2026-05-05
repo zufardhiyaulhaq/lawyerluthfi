@@ -12,7 +12,7 @@
 	<div class="meta">
 		<span>{{ include.post.date | date: '%-d %b %Y' }}</span>
 		<span>·</span>
-		<span>{{ include.post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} mnt baca</span>
+		<span>{{ include.post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} <span data-i18n="home.read_min">mnt baca</span></span>
 	</div>
 	<h3><a href="{{ site.baseurl }}{{ include.post.url }}">{{ include.post.title }}</a></h3>
 	<p class="excerpt">{{ include.post.excerpt | strip_html | truncate: 160 }}</p>

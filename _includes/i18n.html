@@ -1,0 +1,315 @@
+<script>
+(function () {
+	var I18N = {
+		id: {
+			"nav.home": "Beranda",
+			"nav.about": "Tentang",
+			"nav.services": "Layanan",
+			"nav.contact": "Kontak",
+			"nav.blog": "Jurnal",
+			"cta.consult": "Konsultasi Gratis",
+			"cta.consult_arrow": "Konsultasi Gratis →",
+			"cta.book": "Jadwalkan Konsultasi",
+			"cta.more": "Selengkapnya",
+			"cta.read": "Baca Artikel",
+			"cta.whatsapp": "Hubungi WhatsApp",
+			"cta.whatsapp_chat": "Chat WhatsApp",
+			"cta.back_home": "Kembali ke Beranda",
+
+			"brand.sub": "Bantuan Hukum Proffesional · Purbalingga",
+
+			"footer.contact": "Kontak",
+			"footer.rss": "Subscribe with RSS",
+			"footer.terms": "Syarat & Ketentuan",
+			"footer.legal": "© {YEAR} Advokat Luthfi · NIA 17.01703 · PERADI",
+
+			"home.eyebrow": "Bantuan Hukum Proffesional",
+			"home.h1.html": "Advokat &amp; Pengacara untuk <em>Perceraian</em>, <em>Waris, Perdata &amp; Pertanahan</em> di Purbalingga.",
+			"home.lead": "Kantor Hukum kami hadir di wilayah Purbalingga, Banjarnegara, Purwokerto, Banyumas, dan Cilacap untuk memberikan solusi komprehensif. Transparan dan berintegritas tinggi — konsultasi pertama Anda gratis!",
+			"home.hero.label_left": "FILE / 001",
+			"home.hero.label_right": "JUSTITIA · {YEAR}",
+
+			"home.trust.years": "Tahun Pengalaman",
+			"home.trust.clients": "Klien Terlayani",
+			"home.trust.bar": "Anggota Resmi",
+			"home.trust.response": "Respon Maksimal",
+
+			"home.practice.eyebrow": "Bidang Praktik",
+			"home.practice.title": "Empat pilar utama, ditangani dengan kedalaman.",
+			"home.practice.desc": "Setiap kasus didampingi langsung oleh advokat — bukan diserahkan ke staf magang.",
+			"home.practice.0.name": "Perkawinan & Perceraian",
+			"home.practice.0.desc": "Gugatan cerai, harta gono-gini, hak asuh anak, perkawinan beda kewarganegaraan, itsbat nikah.",
+			"home.practice.1.name": "Waris",
+			"home.practice.1.desc": "Pembagian harta waris yang adil, surat keterangan waris, sengketa pembagian, wasiat.",
+			"home.practice.2.name": "Pertanahan",
+			"home.practice.2.desc": "Sengketa tanah, jual beli rumah, pembebasan lahan, pemalsuan dokumen, eksekusi jaminan.",
+			"home.practice.3.name": "Perdata Umum",
+			"home.practice.3.desc": "Wanprestasi, perbuatan melawan hukum, hutang piutang, sengketa kerjasama bisnis.",
+
+			"home.about.eyebrow": "Profil Singkat",
+			"home.about.title": "Luthfi Asshiddieqy, S.H.",
+			"home.about.body": "Advokat yang berkomitmen membantu masyarakat dengan pengalaman luas di bidang Perkawinan & Perceraian, Waris, Pertanahan, dan Perdata. Dikenal sebagai pekerja keras dan menjunjung tinggi keadilan, dengan integritas tinggi pada setiap kasus.",
+			"home.about.cred.nia": "NIA",
+			"home.about.cred.assoc": "Asosiasi",
+			"home.about.cred.assoc_v": "PERADI — Perhimpunan Advokat Indonesia",
+			"home.about.cred.edu": "Pendidikan",
+			"home.about.cred.edu_v": "Sarjana Hukum (S.H.)",
+			"home.about.cred.region": "Wilayah",
+			"home.about.cred.region_v": "Pengadilan Agama & Negeri se-Banyumas Raya",
+
+			"home.loc.eyebrow": "Wilayah Layanan",
+			"home.loc.title": "Hadir di lima wilayah.",
+			"home.loc.main": "Kantor Pusat",
+			"home.loc.visit": "Kunjungan Klien",
+
+			"home.t.eyebrow": "Suara Klien",
+			"home.t.title": "Apa kata klien yang telah kami dampingi.",
+
+			"home.b.eyebrow": "Jurnal Hukum",
+			"home.b.title": "Wawasan praktis dari meja kerja kami.",
+			"home.read_min": "mnt baca",
+
+			"home.cta.eyebrow": "Konsultasi Gratis",
+			"home.cta.title": "Konsultasi pertama Anda — sepenuhnya gratis.",
+			"home.cta.sub": "Tanpa kewajiban apa pun. Diskusikan kasus Anda dengan advokat berpengalaman dan dapatkan langkah hukum yang jelas.",
+
+			"about.eyebrow": "Tentang Kami",
+			"about.title": "Bertahun-tahun melayani Banyumas Raya dengan integritas.",
+			"about.lead": "Kantor Hukum kami melayani masyarakat di Purbalingga dan sekitarnya dengan layanan hukum yang tepat, transparan, dan berkomitmen tinggi pada keadilan.",
+			"about.philosophy.eye": "01 — Filosofi",
+			"about.philosophy.title": "Hukum bukan sekadar pasal — tapi keadilan yang bisa dirasakan.",
+			"about.philosophy.body1": "Kami percaya pendampingan hukum adalah pekerjaan yang sangat manusiawi. Setiap kasus melibatkan kehidupan, harta, atau hubungan keluarga seseorang. Karena itu kami menangani setiap klien dengan kesabaran, kejelasan, dan komitmen penuh.",
+			"about.philosophy.body2": "Telah melayani masyarakat selama bertahun-tahun, Advokat Pengacara Luthfi berkomitmen untuk membantu Anda melalui berbagai layanan hukum bidang Perkawinan & Perceraian, Waris, Pertanahan, dan Perdata.",
+			"about.team.eye": "02 — Tim",
+			"about.team.title": "Profil Advokat",
+			"about.team.role": "Advokat",
+			"about.creds.phone": "Telepon",
+			"about.creds.email": "Email",
+
+			"services.eyebrow": "Layanan",
+			"services.title": "Empat bidang praktik utama, ditangani dengan kedalaman.",
+			"services.lead": "Tim kami yang terampil dan berpengalaman siap memberikan berbagai layanan hukum dengan perhatian penuh terhadap setiap detail pekerjaan.",
+
+			"contact.eyebrow": "Kontak",
+			"contact.title": "Mari bicarakan kasus Anda.",
+			"contact.lead.html": "Kunjungi kantor kami, hubungi melalui telepon, atau kirim pesan — konsultasi pertama Anda sepenuhnya <b>gratis</b>.",
+			"contact.k.wa": "WhatsApp",
+			"contact.k.email": "Email",
+			"contact.k.address": "Alamat Kantor",
+			"contact.k.hours": "Jam Operasional",
+			"contact.v.hours": "Senin – Sabtu · 09.00 – 17.00 WIB",
+			"contact.cta.title": "Hubungi kami hari ini.",
+
+			"blog.eyebrow": "Jurnal Hukum",
+			"blog.title": "Wawasan & panduan praktis seputar hukum keluarga, tanah, dan perdata.",
+			"blog.lead": "Dapatkan pengenalan tentang berbagai topik hukum dan tetap terinformasi dengan artikel mendalam kami.",
+			"blog.filter.all": "Semua",
+			"blog.page": "Halaman",
+			"blog.prev": "← Sebelumnya",
+			"blog.next": "Berikutnya →",
+
+			"post.author": "Penulis",
+			"post.keep_reading": "Lanjut Membaca",
+			"post.discuss": "Diskusi",
+			"post.read_min": "menit baca",
+			"post.by": "oleh",
+
+			"archive.eyebrow": "Kategori",
+			"archive.lead.html": "Anda sedang melihat semua artikel pada kategori <strong>{TITLE}</strong>. <a href=\"{BLOG}\">Lihat semua artikel</a> sebagai gantinya.",
+
+			"404.eyebrow": "404",
+			"404.title": "Halaman tidak ditemukan.",
+			"404.lead": "Halaman yang Anda cari mungkin telah dipindahkan atau tidak tersedia.",
+
+			"success.eyebrow": "Pesan Terkirim",
+			"success.title": "Terima kasih telah menghubungi kami.",
+			"success.lead": "Kami akan membaca pesan Anda dan menghubungi Anda kembali secepatnya."
+		},
+		en: {
+			"nav.home": "Home",
+			"nav.about": "About",
+			"nav.services": "Services",
+			"nav.contact": "Contact",
+			"nav.blog": "Journal",
+			"cta.consult": "Free Consultation",
+			"cta.consult_arrow": "Free Consultation →",
+			"cta.book": "Book a Consultation",
+			"cta.more": "Learn More",
+			"cta.read": "Read Article",
+			"cta.whatsapp": "WhatsApp Us",
+			"cta.whatsapp_chat": "Chat on WhatsApp",
+			"cta.back_home": "Back to Home",
+
+			"brand.sub": "Professional Legal Aid · Purbalingga",
+
+			"footer.contact": "Contact",
+			"footer.rss": "Subscribe with RSS",
+			"footer.terms": "Terms of Use",
+			"footer.legal": "© {YEAR} Advokat Luthfi · Bar No. 17.01703 · PERADI",
+
+			"home.eyebrow": "Professional Legal Aid",
+			"home.h1.html": "Advocate &amp; Lawyer for <em>Divorce</em>, <em>Inheritance, Civil &amp; Land Law</em> in Purbalingga.",
+			"home.lead": "Our law firm serves Purbalingga, Banjarnegara, Purwokerto, Banyumas, and Cilacap with comprehensive solutions. Transparent and with high integrity — your first consultation is free!",
+			"home.hero.label_left": "FILE / 001",
+			"home.hero.label_right": "JUSTITIA · {YEAR}",
+
+			"home.trust.years": "Years Experience",
+			"home.trust.clients": "Clients Served",
+			"home.trust.bar": "Bar Member",
+			"home.trust.response": "Max Response Time",
+
+			"home.practice.eyebrow": "Practice Areas",
+			"home.practice.title": "Four pillars, handled with depth.",
+			"home.practice.desc": "Every case is handled directly by the advocate — never delegated to interns.",
+			"home.practice.0.name": "Marriage & Divorce",
+			"home.practice.0.desc": "Divorce filings, marital property division, child custody, mixed-citizenship marriages, marriage validation.",
+			"home.practice.1.name": "Inheritance",
+			"home.practice.1.desc": "Fair distribution of estates, certificates of inheritance, distribution disputes, wills.",
+			"home.practice.2.name": "Land Law",
+			"home.practice.2.desc": "Land disputes, property sales, land acquisition, document fraud, collateral execution.",
+			"home.practice.3.name": "Civil Law",
+			"home.practice.3.desc": "Breach of contract, tort claims, debt recovery, business partnership disputes.",
+
+			"home.about.eyebrow": "Brief Profile",
+			"home.about.title": "Luthfi Asshiddieqy, S.H.",
+			"home.about.body": "An advocate committed to serving the public with broad experience in family, inheritance, land, and civil law. Known for diligence and a high standard of integrity in every case.",
+			"home.about.cred.nia": "Bar No.",
+			"home.about.cred.assoc": "Association",
+			"home.about.cred.assoc_v": "PERADI — Indonesian Advocates Association",
+			"home.about.cred.edu": "Education",
+			"home.about.cred.edu_v": "Bachelor of Laws (S.H.)",
+			"home.about.cred.region": "Jurisdiction",
+			"home.about.cred.region_v": "Religious & Civil Courts, Banyumas region",
+
+			"home.loc.eyebrow": "Service Region",
+			"home.loc.title": "Present across five regencies.",
+			"home.loc.main": "Main Office",
+			"home.loc.visit": "Client Visits",
+
+			"home.t.eyebrow": "Client Voices",
+			"home.t.title": "What clients we've represented have to say.",
+
+			"home.b.eyebrow": "Legal Journal",
+			"home.b.title": "Practical insights from our desk.",
+			"home.read_min": "min read",
+
+			"home.cta.eyebrow": "Free Consultation",
+			"home.cta.title": "Your first consultation — entirely free.",
+			"home.cta.sub": "No obligation. Discuss your case with an experienced advocate and walk away with a clear path forward.",
+
+			"about.eyebrow": "About",
+			"about.title": "Years of serving Banyumas region with integrity.",
+			"about.lead": "Our firm has served the Purbalingga community with precise, transparent legal services and a high commitment to justice.",
+			"about.philosophy.eye": "01 — Philosophy",
+			"about.philosophy.title": "Law isn't just statutes — it's justice you can feel.",
+			"about.philosophy.body1": "We believe legal counsel is deeply human work. Every case involves someone's life, property, or family. We treat every client with patience, clarity, and full commitment.",
+			"about.philosophy.body2": "Serving the public for years, Advokat Pengacara Luthfi is committed to helping you across Marriage & Divorce, Inheritance, Land Law, and Civil Law.",
+			"about.team.eye": "02 — Team",
+			"about.team.title": "The Advocate",
+			"about.team.role": "Advocate",
+			"about.creds.phone": "Phone",
+			"about.creds.email": "Email",
+
+			"services.eyebrow": "Services",
+			"services.title": "Four practice areas, handled with depth.",
+			"services.lead": "Our experienced team offers a range of legal services with full attention to every detail.",
+
+			"contact.eyebrow": "Contact",
+			"contact.title": "Let's talk about your case.",
+			"contact.lead.html": "Visit our office, call us, or send us a message — your first consultation is entirely <b>free</b>.",
+			"contact.k.wa": "WhatsApp",
+			"contact.k.email": "Email",
+			"contact.k.address": "Office Address",
+			"contact.k.hours": "Hours",
+			"contact.v.hours": "Mon – Sat · 09:00 – 17:00 WIB",
+			"contact.cta.title": "Get in touch today.",
+
+			"blog.eyebrow": "Legal Journal",
+			"blog.title": "Practical insights on family, land, and civil law.",
+			"blog.lead": "Stay informed with our in-depth articles on a range of legal topics.",
+			"blog.filter.all": "All",
+			"blog.page": "Page",
+			"blog.prev": "← Previous",
+			"blog.next": "Next →",
+
+			"post.author": "Author",
+			"post.keep_reading": "Keep Reading",
+			"post.discuss": "Discussion",
+			"post.read_min": "min read",
+			"post.by": "by",
+
+			"archive.eyebrow": "Category",
+			"archive.lead.html": "You're viewing all articles in the <strong>{TITLE}</strong> category. <a href=\"{BLOG}\">View all articles</a> instead.",
+
+			"404.eyebrow": "404",
+			"404.title": "Page not found.",
+			"404.lead": "The page you're looking for may have moved or is no longer available.",
+
+			"success.eyebrow": "Message Sent",
+			"success.title": "Thank you for contacting us.",
+			"success.lead": "We'll read your message and get back to you as soon as possible."
+		}
+	};
+
+	var YEAR = new Date().getFullYear();
+	var BLOG = "{{ site.baseurl }}/blog/";
+	var DEFAULT_LANG = "id";
+
+	function fmt(s, ctx) {
+		return s.replace(/\{(\w+)\}/g, function (_, k) {
+			return (ctx && ctx[k] != null) ? ctx[k] : ({ YEAR: YEAR, BLOG: BLOG }[k] || "");
+		});
+	}
+
+	function getLang() {
+		try {
+			var stored = localStorage.getItem("lang");
+			if (stored === "id" || stored === "en") return stored;
+		} catch (e) {}
+		return DEFAULT_LANG;
+	}
+
+	function applyLang(lang) {
+		var dict = I18N[lang] || I18N[DEFAULT_LANG];
+		document.documentElement.lang = lang;
+		var ctx = { TITLE: document.body.dataset.archiveTitle || "" };
+		document.querySelectorAll("[data-i18n]").forEach(function (el) {
+			var key = el.getAttribute("data-i18n");
+			var val = dict[key];
+			if (val == null) return;
+			if (key.endsWith(".html") || el.hasAttribute("data-i18n-html")) {
+				el.innerHTML = fmt(val, ctx);
+			} else {
+				el.textContent = fmt(val, ctx);
+			}
+		});
+		document.querySelectorAll("[data-i18n-attr]").forEach(function (el) {
+			var spec = el.getAttribute("data-i18n-attr"); // "attr:key,attr2:key2"
+			spec.split(",").forEach(function (pair) {
+				var parts = pair.split(":");
+				var attr = parts[0].trim();
+				var key = parts[1].trim();
+				var val = dict[key];
+				if (val != null) el.setAttribute(attr, fmt(val, ctx));
+			});
+		});
+		document.querySelectorAll(".lang-toggle button").forEach(function (b) {
+			b.classList.toggle("on", b.getAttribute("data-lang") === lang);
+		});
+	}
+
+	function setLang(lang) {
+		try { localStorage.setItem("lang", lang); } catch (e) {}
+		applyLang(lang);
+	}
+
+	window.__i18n = { apply: applyLang, set: setLang, get: getLang };
+
+	document.addEventListener("DOMContentLoaded", function () {
+		document.querySelectorAll(".lang-toggle button").forEach(function (b) {
+			b.addEventListener("click", function () { setLang(b.getAttribute("data-lang")); });
+		});
+		applyLang(getLang());
+	});
+})();
+</script>

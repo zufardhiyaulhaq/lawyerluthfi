@@ -15,12 +15,12 @@ layout: default
 				{% endfor %}
 				<span>{{ page.date | date: '%-d %B %Y' }}</span>
 				<span>·</span>
-				<span>{{ page.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} menit baca</span>
+				<span>{{ page.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} <span data-i18n="post.read_min">menit baca</span></span>
 			</div>
 			<h1>{{ page.title }}</h1>
 			{% if author %}
 				<div class="post-meta" style="margin-top: 24px; margin-bottom: 0;">
-					<span>oleh {{ author.name }}</span>
+					<span><span data-i18n="post.by">oleh</span> {{ author.name }}</span>
 				</div>
 			{% endif %}
 		</div>
@@ -32,7 +32,7 @@ layout: default
 
 	{% if author %}
 		<aside class="post-author-card">
-			<div class="eyebrow"><span class="dot"></span>Penulis</div>
+			<div class="eyebrow"><span class="dot"></span><span data-i18n="post.author">Penulis</span></div>
 			<div class="author">
 				<div class="avatar">
 					<img src="{% include relative-src.html src=author.image %}" alt="{{ author.name }}">
@@ -47,7 +47,7 @@ layout: default
 
 	{% if page.next or page.previous %}
 		<aside class="keep-reading">
-			<div class="eyebrow"><span class="dot"></span>Lanjut Membaca</div>
+			<div class="eyebrow"><span class="dot"></span><span data-i18n="post.keep_reading">Lanjut Membaca</span></div>
 			<ol class="posts" style="grid-template-columns: 1fr;">
 				{% if page.next %}
 					{% include post-summary.html post=page.next %}
@@ -60,7 +60,7 @@ layout: default
 
 	{% if site.disqus_shortname %}
 		<aside class="keep-reading">
-			<div class="eyebrow"><span class="dot"></span>Diskusi</div>
+			<div class="eyebrow"><span class="dot"></span><span data-i18n="post.discuss">Diskusi</span></div>
 			<div id="disqus_thread"></div>
 			<script>
 				(function() {
