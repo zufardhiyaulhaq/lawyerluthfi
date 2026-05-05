@@ -140,16 +140,16 @@
 								<span class="sub" data-i18n="brand.sub">Bantuan Hukum Proffesional · Purbalingga</span>
 							</span>
 						</div>
-						<p>{{ site.data.company.description }}</p>
+						<p data-i18n="footer.brand_desc">{{ site.data.company.description }}</p>
 					</div>
 
 					{% for column in site.data.footer %}
 						<div class="col">
-							<h4>{{ column.title }}</h4>
+							<h4 {% if column.i18n_key %}data-i18n="{{ column.i18n_key }}"{% endif %}>{{ column.title }}</h4>
 							<ul>
 								{% for link in column.links %}
 									<li>
-										<a {% if link.new_window %}target="_blank" rel="noopener"{% endif %} href="{% include relative-src.html src=link.link %}">
+										<a {% if link.new_window %}target="_blank" rel="noopener"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.i18n_key %}data-i18n="{{ link.i18n_key }}"{% endif %}>
 											{{ link.name }}
 										</a>
 									</li>
