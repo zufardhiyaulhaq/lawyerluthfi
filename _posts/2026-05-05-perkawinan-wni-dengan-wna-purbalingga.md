@@ -6,6 +6,8 @@ categories:
 author_staff_member: luthfi-asshiddieqy
 image: "https://marinews.mahkamahagung.go.id/static/2025/08/07/campuran-antara-wni-dengan-wna-ZcPke.jpg"
 large_header: false
+lang: id
+pair: /perkawinan%20&%20perceraian/2026/05/05/marriage-indonesian-foreign-citizen-purbalingga/
 ---
 
 Pernikahan antara Warga Negara Indonesia (WNI) dengan Warga Negara Asing (WNA) — atau sering disebut perkawinan campuran — bukan lagi hal yang langka di Purbalingga. Mobilitas pekerjaan, pendidikan, hingga relasi yang terjalin lewat dunia digital membuat semakin banyak warga Banyumas Raya yang menikah dengan pasangan dari luar negeri.

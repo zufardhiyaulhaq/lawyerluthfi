@@ -5,7 +5,7 @@ layout: default
 {% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
 {% assign author = site.staff_members | where: "url", author_id | first %}
 
-<article>
+<article data-post-lang="{{ page.lang | default: 'id' }}" data-post-pair="{{ page.pair | default: '' }}">
 	<header class="post-header">
 		<div class="container narrow">
 			<div class="post-meta">

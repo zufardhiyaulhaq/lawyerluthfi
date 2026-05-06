@@ -6,6 +6,9 @@ categories:
 author_staff_member: luthfi-asshiddieqy
 image: "https://marinews.mahkamahagung.go.id/static/2025/08/07/campuran-antara-wni-dengan-wna-ZcPke.jpg"
 large_header: false
+lang: en
+pair: /perkawinan%20&%20perceraian/2026/05/05/perkawinan-wni-dengan-wna-purbalingga/
+hidden_from_blog: true
 ---
 
 Marriage between an Indonesian citizen (WNI) and a foreign citizen (WNA) — known in Indonesian law as *perkawinan campuran*, or "mixed marriage" — is no longer rare in Purbalingga. Work, study, and online relationships have brought more couples from across the Banyumas region into cross-border marriages.
