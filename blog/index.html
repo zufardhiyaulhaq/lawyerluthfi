@@ -70,9 +70,8 @@ i18n_key: nav.blog
 	<div class="container">
 		<ol class="blog-list" id="blog-list">
 			{% for post in visible_posts %}
-				{% unless forloop.first %}
 				{% capture cat_slugs %}{% for c in post.categories %}{{ c | slugify }}{% unless forloop.last %} {% endunless %}{% endfor %}{% endcapture %}
-				<li class="post-card" data-cat="{{ cat_slugs }}">
+				<li class="post-card" data-cat="{{ cat_slugs }}" {% if forloop.first %}data-featured="true"{% endif %}>
 					<a href="{{ site.baseurl }}{{ post.url }}" style="display:block;">
 						<div class="post-thumb">
 							{% if post.image %}
@@ -91,7 +90,6 @@ i18n_key: nav.blog
 					<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 					<p class="excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
 				</li>
-				{% endunless %}
 			{% endfor %}
 		</ol>
 		<p id="blog-empty" style="display:none; text-align:center; color:var(--muted); padding:48px 0; font-family:var(--font-mono); font-size:12px; letter-spacing:.1em; text-transform:uppercase;" data-i18n="blog.empty">Belum ada artikel pada kategori ini.</p>
@@ -109,9 +107,13 @@ i18n_key: nav.blog
 		var visible = 0;
 		cards.forEach(function (card) {
 			var cats = (card.getAttribute("data-cat") || "").split(/\s+/);
-			var match = (filter === "*") || cats.indexOf(filter) !== -1;
-			card.style.display = match ? "" : "none";
-			if (match) visible++;
+			var isFeatured = card.getAttribute("data-featured") === "true";
+			var matchesCat = (filter === "*") || cats.indexOf(filter) !== -1;
+			// When no filter is active, the featured card is shown by the hero
+			// section above, so we hide its grid duplicate to avoid showing it twice.
+			var show = matchesCat && !(isFeatured && filter === "*");
+			card.style.display = show ? "" : "none";
+			if (show) visible++;
 		});
 		if (featured) featured.style.display = (filter === "*") ? "" : "none";
 		if (empty) empty.style.display = (visible === 0) ? "" : "none";

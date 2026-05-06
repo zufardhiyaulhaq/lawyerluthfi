@@ -264,6 +264,7 @@
 	var YEAR = new Date().getFullYear();
 	var BLOG = "{{ site.baseurl }}/blog/";
 	var DEFAULT_LANG = "id";
+	var LANG_VERSION = "2"; // bump to invalidate stale localStorage choices
 
 	function fmt(s, ctx) {
 		return s.replace(/\{(\w+)\}/g, function (_, k) {
@@ -273,6 +274,12 @@
 
 	function getLang() {
 		try {
+			var ver = localStorage.getItem("lang_v");
+			if (ver !== LANG_VERSION) {
+				localStorage.removeItem("lang");
+				localStorage.setItem("lang_v", LANG_VERSION);
+				return DEFAULT_LANG;
+			}
 			var stored = localStorage.getItem("lang");
 			if (stored === "id" || stored === "en") return stored;
 		} catch (e) {}
@@ -324,25 +331,24 @@
 	}
 
 	// On initial load, if we landed on a post in the "wrong" language (e.g. EN
-	// post but user previously chose ID), keep them where they are but persist
-	// the language of the post they actually opened.
+	// post while preference is ID), reflect that visually for this page only —
+	// do NOT persist it, so future visits still default to Indonesian.
 	function reconcilePostLang() {
 		var post = document.querySelector("[data-post-lang]");
-		if (!post) return;
-		var postLang = post.getAttribute("data-post-lang");
-		if (postLang && postLang !== getLang()) {
-			try { localStorage.setItem("lang", postLang); } catch (e) {}
-		}
+		if (!post) return null;
+		return post.getAttribute("data-post-lang");
 	}
 
 	window.__i18n = { apply: applyLang, set: setLang, get: getLang };
 
 	document.addEventListener("DOMContentLoaded", function () {
-		reconcilePostLang();
 		document.querySelectorAll(".lang-toggle button").forEach(function (b) {
 			b.addEventListener("click", function () { setLang(b.getAttribute("data-lang")); });
 		});
-		applyLang(getLang());
+		// Initial visual language: respect the current post's lang for visible chrome,
+		// but the persisted preference (and DEFAULT_LANG) stays Indonesian.
+		var postLang = reconcilePostLang();
+		applyLang(postLang || getLang());
 	});
 })();
 </script>
