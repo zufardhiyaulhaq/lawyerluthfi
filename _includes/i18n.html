@@ -310,12 +310,35 @@
 
 	function setLang(lang) {
 		try { localStorage.setItem("lang", lang); } catch (e) {}
+		// If we're on a post that has a paired translation in the target lang, redirect.
+		var post = document.querySelector("[data-post-lang]");
+		if (post) {
+			var current = post.getAttribute("data-post-lang") || "id";
+			var pair = post.getAttribute("data-post-pair") || "";
+			if (pair && lang !== current) {
+				window.location.href = pair;
+				return;
+			}
+		}
 		applyLang(lang);
+	}
+
+	// On initial load, if we landed on a post in the "wrong" language (e.g. EN
+	// post but user previously chose ID), keep them where they are but persist
+	// the language of the post they actually opened.
+	function reconcilePostLang() {
+		var post = document.querySelector("[data-post-lang]");
+		if (!post) return;
+		var postLang = post.getAttribute("data-post-lang");
+		if (postLang && postLang !== getLang()) {
+			try { localStorage.setItem("lang", postLang); } catch (e) {}
+		}
 	}
 
 	window.__i18n = { apply: applyLang, set: setLang, get: getLang };
 
 	document.addEventListener("DOMContentLoaded", function () {
+		reconcilePostLang();
 		document.querySelectorAll(".lang-toggle button").forEach(function (b) {
 			b.addEventListener("click", function () { setLang(b.getAttribute("data-lang")); });
 		});

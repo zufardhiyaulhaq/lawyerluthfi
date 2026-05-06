@@ -202,8 +202,9 @@ cities:
 			</div>
 			<a class="btn btn-ghost" href="{{ site.baseurl }}/blog/"><span data-i18n="cta.read">Baca Artikel</span>{{ arrow }}</a>
 		</div>
+		{% assign home_visible_posts = site.posts | where_exp: "p", "p.hidden_from_blog != true" %}
 		<ol class="posts">
-			{% for post in site.posts limit:3 %}
+			{% for post in home_visible_posts limit:3 %}
 				<li class="post-card">
 					<a href="{{ site.baseurl }}{{ post.url }}" style="display:block;">
 						<div class="post-thumb">
