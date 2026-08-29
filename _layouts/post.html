@@ -5,12 +5,40 @@ layout: default
 {% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
 {% assign author = site.staff_members | where: "url", author_id | first %}
 
+{%- comment -%}
+Pick the "keep reading" article from posts in this post's own language, so an
+Indonesian article never points at an English one and vice versa. site.posts is
+newest first, so the entry before this one is the newer article.
+{%- endcomment -%}
+{% assign current_lang = page.lang | default: 'id' %}
+{% if current_lang == 'en' %}
+	{% assign lang_posts = site.posts | where: "lang", "en" %}
+{% else %}
+	{% assign lang_posts = site.posts | where_exp: "p", "p.lang != 'en'" %}
+{% endif %}
+{% assign newer_post = nil %}
+{% assign older_post = nil %}
+{% assign passed_current = false %}
+{% for p in lang_posts %}
+	{% if passed_current and older_post == nil %}
+		{% assign older_post = p %}
+	{% endif %}
+	{% unless passed_current %}
+		{% if p.url == page.url %}
+			{% assign passed_current = true %}
+		{% else %}
+			{% assign newer_post = p %}
+		{% endif %}
+	{% endunless %}
+{% endfor %}
+{% assign related_post = newer_post | default: older_post %}
+
 <article data-post-lang="{{ page.lang | default: 'id' }}" data-post-pair="{{ page.pair | default: '' }}">
 	<header class="post-header">
 		<div class="container narrow">
 			<div class="post-meta">
 				{% for category in page.categories %}
-					<a href="{{ site.baseurl }}/blog/#{{ category | slugify }}">{{ category }}</a>
+					<a href="{{ site.baseurl }}/blog/#{{ category | slugify }}" data-i18n="blog.cat.{{ category | slugify }}">{{ category }}</a>
 					<span>·</span>
 				{% endfor %}
 				<span>{{ page.date | date: '%-d %B %Y' }}</span>
@@ -45,15 +73,11 @@ layout: default
 		</aside>
 	{% endif %}
 
-	{% if page.next or page.previous %}
+	{% if related_post %}
 		<aside class="keep-reading">
 			<div class="eyebrow"><span class="dot"></span><span data-i18n="post.keep_reading">Lanjut Membaca</span></div>
 			<ol class="posts" style="grid-template-columns: 1fr;">
-				{% if page.next %}
-					{% include post-summary.html post=page.next %}
-				{% elsif page.previous %}
-					{% include post-summary.html post=page.previous %}
-				{% endif %}
+				{% include post-summary.html post=related_post %}
 			</ol>
 		</aside>
 	{% endif %}

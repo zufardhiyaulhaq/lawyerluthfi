@@ -1023,3 +1023,12 @@
 
 /* CloudCannon editor link spacing */
 .editor-link { margin: 0 0 16px; }
+
+/* ==== Bilingual listings ====
+   Post cards are rendered in both languages and the active language, held on
+   <html lang>, decides which one shows. An Indonesian card with no English
+   twin stays visible in English mode so the list never goes short. */
+html[lang="id"] [data-card-lang="en"],
+html[lang="en"] [data-card-lang="id"][data-card-translated="true"] {
+	display: none;
+}

@@ -9,8 +9,18 @@ navigation_order: 4
 i18n_key: nav.blog
 ---
 
-{% assign visible_posts = site.posts | where_exp: "p", "p.hidden_from_blog != true" %}
+{%- comment -%}
+Every article is listed in both languages. Indonesian posts drive the order;
+each one pulls in its English translation (front matter `pair`) as a sibling
+card. Which card is visible is decided by <html lang>, see _sass/_layout.scss.
+{%- endcomment -%}
+{% assign id_posts = site.posts | where_exp: "p", "p.lang != 'en'" %}
+{% assign visible_posts = id_posts | where_exp: "p", "p.hidden_from_blog != true" %}
 {% assign featured = visible_posts | first %}
+{% assign featured_en = nil %}
+{% if featured.pair and featured.pair != '' %}
+	{% assign featured_en = site.posts | where: "url", featured.pair | first %}
+{% endif %}
 
 <section class="section no-rule" style="padding-bottom: 32px;">
 	<div class="container">
@@ -29,25 +39,12 @@ i18n_key: nav.blog
 {% if featured %}
 	<section class="section no-rule" style="padding-top: 0;" id="blog-featured">
 		<div class="container">
-			<a class="blog-hero" href="{{ site.baseurl }}{{ featured.url }}" style="text-decoration: none; color: inherit;">
-				<div class="feat-thumb">
-					{% if featured.image %}
-						<img src="{% include relative-src.html src=featured.image %}" alt="{{ featured.title }}">
-					{% else %}
-						<div class="stripes"></div>
-					{% endif %}
-				</div>
-				<div>
-					<div class="meta" style="display:flex; gap:12px; font-family: var(--font-mono); font-size:11px; color: var(--muted); letter-spacing:.04em; text-transform:uppercase;">
-						{% if featured.categories.first %}<span>{{ featured.categories.first }}</span><span>·</span>{% endif %}
-						<span>{{ featured.date | date: '%-d %b %Y' }}</span>
-						<span>·</span>
-						<span>{{ featured.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} <span data-i18n="home.read_min">mnt baca</span></span>
-					</div>
-					<h2 style="margin-top: 16px;">{{ featured.title }}</h2>
-					<p class="lead" style="margin-top: 16px;">{{ featured.excerpt | strip_html | truncate: 200 }}</p>
-				</div>
-			</a>
+			{% if featured_en %}
+				{% include blog-hero.html post=featured lang="id" translated=true %}
+				{% include blog-hero.html post=featured_en lang="en" %}
+			{% else %}
+				{% include blog-hero.html post=featured lang="id" %}
+			{% endif %}
 		</div>
 	</section>
 {% endif %}
@@ -59,7 +56,7 @@ i18n_key: nav.blog
 			<li><button type="button" class="chip on" data-filter="*"><span data-i18n="blog.filter.all">Semua</span></button></li>
 			{% for cat in all_categories %}
 				{% if cat != "" %}
-					<li><button type="button" class="chip" data-filter="{{ cat | slugify }}">{{ cat }}</button></li>
+					<li><button type="button" class="chip" data-filter="{{ cat | slugify }}"><span data-i18n="blog.cat.{{ cat | slugify }}">{{ cat }}</span></button></li>
 				{% endif %}
 			{% endfor %}
 		</ul>
@@ -70,26 +67,16 @@ i18n_key: nav.blog
 	<div class="container">
 		<ol class="blog-list" id="blog-list">
 			{% for post in visible_posts %}
-				{% capture cat_slugs %}{% for c in post.categories %}{{ c | slugify }}{% unless forloop.last %} {% endunless %}{% endfor %}{% endcapture %}
-				<li class="post-card" data-cat="{{ cat_slugs }}" {% if forloop.first %}data-featured="true"{% endif %}>
-					<a href="{{ site.baseurl }}{{ post.url }}" style="display:block;">
-						<div class="post-thumb">
-							{% if post.image %}
-								<img src="{% include relative-src.html src=post.image %}" alt="{{ post.title }}">
-							{% else %}
-								<div class="stripes" style="background-image: repeating-linear-gradient({{ forloop.index0 | times: 30 | minus: 30 }}deg, transparent 0 14px, rgba(26,31,44,.06) 14px 15px);"></div>
-							{% endif %}
-							{% if post.categories.first %}<span class="cat">{{ post.categories.first }}</span>{% endif %}
-						</div>
-					</a>
-					<div class="meta">
-						<span>{{ post.date | date: '%-d %b %Y' }}</span>
-						<span>·</span>
-						<span>{{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} <span data-i18n="home.read_min">mnt baca</span></span>
-					</div>
-					<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-					<p class="excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
-				</li>
+				{% assign post_en = nil %}
+				{% if post.pair and post.pair != '' %}
+					{% assign post_en = site.posts | where: "url", post.pair | first %}
+				{% endif %}
+				{% if post_en %}
+					{% include post-card.html post=post lang="id" translated=true index=forloop.index0 featured=forloop.first %}
+					{% include post-card.html post=post_en lang="en" index=forloop.index0 featured=forloop.first %}
+				{% else %}
+					{% include post-card.html post=post lang="id" index=forloop.index0 featured=forloop.first %}
+				{% endif %}
 			{% endfor %}
 		</ol>
 		<p id="blog-empty" style="display:none; text-align:center; color:var(--muted); padding:48px 0; font-family:var(--font-mono); font-size:12px; letter-spacing:.1em; text-transform:uppercase;" data-i18n="blog.empty">Belum ada artikel pada kategori ini.</p>
@@ -102,8 +89,21 @@ i18n_key: nav.blog
 	var cards = document.querySelectorAll("#blog-list .post-card");
 	var featured = document.getElementById("blog-featured");
 	var empty = document.getElementById("blog-empty");
+	var currentFilter = "*";
+
+	// Cards for both languages sit in the same grid; CSS hides the ones that
+	// don't belong to the active language. We mirror that rule here so the
+	// "no articles" message counts only the cards a reader can actually see.
+	function inActiveLang(card) {
+		var lang = document.documentElement.lang === "en" ? "en" : "id";
+		var cardLang = card.getAttribute("data-card-lang") || "id";
+		if (cardLang === lang) return true;
+		// Indonesian original of an article that has no translation yet.
+		return lang === "en" && cardLang === "id" && card.getAttribute("data-card-translated") !== "true";
+	}
 
 	function applyFilter(filter) {
+		currentFilter = filter;
 		var visible = 0;
 		cards.forEach(function (card) {
 			var cats = (card.getAttribute("data-cat") || "").split(/\s+/);
@@ -113,7 +113,7 @@ i18n_key: nav.blog
 			// section above, so we hide its grid duplicate to avoid showing it twice.
 			var show = matchesCat && !(isFeatured && filter === "*");
 			card.style.display = show ? "" : "none";
-			if (show) visible++;
+			if (show && inActiveLang(card)) visible++;
 		});
 		if (featured) featured.style.display = (filter === "*") ? "" : "none";
 		if (empty) empty.style.display = (visible === 0) ? "" : "none";
@@ -133,6 +133,9 @@ i18n_key: nav.blog
 			applyFilter(chip.getAttribute("data-filter"));
 		});
 	});
+
+	// Switching language changes which cards CSS keeps on screen, so recount.
+	document.addEventListener("langchange", function () { applyFilter(currentFilter); });
 
 	// honor incoming hash, e.g. /blog/#hukum-perdata
 	var initial = (window.location.hash || "").replace(/^#/, "");

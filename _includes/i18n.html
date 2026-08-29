@@ -109,9 +109,11 @@
 			"blog.lead": "Dapatkan pengenalan tentang berbagai topik hukum dan tetap terinformasi dengan artikel mendalam kami.",
 			"blog.filter.all": "Semua",
 			"blog.empty": "Belum ada artikel pada kategori ini.",
-			"blog.page": "Halaman",
-			"blog.prev": "← Sebelumnya",
-			"blog.next": "Berikutnya →",
+			"blog.cat.perkawinan-perceraian": "Perkawinan & Perceraian",
+			"blog.cat.warisan": "Warisan",
+			"blog.cat.sengketa": "Sengketa",
+			"blog.cat.hukum-digital": "Hukum Digital",
+			"blog.cat.hukum-perdata": "Hukum Perdata",
 
 			"post.author": "Penulis",
 			"post.keep_reading": "Lanjut Membaca",
@@ -238,9 +240,11 @@
 			"blog.lead": "Stay informed with our in-depth articles on a range of legal topics.",
 			"blog.filter.all": "All",
 			"blog.empty": "No articles in this category yet.",
-			"blog.page": "Page",
-			"blog.prev": "← Previous",
-			"blog.next": "Next →",
+			"blog.cat.perkawinan-perceraian": "Marriage & Divorce",
+			"blog.cat.warisan": "Inheritance",
+			"blog.cat.sengketa": "Disputes",
+			"blog.cat.hukum-digital": "Digital Law",
+			"blog.cat.hukum-perdata": "Civil Law",
 
 			"post.author": "Author",
 			"post.keep_reading": "Keep Reading",
@@ -313,6 +317,9 @@
 		document.querySelectorAll(".lang-toggle button").forEach(function (b) {
 			b.classList.toggle("on", b.getAttribute("data-lang") === lang);
 		});
+		// Post listings swap their cards through CSS keyed on <html lang>; this
+		// lets page scripts react to the change too.
+		document.dispatchEvent(new CustomEvent("langchange", { detail: { lang: lang } }));
 	}
 
 	function setLang(lang) {
