@@ -20,9 +20,9 @@ Everything turns on one step families keep postponing: **balik nama**, transferr
 
 ### Why Postponing Is Costly
 
-While the certificate still bears the deceased's name, the land is not recorded as yours. It cannot be sold or pledged, it cannot be formally subdivided, and your position is weak if someone else claims a right over it.
+While the certificate still bears the deceased's name, the land is not recorded as yours: it cannot be sold, pledged, or formally subdivided, and your position is weak if someone else claims a right over it.
 
-Delay also multiplies the problem. Each time an heir dies before the transfer is completed, that person's share passes again to their own heirs — a family that began as four siblings can become a dozen.
+Delay also multiplies the problem. Each time an heir dies before the transfer is done, that share passes again to their own heirs — a family that began as four siblings can become a dozen.
 
 ### Six Proofs of Heirship the Land Office Accepts
 
@@ -35,7 +35,7 @@ The legal basis is **Article 111 paragraph (1) letter c of Ministerial Regulatio
 - **An *akta keterangan hak mewaris*** — a deed of inheritance rights from a ***Notaris*** (civil-law notary) based in the deceased's last place of residence.
 - **A certificate of inheritance from the *Balai Harta Peninggalan*** (the state Estate Administration Office).
 
-All six stand on equal footing; you need only one. This rule also **no longer divides applicants by population group** as colonial-era practice did — every route is open to every Indonesian citizen.
+All six stand on equal footing; you need only one. The rule also **no longer divides applicants by population group** as colonial-era practice did — every route is open to every Indonesian citizen.
 
 ### Choosing the Right Route
 
@@ -51,15 +51,13 @@ Which court? **Article 49 of Law No. 3 of 2006** provides that the ***Pengadilan
 
 ### When the Estate Has Not Been Divided Yet
 
-Many families postpone the transfer because they have not agreed on shares. **Article 111 paragraph (4)** already solves this: where there is more than one heir and no division has been made, the transfer is registered to **the heirs as joint owners**. Every heir's name goes onto the certificate first; the division can follow later.
-
-If a deed of division has already been made, **paragraph (3)** allows it to be a private deed signed by all heirs before two witnesses, or a notarial deed.
+Many families postpone the transfer because they have not agreed on shares. **Article 111 paragraph (4)** already solves this: where there is more than one heir and no division has been made, the transfer is registered to **the heirs as joint owners**. Every name goes onto the certificate first; the division follows later. If a deed of division exists, **paragraph (3)** allows it to be a private deed signed by all heirs before two witnesses, or a notarial deed.
 
 ### If the Land Is Still Held on *Girik*
 
 If your family's inherited land has never been certified and rests only on *girik* or *Letter C* — old village tax and land records, not titles — its position is now the weakest. **Article 96 paragraph (1) of Government Regulation No. 18 of 2021** required written evidence of former customary land to be registered within five years of that regulation taking effect on 2 February 2021 — a deadline that passed on **2 February 2026**.
 
-Your right to the land is not extinguished; what changed is its evidentiary weight. Under **paragraph (2)**, such a document is now **only a guide** in the registration process rather than proof of title. Registration remains possible, but other supporting evidence matters more. We cover girik, Dutch-era *eigendom*, and freehold title (SHM) in our [guide to land disputes in Purbalingga](/blog/tanah-sengketa-purbalingga-hukum-girik-eigendom-shm/).
+Your right is not extinguished; what changed is its evidentiary weight. Under **paragraph (2)**, such a document is now **only a guide** in registration rather than proof of title. Registration remains possible, but other evidence matters more. We cover girik, Dutch-era *eigendom*, and freehold title (SHM) in our [guide to land disputes in Purbalingga](/sengketa/2025/09/05/tanah-sengketa-purbalingga-hukum-girik-eigendom-shm/).
 
 ### Practical Steps in Purbalingga
 
@@ -73,4 +71,4 @@ Your right to the land is not extinguished; what changed is its evidentiary weig
 
 Transferring inherited land into the heirs' names decides whether your family's right can be defended later. The six routes in **Article 111 of Ministerial Regulation No. 16 of 2021** give ample room. The trouble is almost never the absence of a route — it is choosing the wrong one, or waiting until the heirs have multiplied.
 
-If you are dealing with inherited land in Purbalingga, Banjarnegara, Purwokerto, Banyumas, or Cilacap and are unsure which route fits your family, <b><a href="https://advokatluthfi.com/contact/">Advokat Luthfi</a></b> is ready to help you map the heirs, prepare the documents, and handle the process before the court and the Land Office. Your first consultation is free.
+If you are dealing with inherited land in Purbalingga, Banjarnegara, Purwokerto, Banyumas, or Cilacap and are unsure which route fits, <b><a href="https://advokatluthfi.com/contact/">Advokat Luthfi</a></b> is ready to help you map the heirs, prepare the documents, and handle the process before the court and the Land Office. Your first consultation is free.

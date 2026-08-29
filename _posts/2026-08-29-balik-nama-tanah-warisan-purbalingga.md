@@ -58,7 +58,7 @@ Bila akta pembagian waris sudah dibuat, **ayat (3)** membolehkannya dibuat di ba
 
 Bila tanah warisan keluarga Anda belum bersertipikat dan hanya berbekal girik atau Letter C, posisinya kini paling lemah. **Pasal 96 ayat (1) PP No. 18 Tahun 2021** mewajibkan bukti tertulis tanah bekas milik adat didaftarkan paling lama 5 (lima) tahun sejak peraturan itu berlaku pada 2 Februari 2021 — tenggat yang lewat pada **2 Februari 2026**.
 
-Hak Anda tidak hilang; yang berubah kekuatan pembuktiannya. Menurut **ayat (2)**, dokumen itu kini **hanya menjadi petunjuk** dalam pendaftaran tanah, bukan lagi alat pembuktian hak. Pendaftaran tetap bisa dilakukan, tetapi bukti pendukung lain jadi lebih menentukan. Perbedaan kekuatan girik, eigendom, dan SHM kami bahas dalam [panduan sengketa tanah di Purbalingga](/blog/tanah-sengketa-purbalingga-hukum-girik-eigendom-shm/).
+Hak Anda tidak hilang; yang berubah kekuatan pembuktiannya. Menurut **ayat (2)**, dokumen itu kini **hanya menjadi petunjuk** dalam pendaftaran tanah, bukan lagi alat pembuktian hak. Pendaftaran tetap bisa dilakukan, tetapi bukti pendukung lain jadi lebih menentukan. Perbedaan kekuatan girik, eigendom, dan SHM kami bahas dalam [panduan sengketa tanah di Purbalingga](/sengketa/2025/09/05/tanah-sengketa-purbalingga-hukum-girik-eigendom-shm/).
 
 ### Langkah Praktis di Purbalingga
 
