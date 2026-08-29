@@ -25,9 +25,6 @@ social:
 
 timezone: Asia/Jakarta
 
-paginate: 10
-paginate_path: "/blog/:num/"
-
 collections:
   - "staff_members"
 
@@ -67,7 +64,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-paginate
 
 exclude:
   - Gemfile

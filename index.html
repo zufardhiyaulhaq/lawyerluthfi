@@ -202,28 +202,23 @@ cities:
 			</div>
 			<a class="btn btn-ghost" href="{{ site.baseurl }}/blog/"><span data-i18n="cta.read">Baca Artikel</span>{{ arrow }}</a>
 		</div>
-		{% assign home_visible_posts = site.posts | where_exp: "p", "p.hidden_from_blog != true" %}
+		{%- comment -%}
+		Same bilingual pairing as the journal index: Indonesian posts set the order,
+		each one carrying its English translation as a hidden sibling card.
+		{%- endcomment -%}
+		{% assign home_id_posts = site.posts | where_exp: "p", "p.lang != 'en'" | where_exp: "p", "p.hidden_from_blog != true" %}
 		<ol class="posts">
-			{% for post in home_visible_posts limit:3 %}
-				<li class="post-card">
-					<a href="{{ site.baseurl }}{{ post.url }}" style="display:block;">
-						<div class="post-thumb">
-							{% if post.image %}
-								<img src="{% include relative-src.html src=post.image %}" alt="{{ post.title }}">
-							{% else %}
-								<div class="stripes" style="background-image: repeating-linear-gradient({{ forloop.index0 | times: 30 | minus: 30 }}deg, transparent 0 14px, rgba(26,31,44,.06) 14px 15px);"></div>
-							{% endif %}
-							{% if post.categories.first %}<span class="cat">{{ post.categories.first }}</span>{% endif %}
-						</div>
-					</a>
-					<div class="meta">
-						<span>{{ post.date | date: '%-d %b %Y' }}</span>
-						<span>·</span>
-						<span>{{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} <span data-i18n="home.read_min">mnt baca</span></span>
-					</div>
-					<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-					<p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
-				</li>
+			{% for post in home_id_posts limit:3 %}
+				{% assign post_en = nil %}
+				{% if post.pair and post.pair != '' %}
+					{% assign post_en = site.posts | where: "url", post.pair | first %}
+				{% endif %}
+				{% if post_en %}
+					{% include post-card.html post=post lang="id" translated=true index=forloop.index0 excerpt_length=140 %}
+					{% include post-card.html post=post_en lang="en" index=forloop.index0 excerpt_length=140 %}
+				{% else %}
+					{% include post-card.html post=post lang="id" index=forloop.index0 excerpt_length=140 %}
+				{% endif %}
 			{% endfor %}
 		</ol>
 	</div>

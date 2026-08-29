@@ -1,0 +1,24 @@
+{%- comment -%}
+The large featured article at the top of the journal. Same language rules as
+post-card.html: post, lang, translated.
+{%- endcomment -%}
+{% assign hero = include.post %}
+<a class="blog-hero" href="{{ site.baseurl }}{{ hero.url }}" data-card-lang="{{ include.lang | default: 'id' }}"{% if include.translated %} data-card-translated="true"{% endif %} style="text-decoration: none; color: inherit;">
+	<div class="feat-thumb">
+		{% if hero.image %}
+			<img src="{% include relative-src.html src=hero.image %}" alt="{{ hero.title }}">
+		{% else %}
+			<div class="stripes"></div>
+		{% endif %}
+	</div>
+	<div>
+		<div class="meta" style="display:flex; gap:12px; font-family: var(--font-mono); font-size:11px; color: var(--muted); letter-spacing:.04em; text-transform:uppercase;">
+			{% if hero.categories.first %}<span data-i18n="blog.cat.{{ hero.categories.first | slugify }}">{{ hero.categories.first }}</span><span>·</span>{% endif %}
+			<span>{{ hero.date | date: '%-d %b %Y' }}</span>
+			<span>·</span>
+			<span>{{ hero.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} <span data-i18n="home.read_min">mnt baca</span></span>
+		</div>
+		<h2 style="margin-top: 16px;">{{ hero.title }}</h2>
+		<p class="lead" style="margin-top: 16px;">{{ hero.excerpt | strip_html | truncate: 200 }}</p>
+	</div>
+</a>
