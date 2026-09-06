@@ -66,7 +66,7 @@ Perceraian adalah langkah hukum yang kompleks di Indonesia, diatur oleh **UU No.
 - **Prinsip 50:50**, kecuali ada perjanjian pranikah (Pasal 37 UU Perkawinan).  
 - Harta bawaan/hibah dikembalikan ke pemilik asal.  
 - Utang selama pernikahan dibagi sesuai kesepakatan atau putusan pengadilan.  
-*(Baca: [Hukum Harta Gono-Gini di Indonesia](/harta-gono-gini-indonesia))*
+*(Baca: [Hukum Harta Gono-Gini di Indonesia](/perkawinan%20&%20perceraian/2025/01/29/harta-gono-gini/))*
 
 ---
 
