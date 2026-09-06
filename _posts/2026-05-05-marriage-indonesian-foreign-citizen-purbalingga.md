@@ -49,7 +49,7 @@ Without a prenuptial agreement, Indonesian law applies **community of property**
 - A foreign spouse cannot hold land under **freehold title (SHM)** in Indonesia. Because property is treated as joint, the Indonesian spouse can also lose the right to hold SHM over land purchased after marriage.
 - Business assets the Indonesian spouse owned before marriage may be treated as joint property if they become commingled during the marriage.
 
-The remedy is a **separation-of-property agreement** signed before or during the marriage. Thanks to **Constitutional Court Decision No. 69/PUU-XIII/2015**, this agreement is no longer required to be made before the wedding — it can be made at any point during the marriage. For a deeper guide, read [A Concise Guide to Prenuptial Agreements in Purbalingga](/blog/panduan-ringkas-perjanjian-pranikah-purbalingga/).
+The remedy is a **separation-of-property agreement** signed before or during the marriage. Thanks to **Constitutional Court Decision No. 69/PUU-XIII/2015**, this agreement is no longer required to be made before the wedding — it can be made at any point during the marriage. For a deeper guide, read [A Concise Guide to Prenuptial Agreements in Purbalingga](/perkawinan%20&%20perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga/).
 
 ### A Child's Citizenship Status
 
