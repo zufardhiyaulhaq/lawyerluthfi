@@ -1,6 +1,6 @@
 <div class="staff-details">
 	<div class="staff-image">
-		<img src="{% include relative-src.html src=include.member.image %}" alt="Staff photo for {{ include.member.name }}" width="120" height="120">
+		<img src="{% include relative-src.html src=include.member.image %}" alt="Staff photo for {{ include.member.name }}" width="120" height="120" loading="lazy" decoding="async">
 	</div>
 	<ul class="staff-info">
 		<li>{{ include.member.name }}</li>

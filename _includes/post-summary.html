@@ -2,7 +2,7 @@
 	<a href="{{ site.baseurl }}{{ include.post.url }}" style="display:block;">
 		<div class="post-thumb">
 			{% if include.post.image %}
-				<img src="{% include relative-src.html src=include.post.image %}" alt="{{ include.post.title }}">
+				<img src="{% include relative-src.html src=include.post.image %}" alt="{{ include.post.title }}" width="1200" height="900" loading="lazy" decoding="async">
 			{% else %}
 				<div class="stripes" style="background-image: repeating-linear-gradient({{ forloop.index0 | times: 30 | minus: 30 }}deg, transparent 0 14px, rgba(26,31,44,.06) 14px 15px);"></div>
 			{% endif %}

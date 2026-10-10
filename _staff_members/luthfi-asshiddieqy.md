@@ -1,6 +1,6 @@
 ---
 name: Luthfi Asshiddieqy, S.H
-image: /uploads/luthfi.png
+image: /uploads/luthfi.jpg
 credentials: "17.01703"
 ---
 

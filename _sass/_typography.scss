@@ -12,8 +12,8 @@
 	--muted-2: #8A92A0;
 	--rule: #DDD7C9;
 	--rule-2: #E6E1D5;
-	--accent: oklch(0.62 0.09 65);   /* warm brass */
-	--accent-2: oklch(0.55 0.10 60); /* deeper brass */
+	--accent: oklch(0.64 0.09 65);   /* warm brass — nudged for WCAG AA on dark */
+	--accent-2: oklch(0.50 0.10 60); /* deeper brass — darkened for WCAG AA on light */
 	--accent-soft: oklch(0.92 0.04 75);
 	--paper: #FFFFFF;
 
@@ -67,6 +67,17 @@ a {
 a:hover { color: var(--accent-2); }
 
 img { max-width: 100%; display: block; }
+
+/* Visually hidden, but available to screen readers */
+.sr-only {
+	position: absolute;
+	width: 1px; height: 1px;
+	padding: 0; margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
 
 button { font: inherit; cursor: pointer; }
 

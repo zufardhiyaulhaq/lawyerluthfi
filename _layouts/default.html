@@ -7,11 +7,17 @@
 		{% seo %}
 		{% feed_meta %}
 
+		{% if page.url == '/' %}<link rel="preload" as="image" href="{{ site.baseurl }}/uploads/building.jpg" fetchpriority="high">{% endif %}
+
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
-		<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+		{%- comment -%}
+		Critical CSS is inlined to remove the render-blocking stylesheet request.
+		scssify compiles the same partials as css/main.scss using the _sass load path.
+		{%- endcomment -%}
+		<style>{% capture site_css %}@import "typography"; @import "layout"; @import "forms"; @import "cloudcannon";{% endcapture %}{{ site_css | scssify }}</style>
 
 		<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/touch-icon.png" sizes="192x192">
@@ -65,8 +71,9 @@
 							<span data-i18n="cta.consult">Konsultasi Gratis</span>
 							<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
 						</a>
-						<label class="hamburger" for="nav-toggle" aria-label="menu">
-							<span></span><span></span><span></span>
+						<label class="hamburger" for="nav-toggle">
+							<span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+							<span class="sr-only" data-i18n="nav.menu">Menu</span>
 						</label>
 					</div>
 				</div>
@@ -74,7 +81,7 @@
 
 			<input type="checkbox" id="nav-toggle">
 			<nav class="mobile-menu">
-				<label class="close" for="nav-toggle" aria-label="close">×</label>
+				<label class="close" for="nav-toggle"><span aria-hidden="true">×</span><span class="sr-only" data-i18n="nav.close">Tutup menu</span></label>
 				<ul>
 					<li><a href="{{ site.baseurl }}/" data-i18n="nav.home">Beranda</a></li>
 					{% for nav_page in nav_pages %}
@@ -145,7 +152,7 @@
 
 					{% for column in site.data.footer %}
 						<div class="col">
-							<h4 {% if column.i18n_key %}data-i18n="{{ column.i18n_key }}"{% endif %}>{{ column.title }}</h4>
+							<h2 {% if column.i18n_key %}data-i18n="{{ column.i18n_key }}"{% endif %}>{{ column.title }}</h2>
 							<ul>
 								{% for link in column.links %}
 									<li>
@@ -159,7 +166,7 @@
 					{% endfor %}
 
 					<div class="col">
-						<h4 data-i18n="footer.contact">Kontak</h4>
+						<h2 data-i18n="footer.contact">Kontak</h2>
 						<ul>
 							<li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a></li>
 							<li><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></li>
