@@ -17,7 +17,7 @@ Manfaat utama dari perjanjian pranikah sangat strategis:
 - Pemisahan Utang yang Jelas: Utang yang dibuat oleh satu pihak tetap menjadi tanggung jawab pribadinya, melindungi pasangan dari beban utang tersebut.  
 - Mencegah Konflik: Aturan yang jelas sejak awal dapat menghindari perselisihan sengit mengenai harta jika terjadi perceraian atau kematian.
 
-### Isi Perjanjian dan Batasan Hukumnya
+## Isi Perjanjian dan Batasan Hukumnya
 
 Isi perjanjian pranikah bisa disesuaikan, namun umumnya mencakup:
 - Pengaturan Harta: Menentukan apakah harta akan dipisah total, digabung sebagian, atau diatur secara khusus.   
@@ -27,7 +27,7 @@ Isi perjanjian pranikah bisa disesuaikan, namun umumnya mencakup:
 
 Meskipun bebas, isi perjanjian tidak boleh bertentangan dengan hukum, tata susila, dan ketertiban umum. Perjanjian juga harus memenuhi syarat sahnya perjanjian sesuai Pasal 1320 KUH Perdata.   
 
-### Memilih Profesional yang Tepat: Notaris vs. Pengacara
+## Memilih Profesional yang Tepat: Notaris vs. Pengacara
 
 Seringkali orang bingung antara peran notaris dan pengacara. Keduanya penting, tetapi fungsinya berbeda.
 
@@ -36,7 +36,7 @@ Seringkali orang bingung antara peran notaris dan pengacara. Keduanya penting, t
 
 Untuk perlindungan maksimal, proses idealnya adalah: berkonsultasi dulu dengan pengacara untuk menyusun draf perjanjian yang kuat, lalu membawa draf final ke notaris untuk disahkan menjadi akta otentik. Melewatkan jasa pengacara bisa berisiko, terutama jika aset yang dilindungi nilainya besar.
 
-### Langkah Praktis Membuat Perjanjian Pranikah di Purbalingga
+## Langkah Praktis Membuat Perjanjian Pranikah di Purbalingga
 
 1. Diskusi dengan Pasangan: Bicarakan secara terbuka mengenai aset, utang, dan apa saja yang ingin diatur dalam perjanjian.   
 2. Hubungi Ahli Hukum: Konsultasikan hasil diskusi Anda dengan pengacara atau notaris. Siapkan dokumen seperti KTP dan KK.  
@@ -46,12 +46,12 @@ Untuk perlindungan maksimal, proses idealnya adalah: berkonsultasi dulu dengan p
 
 ![infografik perjanjian pranikah](https://ik.imagekit.io/4mjt7d3c3/202511/image.png)
 
-### Pertimbangan Biaya
+## Pertimbangan Biaya
 
 Biaya pembuatan perjanjian pranikah bervariasi, tergantung kerumitan dan profesional yang dipilih. Biaya jasa notaris umumnya berkisar antara Rp 3 juta hingga Rp 5 juta atau lebih. Beberapa paket yang sudah termasuk konsultasi bisa mencapai Rp 5 juta hingga Rp 7,5 juta.  
 
 Anggaplah biaya ini sebagai investasi untuk melindungi aset yang nilainya jauh lebih besar dan untuk ketenangan pikiran di masa depan. Biaya ini jauh lebih kecil dibandingkan potensi kerugian finansial dan biaya sengketa yang mahal di kemudian hari.
 
-### Kesimpulan: 
+## Kesimpulan: 
 
 Perjanjian pranikah adalah langkah cerdas bagi pasangan modern di Purbalingga untuk membangun masa depan yang aman secara hukum. Bagi Anda yang berada di Purbalingga dan sekitarnya (Banyumas, Banjarnegara, Cilacap), jangan ragu mengambil langkah pertama dengan berkonsultasi ke kantor hukum <b><a href="https://advokatluthfi.com/contact/">Advokat Luthfi</a></b> untuk memahami kebutuhan spesifik Anda dan pasangan.

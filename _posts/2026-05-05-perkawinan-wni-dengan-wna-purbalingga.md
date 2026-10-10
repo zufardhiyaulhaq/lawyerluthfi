@@ -14,7 +14,7 @@ Pernikahan antara Warga Negara Indonesia (WNI) dengan Warga Negara Asing (WNA) �
 
 Sayangnya, banyak pasangan baru menyadari rumitnya proses administratif dan implikasi hukumnya setelah pernikahan berlangsung. Mulai dari surat menyurat lintas negara, status harta bersama, hingga kewarganegaraan anak. Artikel ini merangkum apa saja yang perlu Anda siapkan sebelum melangsungkan perkawinan campuran di Purbalingga.
 
-### Landasan Hukum yang Berlaku
+## Landasan Hukum yang Berlaku
 
 Perkawinan campuran diatur dalam **Pasal 57 UU No. 1 Tahun 1974 tentang Perkawinan**, yaitu perkawinan antara dua orang yang tunduk pada hukum yang berbeda karena perbedaan kewarganegaraan, dan salah satunya WNI. Perkawinan ini sah secara hukum Indonesia bila dilakukan menurut hukum agama masing-masing dan dicatat sesuai peraturan yang berlaku.
 
@@ -22,7 +22,7 @@ Selain itu, dua aturan turunan yang sangat penting:
 - **UU No. 12 Tahun 2006 tentang Kewarganegaraan RI** — mengatur status kewarganegaraan anak hasil perkawinan campuran (kewarganegaraan ganda terbatas hingga usia 18 tahun).
 - **UU No. 5 Tahun 1960 (UUPA)** — membatasi hak WNA atas tanah di Indonesia.
 
-### Dokumen yang Wajib Disiapkan
+## Dokumen yang Wajib Disiapkan
 
 Pasangan WNA wajib melengkapi dokumen yang lebih banyak dibanding pasangan domestik. Yang paling sering luput:
 
@@ -34,14 +34,14 @@ Pasangan WNA wajib melengkapi dokumen yang lebih banyak dibanding pasangan domes
 
 Semua dokumen asing harus dilegalisasi (apostille atau legalisasi kedutaan) dan diterjemahkan secara resmi sebelum bisa digunakan di kantor catatan sipil atau KUA Purbalingga.
 
-### Pencatatan: KUA atau Dinas Dukcapil?
+## Pencatatan: KUA atau Dinas Dukcapil?
 
 - **KUA** — bila kedua mempelai beragama Islam. Pasangan WNA umumnya wajib menyertakan surat masuk Islam (mualaf) bila sebelumnya bukan Muslim.
 - **Dinas Dukcapil** — bila perkawinan dilakukan menurut agama selain Islam. Pencatatan dilakukan setelah pemberkatan/upacara keagamaan.
 
 Pencatatan di Purbalingga sebaiknya dilakukan paling lambat **60 hari** setelah perkawinan dilangsungkan, agar status hukumnya kuat dan dapat diakui oleh negara asal pasangan WNA.
 
-### Harta Bersama: Mengapa Perjanjian Pranikah Sangat Penting
+## Harta Bersama: Mengapa Perjanjian Pranikah Sangat Penting
 
 Tanpa perjanjian pranikah, secara hukum Indonesia berlaku **percampuran harta** sejak hari pernikahan. Konsekuensinya berat bagi pasangan campuran:
 
@@ -50,7 +50,7 @@ Tanpa perjanjian pranikah, secara hukum Indonesia berlaku **percampuran harta** 
 
 Solusinya adalah membuat **perjanjian pisah harta** sebelum atau selama perkawinan. Berkat **Putusan MK No. 69/PUU-XIII/2015**, perjanjian ini tidak lagi wajib dibuat sebelum menikah — bisa dibuat kapan saja selama perkawinan masih berlangsung. Untuk panduan rinci, baca [Panduan Ringkas Perjanjian Pranikah di Purbalingga](/perkawinan%20&%20perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga/).
 
-### Status Kewarganegaraan Anak
+## Status Kewarganegaraan Anak
 
 Anak hasil perkawinan campuran memperoleh **kewarganegaraan ganda terbatas** sampai usia 18 tahun (atau 21 tahun jika belum menikah). Setelahnya, anak harus memilih salah satu kewarganegaraan dalam waktu 3 tahun.
 
@@ -59,7 +59,7 @@ Yang perlu segera dilakukan setelah anak lahir:
 2. Daftarkan kewarganegaraan ganda ke Kanwil Kemenkumham (paling lambat sebelum anak berusia 18 tahun).
 3. Urus paspor kedua negara bila diperlukan.
 
-### Kepemilikan Tanah dan Properti
+## Kepemilikan Tanah dan Properti
 
 Ini adalah area yang paling sering menimbulkan sengketa di kemudian hari. Aturan dasarnya:
 
@@ -67,7 +67,7 @@ Ini adalah area yang paling sering menimbulkan sengketa di kemudian hari. Aturan
 - **WNI yang menikah dengan WNA tanpa perjanjian pisah harta** kehilangan hak untuk memiliki tanah SHM — karena seluruh aset dianggap bercampur dengan pasangan WNA-nya.
 - Untuk tetap bisa memiliki rumah ber-SHM atas nama WNI, **wajib ada perjanjian pisah harta** yang dibuat sebelum atau selama perkawinan.
 
-### Langkah Praktis di Purbalingga
+## Langkah Praktis di Purbalingga
 
 1. **Konsultasi awal** dengan advokat untuk memetakan dokumen dan perjanjian pisah harta yang dibutuhkan.
 2. **Pengurusan CNI** di kedutaan negara asal WNA, sekaligus legalisasi dokumen.
@@ -76,7 +76,7 @@ Ini adalah area yang paling sering menimbulkan sengketa di kemudian hari. Aturan
 5. **Pencatatan** ke KUA atau Dinas Dukcapil Purbalingga dalam 60 hari.
 6. **Pelaporan** perkawinan ke kedutaan negara asal WNA agar diakui di sana juga.
 
-### Kesimpulan
+## Kesimpulan
 
 Perkawinan campuran di Purbalingga sepenuhnya legal dan banyak dijalani dengan baik — selama persiapan administratif dan hukumnya tidak diabaikan. Yang sering menjadi sumber masalah adalah hal-hal kecil yang terlihat sepele: dokumen yang tidak dilegalisasi, perjanjian pisah harta yang dibuat terlambat, atau pelaporan kelahiran anak yang lewat batas waktu.
 

@@ -12,11 +12,11 @@ Sengketa tanah seringkali berawal dari masalah yang dianggap sepele: warisan yan
 
 Perasaan aman yang keliru inilah yang menjadi celah terbesar bagi pihak lain untuk merebut hak Anda. Artikel ini hadir sebagai panduan penting bagi warga Purbalingga untuk memahami perbedaan mendasar antara kekuatan hukum Girik, Eigendom, dan Sertifikat Hak Milik (SHM). Memahami ini adalah langkah pertama untuk melindungi aset tanah Anda dari sengketa di kemudian hari.
 
-### Jejak Kepemilikan Lama: Membedah Kelemahan Girik dan Eigendom
+## Jejak Kepemilikan Lama: Membedah Kelemahan Girik dan Eigendom
 
 Banyak tanah di Purbalingga yang kepemilikannya masih didasarkan pada bukti-bukti lama dari zaman kolonial. Penting untuk memahami status hukum dan kelemahan dari masing-masing bukti tersebut.
 
-#### Girik: Bukti Pajak, Bukan Bukti Kepemilikan
+### Girik: Bukti Pajak, Bukan Bukti Kepemilikan
 
 Banyak masyarakat yang keliru menganggap Girik (atau disebut juga Letter C, Petuk D, atau Kekitir) sebagai sertifikat kepemilikan tanah. Kenyataannya, Girik bukanlah bukti hak atas tanah. Girik pada dasarnya adalah bukti pembayaran pajak atas tanah kepada pemerintah pada zaman dahulu.
 
@@ -24,7 +24,7 @@ Untuk mempermudah pemahaman, bayangkan Anda memiliki sepeda motor. Memegang Giri
 
 Sejak berlakunya Undang-Undang Pokok Agraria (UUPA) pada tahun 1960, Girik tidak lagi diakui sebagai bukti kepemilikan yang sah. Di pengadilan, Girik hanya dianggap sebagai "alat bukti permulaan". Artinya, jika terjadi sengketa, Anda harus bisa membuktikan kepemilikan dengan bukti-bukti tambahan yang kuat, seperti penguasaan fisik tanah secara terus-menerus selama puluhan tahun dan adanya saksi-saksi yang kredibel. Posisi hukum Anda dengan hanya berbekal Girik sangatlah rapuh.
 
-#### Eigendom Verponding: Hak Milik Kolonial yang Sudah Berakhir
+### Eigendom Verponding: Hak Milik Kolonial yang Sudah Berakhir
 
 Berbeda dengan Girik yang merupakan bukti pajak, Eigendom Verponding adalah bukti hak milik mutlak pada masa pemerintahan kolonial Belanda. Pada masanya, ini adalah bukti kepemilikan terkuat. Namun, statusnya berubah total setelah kemerdekaan Indonesia.
 
@@ -32,7 +32,7 @@ UUPA 1960 mengamanatkan bahwa semua hak tanah peninggalan Barat, termasuk Eigend
 
 Apa akibatnya jika tanah Eigendom Anda belum dikonversi hingga saat ini? Secara hukum, tanah tersebut statusnya jatuh menjadi tanah yang dikuasai langsung oleh Negara. Anda sebagai mantan pemegang hak memang memiliki prioritas untuk mengajukan permohonan hak baru atas tanah tersebut, namun prosesnya bukan lagi "konversi" sederhana, melainkan "pengajuan hak baru". Ini adalah situasi yang sangat berisiko. Jika Anda menunda, ada kemungkinan pihak lain dapat mengajukan permohonan hak atas tanah negara tersebut dan memperolehnya secara sah.
 
-### Sertifikat Hak Milik (SHM): Benteng Pertahanan Hukum Tertinggi
+## Sertifikat Hak Milik (SHM): Benteng Pertahanan Hukum Tertinggi
 
 Sertifikat Hak Milik (SHM) adalah bukti kepemilikan atas tanah yang paling tinggi dan paling kuat menurut hukum yang berlaku di Indonesia. Sesuai Pasal 20 UUPA, SHM adalah hak yang bersifat "turun-temurun, terkuat, dan terpenuh".
 
@@ -45,7 +45,7 @@ Namun, perlu diingat, meskipun terkuat, SHM tidak kebal hukum 100%. SHM dapat di
 
 ![infografik hukum girik eigendom dan shm](https://ik.imagekit.io/4mjt7d3c3/202509/image.png)
 
-### Perbandingan Kekuatan di Mata Hukum
+## Perbandingan Kekuatan di Mata Hukum
 
 Untuk melihat perbedaan secara jelas, perhatikan tabel perbandingan berikut:
 
@@ -57,9 +57,9 @@ Untuk melihat perbedaan secara jelas, perhatikan tabel perbandingan berikut:
 | Kekuatan di Pengadilan | Lemah, harus didukung bukti lain (penguasaan fisik, saksi) | Tidak diakui sebagai hak yang melekat        | Sangat Kuat, data dianggap benar selama tidak dibuktikan sebaliknya |
 | Fungsi Agunan Bank     | Tidak Dapat Diterima                                       | Tidak Dapat Diterima                         | Diterima oleh Semua Lembaga Keuangan                                |
 
-### Panduan Praktis Mengubah Girik Menjadi SHM di Purbalingga
+## Panduan Praktis Mengubah Girik Menjadi SHM di Purbalingga
 
-#### Tahap 1: Pengurusan di Kantor Desa/Kelurahan
+### Tahap 1: Pengurusan di Kantor Desa/Kelurahan
 
 Ini adalah tahap fondasi untuk membuktikan riwayat dan status tanah Anda. Dokumen yang perlu diurus antara lain:
 
@@ -67,7 +67,7 @@ Ini adalah tahap fondasi untuk membuktikan riwayat dan status tanah Anda. Dokume
 2. Surat Keterangan Riwayat Tanah: Dokumen ini menjelaskan sejarah kepemilikan tanah secara turun-temurun, dari pencatatan pertama di buku desa (Letter C) hingga ke tangan Anda saat ini.
 3. Surat Keterangan Penguasaan Tanah Secara Sporadik: Ini adalah surat pernyataan dari Anda yang menegaskan bahwa Anda benar-benar menguasai tanah tersebut secara fisik, yang juga diketahui oleh Kepala Desa/Lurah.
 
-#### Tahap 2: Pendaftaran di Kantor Pertanahan (BPN) Purbalingga
+### Tahap 2: Pendaftaran di Kantor Pertanahan (BPN) Purbalingga
 
 Setelah semua surat dari desa/kelurahan lengkap, lanjutkan proses ke BPN Purbalingga:
 
@@ -76,7 +76,7 @@ Setelah semua surat dari desa/kelurahan lengkap, lanjutkan proses ke BPN Purbali
 3. Pemeriksaan Panitia A dan Pengumuman: Data tanah Anda akan diperiksa oleh tim khusus (Panitia A). Setelah itu, data akan diumumkan selama 60 hari di kantor desa dan BPN untuk memberi kesempatan jika ada pihak yang berkeberatan.
 4. Penerbitan SHM: Jika tidak ada sanggahan selama masa pengumuman, BPN akan menerbitkan Surat Keputusan (SK) Hak Atas Tanah. Setelah Anda melunasi Bea Perolehan Hak atas Tanah dan Bangunan (BPHTB), SHM akan diterbitkan dan siap Anda ambil.
 
-### Kesimpulan: Jangan Menunggu Sengketa Datang
+## Kesimpulan: Jangan Menunggu Sengketa Datang
 
 Memiliki tanah yang hanya berbekal Girik atau Eigendom Verponding adalah seperti membangun rumah tanpa fondasi yang kokoh. Anda mungkin merasa aman untuk sementara, tetapi sangat rentan terhadap gugatan dan sengketa yang bisa membuat Anda kehilangan aset paling berharga.
 

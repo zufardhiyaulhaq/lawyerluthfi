@@ -14,7 +14,7 @@ Dasar hukumnya sudah ada jauh sebelum internet populer, yaitu Perbuatan Melawan 
 
 Kekuatan pasal ini terletak pada penafsirannya yang luas. "Melawan hukum" tidak hanya berarti melanggar undang-undang, tetapi juga mencakup perbuatan yang bertentangan dengan hak orang lain (seperti hak atas reputasi dan privasi), kesusilaan, serta kepatutan dan kehati-hatian dalam masyarakat. Inilah jembatan hukum yang memungkinkan Anda menuntut keadilan atas kerugian yang Anda alami di dunia maya.
 
-### Kejahatan Digital yang Bisa Anda Gugat Secara Perdata
+## Kejahatan Digital yang Bisa Anda Gugat Secara Perdata
 
 Gugatan perdata (PMH) bertujuan untuk memulihkan kerugian Anda, berbeda dengan laporan pidana (UU ITE) yang bertujuan menghukum pelaku. Berikut adalah beberapa tindakan digital yang dapat Anda gugat untuk menuntut kompensasi.
 
@@ -30,7 +30,7 @@ Menyebarkan berita bohong yang merugikan konsumen dilarang oleh Pasal 28 ayat (1
 
 Doxing—tindakan menyebarkan data pribadi tanpa izin untuk meneror atau mempermalukan—adalah pelanggaran serius terhadap hak privasi yang dijamin UU Pelindungan Data Pribadi (UU PDP). Praktik debt collector pinjol yang menyebar data nasabah adalah contoh paling umum. Korban doxing dapat mengajukan gugatan PMH untuk menuntut ganti rugi tidak hanya materiil (jika data dipakai untuk menipu), tetapi juga immateriil, seperti rasa takut, cemas, dan teror psikologis yang dialami.
 
-### Membangun Gugatan PMH Digital yang Kuat
+## Membangun Gugatan PMH Digital yang Kuat
 
 Untuk memenangkan gugatan, Anda harus membuktikan empat unsur wajib di pengadilan.  
 
@@ -39,7 +39,7 @@ Untuk memenangkan gugatan, Anda harus membuktikan empat unsur wajib di pengadila
 3. Ada Kerugian: Rincikan kerugian yang Anda alami, baik materiil (penurunan omzet, biaya pemulihan) maupun immateriil (stres, rasa malu, reputasi rusak).
 4. Ada Hubungan Sebab-Akibat: Buktikan bahwa kerugian Anda disebabkan langsung oleh perbuatan pelaku.
 
-#### Bukti Digital dan Menghitung Kerugian
+### Bukti Digital dan Menghitung Kerugian
 
 Kabar baiknya, UU ITE mengakui bukti elektronik seperti screenshot, URL, dan rekaman percakapan sebagai alat bukti yang sah. Namun, pastikan Anda menjaga keasliannya. Simpan tautan asli, rekam layar untuk konten yang bisa hilang, dan jika perlu, gunakan saksi yang juga melihat konten tersebut.  
 
@@ -50,7 +50,7 @@ Saat menuntut ganti rugi:
 
 ![infografik hukum ranah digital indonesia](https://ik.imagekit.io/4mjt7d3c3/infografik-kejahatan-digital.png)
 
-### Langkah Praktis Jika Anda Menjadi Korban
+## Langkah Praktis Jika Anda Menjadi Korban
 
 Jika Anda menjadi target serangan digital, jangan panik. Lakukan langkah-langkah berikut:
 
@@ -59,7 +59,7 @@ Jika Anda menjadi target serangan digital, jangan panik. Lakukan langkah-langkah
 3. Jangan Terlibat Perang di Media Sosial: Menyerang balik hanya akan memperkeruh suasana dan berpotensi merusak citra Anda lebih jauh. Biarkan proses hukum yang berjalan.
 4. Konsultasikan dengan Pengacara Spesialis: Kasus PMH digital sangat kompleks, melibatkan persinggungan antara Hukum Perdata, UU ITE, dan UU PDP. Anda butuh pengacara yang memahami dinamika pembuktian digital dan bisa merumuskan strategi hukum yang tepat.
 
-### Butuh Bantuan Hukum?
+## Butuh Bantuan Hukum?
 
 Menghadapi sengketa digital membutuhkan keahlian khusus. Anda memerlukan mitra hukum yang tidak hanya paham hukum perdata, tetapi juga menguasai teknologi dan seluk-beluk UU ITE serta UU PDP. kantor Hukum Advokat Luthfi memiliki keahlian spesifik untuk menangani kasus-kasus PMH digital yang kompleks. Kami siap membantu Anda menganalisis kekuatan kasus, menyusun strategi, dan memperjuangkan hak Anda untuk mendapatkan keadilan dan kompensasi.
 

@@ -14,7 +14,7 @@ Dalam setiap hubungan hukum, baik dalam dunia bisnis, ketenagakerjaan, maupun ke
 
 ---
 
-### Peran Konsultan Hukum dalam Penyelesaian Sengketa
+## Peran Konsultan Hukum dalam Penyelesaian Sengketa
 
 Konsultan hukum memiliki peran strategis dalam membantu individu maupun perusahaan menyelesaikan sengketa secara efisien. Beberapa peran utama konsultan hukum dalam penyelesaian sengketa meliputi:
 
@@ -27,7 +27,7 @@ Konsultan hukum memiliki peran strategis dalam membantu individu maupun perusaha
 
 ---
 
-### Arbitrase Sebagai Alternatif Penyelesaian Sengketa
+## Arbitrase Sebagai Alternatif Penyelesaian Sengketa
 
 Salah satu metode penyelesaian sengketa yang semakin banyak digunakan adalah arbitrase. Berdasarkan Undang-Undang Nomor 30 Tahun 1999 tentang Arbitrase dan Alternatif Penyelesaian Sengketa, arbitrase menjadi pilihan yang efektif untuk menyelesaikan perselisihan secara lebih cepat dan rahasia dibandingkan dengan proses peradilan umum.
 
@@ -38,7 +38,7 @@ Dalam hal ini, konsultan hukum memainkan peran penting dalam membantu klien mema
 
 ---
 
-### Manfaat Menggunakan Jasa Konsultan Hukum
+## Manfaat Menggunakan Jasa Konsultan Hukum
 
 Menggunakan jasa konsultan hukum dalam penyelesaian sengketa memberikan berbagai manfaat, antara lain:
 

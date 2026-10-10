@@ -17,11 +17,11 @@ Banyak warga Purbalingga memegang tanah warisan dengan bukti berupa girik, petok
 
 Jawaban singkatnya: tidak. Berita-berita itu menyederhanakan satu aturan sampai salah arah. Artikel ini menjelaskan apa yang sebenarnya diatur, beda antara kehilangan kekuatan sebagai bukti dan kehilangan hak atas tanah, serta apa yang sebaiknya Anda lakukan sekarang.
 
-### "Girik Dihapus 2026" — Memisahkan Kabar dari Aturan
+## "Girik Dihapus 2026" — Memisahkan Kabar dari Aturan
 
 Yang benar-benar terjadi hanyalah berakhirnya satu tenggat pendaftaran, bukan penyitaan tanah. Tidak ada pasal yang menyatakan tanah girik otomatis menjadi milik negara begitu 2 Februari 2026 terlewati. Kementerian ATR/BPN sendiri secara terbuka membantah kabar bahwa tanah rakyat akan dirampas, dan menegaskan girik yang belum didaftarkan tetap bisa diproses. Istilah hukumnya halus dan mudah salah kutip, maka mari kita baca aturannya langsung.
 
-### Apa yang Benar-benar Diatur Pasal 96 PP No. 18 Tahun 2021
+## Apa yang Benar-benar Diatur Pasal 96 PP No. 18 Tahun 2021
 
 Sumber semua kabar ini adalah **Pasal 96 ayat (1) PP No. 18 Tahun 2021 tentang Pelaksanaan UU Cipta Kerja di bidang pertanahan**: alat bukti tertulis tanah bekas milik adat milik perorangan **wajib didaftarkan dalam jangka waktu paling lama 5 (lima) tahun** sejak Peraturan Pemerintah ini berlaku. PP ini berlaku sejak 2 Februari 2021, maka tenggatnya jatuh pada 2 Februari 2026.
 
@@ -29,7 +29,7 @@ Kuncinya ada di ayat berikutnya. **Pasal 96 ayat (2) PP No. 18 Tahun 2021** meny
 
 Perhatikan yang diturunkan: **nilai girik sebagai alat bukti**, bukan **hak Anda atas tanahnya**. Girik tidak lagi berdiri sendiri sebagai bukti kepemilikan, tetapi tetap sah sebagai "petunjuk" untuk mendaftarkan tanah. Hak bekas milik adat Anda tidak dihapus oleh lewatnya tenggat; yang berkurang hanya kekuatan pembuktian suratnya.
 
-### Beda Penting yang Sering Dikaburkan
+## Beda Penting yang Sering Dikaburkan
 
 Banyak artikel keliru dan justru membenarkan ketakutan yang salah. PP 18/2021 mengatur tiga hal berbeda yang kerap dicampur:
 
@@ -39,7 +39,7 @@ Banyak artikel keliru dan justru membenarkan ketakutan yang salah. PP 18/2021 me
 
 Jangan samakan girik (adat) dengan eigendom (barat); judul berita yang menggabungkan keduanya itulah sumber kepanikan. Dasar hukum tanah kita tetap **UU No. 5 Tahun 1960 (UUPA)**, yang mengakui hak atas tanah milik adat untuk didaftarkan menjadi hak milik.
 
-### Girik atau Letter C Anda Masih Berguna — Daftarkan Jadi SHM
+## Girik atau Letter C Anda Masih Berguna — Daftarkan Jadi SHM
 
 Langkah tepat sekarang bukan membuang girik, melainkan memakainya sebagai **alas hak** untuk mendaftarkan tanah dan memperoleh Sertifikat Hak Milik (SHM). Pendaftaran ditempuh lewat **Pendaftaran Tanah Sistematis Lengkap (PTSL)** bila wilayah Anda masuk program tahun berjalan, atau lewat pendaftaran sporadik (mandiri) di Kantor Pertanahan bila belum. Dasar pelaksanaan PTSL adalah **Permen ATR/BPN No. 6 Tahun 2018**.
 
@@ -53,7 +53,7 @@ Karena girik kini berstatus petunjuk, perkuat dengan bukti pendukung berikut:
 
 Untuk memahami beda kekuatan hukum girik, eigendom, dan SHM, baca [panduan girik, eigendom, dan SHM di Purbalingga](/sengketa/2025/09/05/tanah-sengketa-purbalingga-hukum-girik-eigendom-shm/). Bila tanahnya hendak dijual atau dibeli, pelajari juga [panduan beli tanah tanpa tertipu](/sengketa/2026/09/13/beli-tanah-aman-ppat-purbalingga/). Perlu dicatat, aturan teknis pendaftaran lama **PP No. 24 Tahun 1997** kini berstatus diperdebatkan setelah dinyatakan dicabut lewat peraturan menteri, sehingga prosedur terkini sebaiknya Anda pastikan langsung ke Kantor Pertanahan setempat.
 
-### Langkah Praktis di Purbalingga
+## Langkah Praktis di Purbalingga
 
 1. **Periksa dokumen Anda.** Kumpulkan girik/petok D/Letter C asli dan cocokkan dengan Buku Letter C di kantor desa atau kelurahan tempat tanah berada.
 2. **Pastikan tanah tidak dalam sengketa.** Cek apakah ada pihak lain yang mengaku memiliki, tumpang tindih batas, atau gugatan yang berjalan.
@@ -61,7 +61,7 @@ Untuk memahami beda kekuatan hukum girik, eigendom, dan SHM, baca [panduan girik
 4. **Daftarkan di Kantor Pertanahan Purbalingga.** Ikut PTSL bila desa Anda dijadwalkan tahun ini; bila belum, ajukan pendaftaran sporadik secara mandiri.
 5. **Konsultasikan bila riwayatnya rumit.** Tanah warisan yang belum dibagi, batas kabur, atau girik atas nama orang yang sudah meninggal sebaiknya ditata lebih dulu.
 
-### Kesimpulan
+## Kesimpulan
 
 Lewatnya tenggat 2 Februari 2026 tidak membuat tanah girik Anda hilang atau menjadi milik negara. Yang berubah hanyalah kedudukan girik: dari alat bukti mandiri menjadi petunjuk dalam pendaftaran. Hak bekas milik adat Anda tetap diakui UUPA, dan girik masih menjadi pintu masuk yang sah untuk naik menjadi SHM. Ketentuan "menjadi tanah negara" hanya menyangkut bekas hak barat seperti eigendom, bukan girik warisan rakyat. Jalan terbaik bukan panik, melainkan segera mendaftarkan.
 

@@ -18,11 +18,11 @@ Many families in Purbalingga hold inherited land proven only by a *girik*, *peto
 
 The short answer is no. Those headlines oversimplified one rule until it pointed the wrong way. This article explains what the rule actually says, the difference between losing weight *as evidence* and losing the *right* to the land, and what you should do now.
 
-### "Girik Abolished in 2026" — Separating the Headlines from the Rule
+## "Girik Abolished in 2026" — Separating the Headlines from the Rule
 
 What actually happened is the end of a registration window, not the confiscation of land. The Ministry of Land Affairs (ATR/BPN) has publicly denied that people's land will be seized and confirmed that unregistered *girik* land can still be processed. The wording is subtle and easy to misquote, so read the rule itself.
 
-### What Pasal 96 of PP No. 18 Tahun 2021 Actually Says
+## What Pasal 96 of PP No. 18 Tahun 2021 Actually Says
 
 All these headlines trace to **Article 96(1) of Government Regulation (PP) No. 18 of 2021 on land matters under the Job Creation Law**: written proof of *tanah bekas milik adat* — former customary-ownership land held by individuals — **must be registered within no more than 5 (five) years** of the regulation taking effect, which was 2 February 2021, so the deadline fell on 2 February 2026.
 
@@ -30,7 +30,7 @@ The key is the next paragraph. **Article 96(2) of PP No. 18 of 2021** states tha
 
 Notice what is downgraded: the **value of the girik as evidence**, not your **right to the land**. A *girik* no longer stands alone as proof of ownership but stays valid as a *petunjuk*, a lawful starting point for registration. Your *bekas milik adat* right is not erased by the missed deadline; only the evidentiary weight of the paper is.
 
-### The Distinction Most Articles Blur
+## The Distinction Most Articles Blur
 
 This is where many articles go wrong. PP 18/2021 governs three different things often mixed up:
 
@@ -40,7 +40,7 @@ This is where many articles go wrong. PP 18/2021 governs three different things 
 
 So do not equate a *girik* (customary) with an *eigendom* (Western) title; headlines lumping them together are the source of the panic. Our base land law is still **Law No. 5 of 1960 (the UUPA, Basic Agrarian Law)**, which recognises customary land rights so they can be registered as ownership.
 
-### Your Girik or Letter C Is Still Useful — Turn It Into an SHM
+## Your Girik or Letter C Is Still Useful — Turn It Into an SHM
 
 The right move now is not to throw the *girik* away but to use it as *alas hak* (the legal basis) to register the land and obtain an **SHM (Sertifikat Hak Milik**, a freehold ownership certificate). Registration goes through **PTSL (Pendaftaran Tanah Sistematis Lengkap**, the government's systematic land-registration program) if your area is scheduled this year, or through *pendaftaran sporadik* (individual, on-request registration) at the **Kantor Pertanahan** (Land Office) if not. PTSL rests on **Permen ATR/BPN No. 6 of 2018**.
 
@@ -54,7 +54,7 @@ Because the *girik* is now a guide, strengthen it with supporting proof:
 
 To see how *girik*, *eigendom*, and SHM differ in legal strength, read our [guide to girik, eigendom, and SHM in Purbalingga](/sengketa/2025/09/05/tanah-sengketa-purbalingga-hukum-girik-eigendom-shm/) (in Indonesian). If the land is to be sold or bought, see also our [guide to buying land safely](/sengketa/2026/09/13/buying-land-safely-ppat-purbalingga/). Note that the older registration rule **PP No. 24 of 1997** is now of contested status after being declared revoked by a ministerial regulation, so confirm the current procedure with your local Land Office.
 
-### Practical Steps in Purbalingga
+## Practical Steps in Purbalingga
 
 1. **Check your document.** Gather the original *girik*/*petok D*/*Letter C* and match it against the Buku Letter C at the village or *kelurahan* office.
 2. **Make sure the land is not in *sengketa* (dispute).** Check for anyone else claiming ownership, overlapping boundaries, or a pending lawsuit.
@@ -62,7 +62,7 @@ To see how *girik*, *eigendom*, and SHM differ in legal strength, read our [guid
 4. **Register at the Purbalingga Land Office.** Join PTSL if your village is scheduled this year; if not, file *pendaftaran sporadik* yourself.
 5. **Consult if the history is complicated.** Undivided inherited land, unclear boundaries, or a *girik* in a deceased person's name should be sorted out first.
 
-### Conclusion
+## Conclusion
 
 Missing the 2 February 2026 deadline does not make your *girik* land disappear or turn it into state property. What changed is only the *girik*'s standing: from stand-alone evidence to a guide in registration. Your *bekas milik adat* right is still recognised by the UUPA, and the *girik* remains a lawful entry point to an SHM — the "becomes state land" rule applies only to former Western rights such as *eigendom*. The best response is not panic but prompt registration.
 

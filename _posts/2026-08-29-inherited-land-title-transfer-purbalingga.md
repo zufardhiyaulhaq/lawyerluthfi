@@ -18,13 +18,13 @@ In many Purbalingga families, the land certificate still carries the name of a p
 
 Everything turns on one step families keep postponing: **balik nama**, transferring the certificate from the name of the *pewaris* (the deceased whose estate passes on) into the names of the *ahli waris* (the heirs). The question that stops most people: what document will the *Kantor Pertanahan* (Land Office, part of the national land agency BPN) accept as proof that you are a lawful heir? The answer is not one document but six.
 
-### Why Postponing Is Costly
+## Why Postponing Is Costly
 
 While the certificate still bears the deceased's name, the land is not recorded as yours: it cannot be sold, pledged, or formally subdivided, and your position is weak if someone else claims a right over it.
 
 Delay also multiplies the problem. Each time an heir dies before the transfer is done, that share passes again to their own heirs — a family that began as four siblings can become a dozen.
 
-### Six Proofs of Heirship the Land Office Accepts
+## Six Proofs of Heirship the Land Office Accepts
 
 The legal basis is **Article 111 paragraph (1) letter c of Ministerial Regulation ATR/BPN No. 16 of 2021** (the Third Amendment to Ministerial Regulation No. 3 of 1997). Proof of heirship **may take the form of**:
 
@@ -37,7 +37,7 @@ The legal basis is **Article 111 paragraph (1) letter c of Ministerial Regulatio
 
 All six stand on equal footing; you need only one. The rule also **no longer divides applicants by population group** as colonial-era practice did — every route is open to every Indonesian citizen.
 
-### Choosing the Right Route
+## Choosing the Right Route
 
 This is where most applications stall. A practical guide:
 
@@ -49,17 +49,17 @@ This is where most applications stall. A practical guide:
 
 Which court? **Article 49 of Law No. 3 of 2006** provides that the ***Pengadilan Agama*** (Religious Court) hears and decides inheritance and will matters between people of the Islamic faith. Non-Muslim heirs apply to the ***Pengadilan Negeri*** (District Court).
 
-### When the Estate Has Not Been Divided Yet
+## When the Estate Has Not Been Divided Yet
 
 Many families postpone the transfer because they have not agreed on shares. **Article 111 paragraph (4)** already solves this: where there is more than one heir and no division has been made, the transfer is registered to **the heirs as joint owners**. Every name goes onto the certificate first; the division follows later. If a deed of division exists, **paragraph (3)** allows it to be a private deed signed by all heirs before two witnesses, or a notarial deed.
 
-### If the Land Is Still Held on *Girik*
+## If the Land Is Still Held on *Girik*
 
 If your family's inherited land has never been certified and rests only on *girik* or *Letter C* — old village tax and land records, not titles — its position is now the weakest. **Article 96 paragraph (1) of Government Regulation No. 18 of 2021** required written evidence of former customary land to be registered within five years of that regulation taking effect on 2 February 2021 — a deadline that passed on **2 February 2026**.
 
 Your right is not extinguished; what changed is its evidentiary weight. Under **paragraph (2)**, such a document is now **only a guide** in registration rather than proof of title. Registration remains possible, but other evidence matters more. We cover girik, Dutch-era *eigendom*, and freehold title (SHM) in our [guide to land disputes in Purbalingga](/sengketa/2025/09/05/tanah-sengketa-purbalingga-hukum-girik-eigendom-shm/).
 
-### Practical Steps in Purbalingga
+## Practical Steps in Purbalingga
 
 1. **Gather the documents required by Article 111 paragraph (1)**: the original certificate in the deceased's name (or other proof of ownership), a death certificate from the village head, a hospital, or another competent authority, the family card (*kartu keluarga*), birth certificates, and identity cards for all heirs — plus a written power of attorney if the filer is not an heir.
 2. **Map the heirs honestly**, including heirs who died earlier and children from a previous marriage. Errors here are the most common reason a file is rejected.
@@ -67,7 +67,7 @@ Your right is not extinguished; what changed is its evidentiary weight. Under **
 4. **If a court order is needed**, apply to the **Pengadilan Agama Purbalingga** for Muslim heirs, or the **Pengadilan Negeri Purbalingga** for non-Muslim heirs.
 5. **Register the transfer** at the **Kantor Pertanahan of Purbalingga Regency**. Costs and processing times vary by service type and the state of your file — ask for the official schedule at the counter.
 
-### In Closing
+## In Closing
 
 Transferring inherited land into the heirs' names decides whether your family's right can be defended later. The six routes in **Article 111 of Ministerial Regulation No. 16 of 2021** give ample room. The trouble is almost never the absence of a route — it is choosing the wrong one, or waiting until the heirs have multiplied.
 

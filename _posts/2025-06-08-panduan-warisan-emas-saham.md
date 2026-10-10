@@ -12,7 +12,7 @@ Investasi saham dan emas telah menjadi pilihan populer masyarakat Indonesia untu
 
 Aset seperti saham dan emas, baik dalam bentuk fisik maupun digital, adalah harta kekayaan yang sah dan dapat diwariskan. Prosesnya diatur dengan jelas dalam hukum perdata Indonesia. Artikel ini akan menjadi panduan praktis Anda untuk mengurus warisan saham dan emas, mulai dari dokumen yang dibutuhkan hingga aspek perpajakannya.
 
-### Fondasi Hukum Utama: Surat Keterangan Ahli Waris
+## Fondasi Hukum Utama: Surat Keterangan Ahli Waris
 
 Sebelum masuk ke detail teknis, pahami dulu dokumen paling fundamental dalam setiap proses waris di Indonesia, yaitu bukti status Anda sebagai ahli waris yang sah. Tanpa dokumen ini, tidak ada satu pun institusi—baik perusahaan sekuritas maupun penyedia emas digital—yang akan memproses klaim Anda.
 
@@ -24,11 +24,11 @@ Bukti ini dapat berupa salah satu dari tiga dokumen berikut, tergantung pada lat
 
 Peran Notaris sangat sentral dalam proses ini, tidak hanya dalam membuat SKW atau wasiat, tetapi juga dalam membuat akta-akta otentik lain yang mungkin diperlukan, seperti Akta Pembagian Waris.
 
-### Bagian 1: Prosedur Mengurus Warisan Saham
+## Bagian 1: Prosedur Mengurus Warisan Saham
 
 Mewarisi saham memerlukan pendekatan yang berbeda tergantung pada jenis perusahaannya: perusahaan terbuka (Tbk) yang sahamnya diperdagangkan di bursa, atau perusahaan tertutup (swasta).
 
-#### Saham Perusahaan Terbuka (Tbk)
+### Saham Perusahaan Terbuka (Tbk)
 
 Ini adalah jenis kepemilikan saham yang paling umum bagi investor ritel melalui aplikasi seperti Stockbit, Bibit, atau sekuritas lainnya. Prosesnya relatif terstandarisasi.
 
@@ -49,7 +49,7 @@ Langkah-langkah Klaim Ahli Waris:
 3. Verifikasi oleh Sekuritas: Perusahaan sekuritas akan memverifikasi keaslian dan kelengkapan semua dokumen. Proses ini bisa memakan waktu.
 4. Pemindahan Saham: Setelah disetujui, saham akan dipindahkan (dipindahbukukan) ke akun RDN milik salah satu ahli waris yang telah ditunjuk bersama. Jika ahli waris belum memiliki akun, mereka harus membukanya terlebih dahulu.
 
-#### Saham Perusahaan Tertutup (Swasta)
+### Saham Perusahaan Tertutup (Swasta)
 
 Proses ini lebih kompleks karena tidak diatur oleh bursa, melainkan oleh Undang-Undang No. 40 Tahun 2007 tentang Perseroan Terbatas (UUPT) dan Anggaran Dasar (AD/ART) perusahaan itu sendiri.
 
@@ -60,11 +60,11 @@ Proses ini lebih kompleks karena tidak diatur oleh bursa, melainkan oleh Undang-
 
 Karena kerumitannya, pengurusan warisan saham perusahaan tertutup sangat disarankan untuk didampingi oleh pengacara atau notaris yang berpengalaman.
 
-### Bagian 2: Prosedur Mengurus Warisan Emas
+## Bagian 2: Prosedur Mengurus Warisan Emas
 
 Sama seperti saham, proses mewarisi emas berbeda antara bentuk fisik dan digital.
 
-#### Emas Fisik (Batangan, Perhiasan)
+### Emas Fisik (Batangan, Perhiasan)
 
 Proses untuk emas fisik lebih sederhana dan didasarkan pada kesepakatan para ahli waris.
 
@@ -72,7 +72,7 @@ Proses untuk emas fisik lebih sederhana dan didasarkan pada kesepakatan para ahl
 2. Pembagian Sesuai Hukum Waris: Berdasarkan Surat Keterangan Ahli Waris yang sah, para ahli waris dapat membagi emas fisik tersebut sesuai dengan porsi yang telah disepakati atau ditetapkan. Jika terjadi sengketa, prosesnya harus diselesaikan melalui mediasi atau pengadilan.
 3. Pentingnya Kejujuran: Tanpa bukti kepemilikan yang kuat, proses ini sangat bergantung pada kejujuran dan itikad baik dari semua ahli waris.
 
-#### Emas Digital (Tabungan Emas, Brankas)
+### Emas Digital (Tabungan Emas, Brankas)
 
 Setiap platform penyedia emas digital memiliki prosedur klaim ahli waris yang spesifik dan wajib diikuti.
 
@@ -87,7 +87,7 @@ Setiap platform penyedia emas digital memiliki prosedur klaim ahli waris yang sp
 - Umumnya, Antam akan meminta set dokumen yang mirip dengan klaim saham (KTP, KK, Akta Kematian, SKW/Penetapan Pengadilan).
 - Setelah verifikasi, ahli waris dapat menarik fisik emas yang tersimpan di Brankas sesuai prosedur yang berlaku.
 
-### Aspek Perpajakan yang Wajib Anda Ketahui
+## Aspek Perpajakan yang Wajib Anda Ketahui
 
 Ini adalah bagian yang sering disalahpahami. Berikut adalah poin-poin pentingnya:
 
@@ -101,7 +101,7 @@ Keuntungan ini harus Anda laporkan dalam SPT Tahunan pribadi Anda sebagai ahli w
 
 ![infografik warisan emas dan saham](https://ik.imagekit.io/4mjt7d3c3/image.png?updatedAt=1751123715400)
 
-### Butuh Bantuan Hukum?
+## Butuh Bantuan Hukum?
 
 Mengurus warisan saham dan emas bisa menjadi proses yang lugas jika semua dokumen lengkap dan tidak ada sengketa. Kunci utamanya adalah memiliki bukti sah sebagai ahli waris dan mengikuti prosedur yang ditetapkan oleh setiap lembaga.
 

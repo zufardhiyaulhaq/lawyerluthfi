@@ -10,12 +10,12 @@ large_header: false
 
 ![Harta Gono-Gini](https://i.ibb.co.com/d0sZTx4D/2151202429.jpg)  
 
-### Apa Itu Harta Gono-Gini? 
+## Apa Itu Harta Gono-Gini? 
 **Harta Gono-Gini** merujuk pada harta bersama yang diperoleh suami dan istri selama masa perkawinan. Istilah ini berasal dari tradisi Jawa, tetapi diakui secara hukum di Indonesia sebagai **harta bersama** (_community property_). Contohnya meliputi rumah, mobil, tabungan, atau investasi yang dibeli selama pernikahan. Harta bawaan (milik sebelum menikah) dan warisan/hadiah yang dinyatakan sebagai harta pribadi **tidak termasuk** dalam kategori ini.
 
 ---
 
-### Dasar Hukum Harta Gono-Gini
+## Dasar Hukum Harta Gono-Gini
 1. **UU No. 1 Tahun 1974 tentang Perkawinan**  
    Pasal 35 ayat (1) menyatakan bahwa harta yang diperoleh selama perkawinan otomatis menjadi harta bersama, kecuali ada perjanjian pranikah.  
 2. **KUHPerdata (Pasal 119)**  
@@ -25,25 +25,25 @@ large_header: false
 
 ---
 
-### Jenis Harta dalam Perkawinan
+## Jenis Harta dalam Perkawinan
 1. **Harta Bawaan**: Dimiliki sebelum menikah (contoh: rumah warisan).  
 2. **Harta Masing-Masing**: Hadiah/warisan yang dinyatakan sebagai milik pribadi.  
 3. **Harta Bersama (Gono-Gini)**: Diperoleh selama pernikahan (contoh: gaji, usaha bersama).  
 
 ---
 
-### Pembagian Harta Gono-Gini
-#### Saat Perceraian
+## Pembagian Harta Gono-Gini
+### Saat Perceraian
 - **Musyawarah**: Diutamakan untuk kesepakatan adil tanpa pengadilan
 - **Pengadilan**: Jika gagal, hakim membagi 50:50, tetapi bisa berbeda berdasarkan kontribusi finansial/non-finansial (misalnya: pengasuhan anak).  
 - **Hutang**: Dibagi sesuai kesepakatan atau putusan pengadilan, terutama jika digunakan untuk kebutuhan keluarga.  
 
-#### Saat Kematian
+### Saat Kematian
 Harta bersama menjadi bagian warisan. Ahli waris (anak, pasangan) berhak atas bagian sesuai hukum waris yang berlaku (KUHPerdata atau KHI).  
 
 ---
 
-### Tips Mengelola Harta Gono-Gini
+## Tips Mengelola Harta Gono-Gini
 1. **Buat Perjanjian Pranikah** untuk memisahkan harta pribadi.  
 2. **Transparansi Keuangan**: Diskusikan pendapatan, pengeluaran, dan investasi.  
 3. **Hindari Utang Berlebihan** yang memberatkan harta bersama.  
@@ -52,7 +52,7 @@ Harta bersama menjadi bagian warisan. Ahli waris (anak, pasangan) berhak atas ba
 
 ---
 
-### Sumber Terpercaya
+## Sumber Terpercaya
 1. [UU No. 1 Tahun 1974 tentang Perkawinan](https://equal.co.id/harta-gono-gini-ketahuilah-dasar-hukum-dan-pemahamanya-bag-1/)  
 2. [Kompilasi Hukum Islam (KHI)](https://www.hukumonline.com/klinik/a/warisan-dan-harta-gonogini-cl6967/)  
 3. [Biro Hukum Indonesia: Pembagian Harta Gono-Gini](https://birohukumindonesia.com/pembagian-harta-gono-gini/)  
