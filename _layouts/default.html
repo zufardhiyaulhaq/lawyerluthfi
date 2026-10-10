@@ -11,8 +11,16 @@
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+		{%- comment -%}
+		display=optional (not swap) removes the web-font layout shift: on a slow
+		first load the fallback font is kept for the whole session instead of
+		swapping in Fraunces/Inter after paint, which on the single-column mobile
+		layout reflowed the hero H1 and pushed the page down (mobile CLS 0.157).
+		Once the font is cached it loads inside the block period and shows normally.
+		Keep the preload and stylesheet URLs identical so the preload is used.
+		{%- endcomment -%}
+		<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=optional">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=optional">
 		{%- comment -%}
 		Critical CSS is inlined to remove the render-blocking stylesheet request.
 		scssify compiles the same partials as css/main.scss using the _sass load path.
