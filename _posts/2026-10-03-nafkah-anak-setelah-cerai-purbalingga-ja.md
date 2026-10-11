@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2026/10/03/nafkah-anak-setelah-cerai-purbalingga-ja/"
 title: "プルバリンガの離婚後の子の扶養料：父親の義務とその取り立て方"
 date: 2026-10-03 00:00:03
 categories:
@@ -67,7 +70,7 @@ aanmaning・差押え・公売のより詳しい説明は、[裁判所を通じ�
 4. **aanmaning の呼び出しに出席する**——裁判所が義務を確認するために当事者を呼び出すとき。
 5. **弁護士に相談する**——申立ての前に、書類を整え、滞納額を計算するために。
 
-離婚手続きの全体像については、[インドネシアの離婚法](/perkawinan%20&%20perceraian/2025/01/30/hukum-perceraian-indonesia/)（インドネシア語）についてのガイドもあわせてご覧ください。
+離婚手続きの全体像については、[インドネシアの離婚法](/perkawinan-perceraian/2025/01/30/hukum-perceraian-indonesia/)（インドネシア語）についてのガイドもあわせてご覧ください。
 
 ## まとめ
 

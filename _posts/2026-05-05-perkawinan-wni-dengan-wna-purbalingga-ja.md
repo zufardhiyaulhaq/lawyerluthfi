@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2026/05/05/perkawinan-wni-dengan-wna-purbalingga-ja/"
 title: "プルバリンガでインドネシア人と外国人が結婚する：準備すべきこと"
 date: 2026-05-05 00:00:03
 categories:
@@ -53,7 +56,7 @@ hidden_from_blog: true
 - 外国人配偶者はインドネシアで **Hak Milik（SHM、所有権証書）** の土地を保有できません。財産が共有とみなされるため、インドネシア人配偶者も、結婚後に購入した土地について SHM を保有する権利を失いかねません。
 - インドネシア人配偶者が結婚前から持っていた事業資産も、婚姻期間中に混同されれば共有財産とみなされることがあります。
 
-解決策は、婚前または婚姻中に **perjanjian pisah harta（夫婦別産契約）** を結ぶことです。**Putusan MK No. 69/PUU-XIII/2015（憲法裁判所第 69/PUU-XIII/2015 号判決）** のおかげで、この契約はもはや婚前に作る必要はなく、婚姻の継続中いつでも作成できます。詳しくは[プルバリンガの婚前契約の簡明ガイド](/perkawinan%20&%20perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga/)（インドネシア語）をご覧ください。
+解決策は、婚前または婚姻中に **perjanjian pisah harta（夫婦別産契約）** を結ぶことです。**Putusan MK No. 69/PUU-XIII/2015（憲法裁判所第 69/PUU-XIII/2015 号判決）** のおかげで、この契約はもはや婚前に作る必要はなく、婚姻の継続中いつでも作成できます。詳しくは[プルバリンガの婚前契約の簡明ガイド](/perkawinan-perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga/)（インドネシア語）をご覧ください。
 
 ## 子の国籍
 

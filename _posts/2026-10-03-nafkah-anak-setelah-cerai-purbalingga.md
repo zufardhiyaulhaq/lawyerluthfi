@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2026/10/03/nafkah-anak-setelah-cerai-purbalingga/"
 title: "Nafkah Anak Setelah Cerai di Purbalingga: Kewajiban Ayah dan Cara Menagihnya"
 date: 2026-10-03 00:00:00
 categories:
@@ -10,7 +13,7 @@ image_license: "Pexels License"
 image_author: "Atlantic Ambience"
 large_header: false
 lang: id
-pair: /perkawinan%20&%20perceraian/2026/10/03/child-support-after-divorce-purbalingga/
+pair: /perkawinan-perceraian/2026/10/03/child-support-after-divorce-purbalingga/
 ref: nafkah-anak-setelah-cerai-purbalingga
 ---
 
@@ -67,7 +70,7 @@ Penjelasan lebih rinci soal aanmaning, sita, dan lelang dapat Anda baca pada ula
 4. **Hadiri panggilan aanmaning** ketika pengadilan memanggil untuk meneguhkan kewajiban tersebut.
 5. **Konsultasikan dengan advokat** untuk menyusun berkas dan menghitung tunggakan sebelum diajukan.
 
-Untuk gambaran menyeluruh alur perceraian, lihat pula panduan kami tentang [hukum perceraian di Indonesia](/perkawinan%20&%20perceraian/2025/01/30/hukum-perceraian-indonesia/).
+Untuk gambaran menyeluruh alur perceraian, lihat pula panduan kami tentang [hukum perceraian di Indonesia](/perkawinan-perceraian/2025/01/30/hukum-perceraian-indonesia/).
 
 ## Kesimpulan
 

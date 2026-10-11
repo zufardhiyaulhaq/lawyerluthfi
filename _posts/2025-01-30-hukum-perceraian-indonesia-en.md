@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2025/01/30/hukum-perceraian-indonesia-en/"
 title: "Divorce Law in Indonesia: Requirements, Procedure, and Legal Effects"
 date: 2025-01-30 00:00:01
 author_staff_member: luthfi-asshiddieqy
@@ -65,7 +68,7 @@ Divorce is a complex legal step in Indonesia, governed by **Law No. 1 of 1974 on
 - **The 50:50 principle** applies, unless there is a prenuptial agreement (Article 37 of the Marriage Law).
 - Pre-marital property and gifts return to their original owner.
 - Debt incurred during the marriage is divided by agreement or by court decision.
-*(Read: [Harta Gono-Gini Law in Indonesia](/perkawinan%20&%20perceraian/2025/01/29/harta-gono-gini-en/))*
+*(Read: [Harta Gono-Gini Law in Indonesia](/perkawinan-perceraian/2025/01/29/harta-gono-gini-en/))*
 
 ## The Legal Effects of Divorce
 

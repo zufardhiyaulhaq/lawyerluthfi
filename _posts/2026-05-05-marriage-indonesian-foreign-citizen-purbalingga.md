@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2026/05/05/marriage-indonesian-foreign-citizen-purbalingga/"
 title: "Marriage Between an Indonesian and a Foreign Citizen in Purbalingga: What You Need to Prepare"
 date: 2026-05-05 00:00:01
 categories:
@@ -10,7 +13,7 @@ image_license: "Pexels License"
 image_author: "Alejandro Avila"
 large_header: false
 lang: en
-pair: /perkawinan%20&%20perceraian/2026/05/05/perkawinan-wni-dengan-wna-purbalingga/
+pair: /perkawinan-perceraian/2026/05/05/perkawinan-wni-dengan-wna-purbalingga/
 ref: perkawinan-wni-dengan-wna-purbalingga
 hidden_from_blog: true
 ---
@@ -53,7 +56,7 @@ Without a prenuptial agreement, Indonesian law applies **community of property**
 - A foreign spouse cannot hold land under **freehold title (SHM)** in Indonesia. Because property is treated as joint, the Indonesian spouse can also lose the right to hold SHM over land purchased after marriage.
 - Business assets the Indonesian spouse owned before marriage may be treated as joint property if they become commingled during the marriage.
 
-The remedy is a **separation-of-property agreement** signed before or during the marriage. Thanks to **Constitutional Court Decision No. 69/PUU-XIII/2015**, this agreement is no longer required to be made before the wedding — it can be made at any point during the marriage. For a deeper guide, read [A Concise Guide to Prenuptial Agreements in Purbalingga](/perkawinan%20&%20perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga/).
+The remedy is a **separation-of-property agreement** signed before or during the marriage. Thanks to **Constitutional Court Decision No. 69/PUU-XIII/2015**, this agreement is no longer required to be made before the wedding — it can be made at any point during the marriage. For a deeper guide, read [A Concise Guide to Prenuptial Agreements in Purbalingga](/perkawinan-perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga/).
 
 ## A Child's Citizenship Status
 

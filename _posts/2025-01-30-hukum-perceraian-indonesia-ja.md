@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2025/01/30/hukum-perceraian-indonesia-ja/"
 title: "インドネシアの離婚法：要件・手続き・法的効果"
 date: 2025-01-30 00:00:03
 author_staff_member: luthfi-asshiddieqy
@@ -65,7 +68,7 @@ hidden_from_blog: true
 - **50:50 の原則** が適用されます。ただし婚前契約がある場合は除きます（婚姻法第 37 条）。
 - 婚前財産や贈与は元の所有者に戻ります。
 - 婚姻期間中に生じた債務は、合意または裁判所の判決により分割されます。
-*（あわせて読む：[インドネシアの夫婦共有財産法](/perkawinan%20&%20perceraian/2025/01/29/harta-gono-gini-ja/)）*
+*（あわせて読む：[インドネシアの夫婦共有財産法](/perkawinan-perceraian/2025/01/29/harta-gono-gini-ja/)）*
 
 ## 離婚の法的効果
 

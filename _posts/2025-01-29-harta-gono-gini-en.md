@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2025/01/29/harta-gono-gini-en/"
 title: "Harta Gono-Gini in Indonesia: Meaning, Legal Basis, and Division"
 date: 2025-01-29 00:00:01
 categories:

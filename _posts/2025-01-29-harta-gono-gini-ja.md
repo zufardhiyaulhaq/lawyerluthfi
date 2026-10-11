@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2025/01/29/harta-gono-gini-ja/"
 title: "インドネシアの夫婦共有財産（Harta Gono-Gini）：意味・法的根拠・分割"
 date: 2025-01-29 00:00:03
 categories:

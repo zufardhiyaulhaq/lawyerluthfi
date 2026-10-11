@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2026/09/19/perceraian-pns-izin-atasan-purbalingga-ja/"
 title: "プルバリンガの公務員（PNS）の離婚：必須となる上司の許可と懲戒のリスク"
 date: 2026-09-19 00:00:03
 categories:
@@ -48,7 +51,7 @@ PP 45/1990 は、事件における公務員の立場を区別します。
 
 ## 正しい順序：許可が先、裁判は後
 
-最も多い誤りは順序を逆にすることです。正しいやり方は、まず上司の許可または確認書を片づけ、それから事件を **Pengadilan Agama（宗教裁判所、ムスリム向け）** または **Pengadilan Negeri（地方裁判所、非ムスリム向け）** に持ち込むことです。審理そのものは他の市民と変わりません。適法な理由や裁判離婚の一般的な段階については、[インドネシアの離婚法](/perkawinan%20&%20perceraian/2025/01/30/hukum-perceraian-indonesia/)（インドネシア語）をお読みください。
+最も多い誤りは順序を逆にすることです。正しいやり方は、まず上司の許可または確認書を片づけ、それから事件を **Pengadilan Agama（宗教裁判所、ムスリム向け）** または **Pengadilan Negeri（地方裁判所、非ムスリム向け）** に持ち込むことです。審理そのものは他の市民と変わりません。適法な理由や裁判離婚の一般的な段階については、[インドネシアの離婚法](/perkawinan-perceraian/2025/01/30/hukum-perceraian-indonesia/)（インドネシア語）をお読みください。
 
 ## プルバリンガでの実務ステップ
 

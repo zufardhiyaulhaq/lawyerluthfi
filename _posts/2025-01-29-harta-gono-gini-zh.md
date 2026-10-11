@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2025/01/29/harta-gono-gini-zh/"
 title: "印尼的夫妻共同财产（Harta Gono-Gini）：含义、法律依据与分割"
 date: 2025-01-29 00:00:02
 categories:

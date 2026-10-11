@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2025/01/29/harta-gono-gini/"
 title: Harta Gono-Gini di Indonesia, Pengertian, Dasar Hukum, dan Pembagian
 date: 2025-01-29 00:00:00
 categories:

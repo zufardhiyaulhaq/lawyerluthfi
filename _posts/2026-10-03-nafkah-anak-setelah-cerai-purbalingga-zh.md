@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2026/10/03/nafkah-anak-setelah-cerai-purbalingga-zh/"
 title: "普博林加离婚后的子女抚养费：父亲的义务与追讨之道"
 date: 2026-10-03 00:00:02
 categories:
@@ -67,7 +70,7 @@ hidden_from_blog: true
 4. **出席 aanmaning 传唤**——当法院传唤以重申该义务时。
 5. **与律师沟通**，在提交前整理案卷并核算拖欠金额。
 
-关于离婚流程的全貌，另请参阅我们关于[印度尼西亚离婚法](/perkawinan%20&%20perceraian/2025/01/30/hukum-perceraian-indonesia/)（印尼语）的指南。
+关于离婚流程的全貌，另请参阅我们关于[印度尼西亚离婚法](/perkawinan-perceraian/2025/01/30/hukum-perceraian-indonesia/)（印尼语）的指南。
 
 ## 结语
 

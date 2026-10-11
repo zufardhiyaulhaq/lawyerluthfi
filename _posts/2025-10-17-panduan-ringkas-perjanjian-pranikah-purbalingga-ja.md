@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga-ja/"
 title: "プルバリンガの婚前契約（Perjanjian Pranikah）簡明ガイド"
 date: 2025-10-17 00:00:03
 categories:

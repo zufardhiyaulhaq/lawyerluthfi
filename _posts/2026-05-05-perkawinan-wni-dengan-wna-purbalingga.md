@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2026/05/05/perkawinan-wni-dengan-wna-purbalingga/"
 title: Perkawinan WNI dengan WNA di Purbalingga, Apa Saja yang Harus Disiapkan?
 date: 2026-05-05 00:00:00
 categories:
@@ -10,7 +13,7 @@ image_license: "Pexels License"
 image_author: "Alejandro Avila"
 large_header: false
 lang: id
-pair: /perkawinan%20&%20perceraian/2026/05/05/marriage-indonesian-foreign-citizen-purbalingga/
+pair: /perkawinan-perceraian/2026/05/05/marriage-indonesian-foreign-citizen-purbalingga/
 ref: perkawinan-wni-dengan-wna-purbalingga
 ---
 
@@ -52,7 +55,7 @@ Tanpa perjanjian pranikah, secara hukum Indonesia berlaku **percampuran harta** 
 - WNA tidak dapat memiliki tanah dengan status **Hak Milik (SHM)** di Indonesia. Karena harta dianggap bercampur, pasangan WNI pun bisa kehilangan haknya untuk memiliki SHM atas tanah yang dibeli setelah menikah.
 - Aset bisnis WNI yang sudah ada sebelum menikah berpotensi dianggap sebagai harta bersama bila tercampur penggunaannya selama perkawinan.
 
-Solusinya adalah membuat **perjanjian pisah harta** sebelum atau selama perkawinan. Berkat **Putusan MK No. 69/PUU-XIII/2015**, perjanjian ini tidak lagi wajib dibuat sebelum menikah — bisa dibuat kapan saja selama perkawinan masih berlangsung. Untuk panduan rinci, baca [Panduan Ringkas Perjanjian Pranikah di Purbalingga](/perkawinan%20&%20perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga/).
+Solusinya adalah membuat **perjanjian pisah harta** sebelum atau selama perkawinan. Berkat **Putusan MK No. 69/PUU-XIII/2015**, perjanjian ini tidak lagi wajib dibuat sebelum menikah — bisa dibuat kapan saja selama perkawinan masih berlangsung. Untuk panduan rinci, baca [Panduan Ringkas Perjanjian Pranikah di Purbalingga](/perkawinan-perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga/).
 
 ## Status Kewarganegaraan Anak
 

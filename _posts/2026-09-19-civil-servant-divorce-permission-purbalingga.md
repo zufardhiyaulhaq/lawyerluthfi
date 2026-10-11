@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2026/09/19/civil-servant-divorce-permission-purbalingga/"
 title: "Divorce for Civil Servants in Purbalingga: The Required Superior's Permission and Disciplinary Risk"
 date: 2026-09-19 00:00:01
 categories:
@@ -10,7 +13,7 @@ image_license: "Pexels License"
 image_author: "Sora Shimazaki"
 large_header: false
 lang: en
-pair: /perkawinan%20&%20perceraian/2026/09/19/perceraian-pns-izin-atasan-purbalingga/
+pair: /perkawinan-perceraian/2026/09/19/perceraian-pns-izin-atasan-purbalingga/
 ref: perceraian-pns-izin-atasan-purbalingga
 hidden_from_blog: true
 ---
@@ -49,7 +52,7 @@ When these rules were drafted, the disciplinary basis was PP 30/1980; it has sin
 
 ## The Correct Sequence: Permission First, Then Court
 
-The most common mistake is reversing the order. The right way: settle the permission or acknowledgement letter first, then bring the matter to the **Pengadilan Agama** (Religious Court, for Muslims) or the **Pengadilan Negeri** (District Court, for non-Muslims); the hearings themselves are the same as for any other citizen. For the lawful grounds and general stages of divorce at court, read [Divorce Law in Indonesia](/perkawinan%20&%20perceraian/2025/01/30/hukum-perceraian-indonesia/).
+The most common mistake is reversing the order. The right way: settle the permission or acknowledgement letter first, then bring the matter to the **Pengadilan Agama** (Religious Court, for Muslims) or the **Pengadilan Negeri** (District Court, for non-Muslims); the hearings themselves are the same as for any other citizen. For the lawful grounds and general stages of divorce at court, read [Divorce Law in Indonesia](/perkawinan-perceraian/2025/01/30/hukum-perceraian-indonesia/).
 
 ## Practical Steps in Purbalingga
 

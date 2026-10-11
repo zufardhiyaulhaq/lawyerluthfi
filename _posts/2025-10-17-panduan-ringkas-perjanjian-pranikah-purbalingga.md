@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga/"
 title: Panduan Ringkas Perjanjian Pranikah di Purbalingga
 date: 2025-10-17 00:00:00
 categories:

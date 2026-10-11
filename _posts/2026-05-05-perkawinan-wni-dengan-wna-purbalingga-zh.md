@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2026/05/05/perkawinan-wni-dengan-wna-purbalingga-zh/"
 title: "普博林加的印尼公民与外国人结婚：您需要准备什么"
 date: 2026-05-05 00:00:02
 categories:
@@ -53,7 +56,7 @@ hidden_from_blog: true
 - 外国人不能在印尼持有 **Hak Milik（SHM，所有权证书）** 的土地。由于财产被视为共有，印尼籍配偶也可能因此失去对婚后购入土地持有 SHM 的权利。
 - 印尼籍配偶婚前已有的营业资产，若在婚姻期间与共同财产混用，也可能被认定为共同财产。
 
-解决办法是在婚前或婚姻期间签订 **perjanjian pisah harta（分别财产协议）**。得益于 **Putusan MK No. 69/PUU-XIII/2015（宪法法院第 69/PUU-XIII/2015 号裁决）**，该协议不再必须在婚前订立——在婚姻存续期间的任何时候都可以订立。详细说明请阅读[普博林加婚前协议简明指南](/perkawinan%20&%20perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga/)（印尼语）。
+解决办法是在婚前或婚姻期间签订 **perjanjian pisah harta（分别财产协议）**。得益于 **Putusan MK No. 69/PUU-XIII/2015（宪法法院第 69/PUU-XIII/2015 号裁决）**，该协议不再必须在婚前订立——在婚姻存续期间的任何时候都可以订立。详细说明请阅读[普博林加婚前协议简明指南](/perkawinan-perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga/)（印尼语）。
 
 ## 子女的国籍身份
 

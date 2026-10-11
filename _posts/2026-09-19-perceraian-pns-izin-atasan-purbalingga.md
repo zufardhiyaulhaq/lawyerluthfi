@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2026/09/19/perceraian-pns-izin-atasan-purbalingga/"
 title: "Perceraian PNS di Purbalingga: Wajib Izin Atasan dan Risiko Sanksi Disiplin"
 date: 2026-09-19 00:00:00
 categories:
@@ -10,7 +13,7 @@ image_license: "Pexels License"
 image_author: "Sora Shimazaki"
 large_header: false
 lang: id
-pair: /perkawinan%20&%20perceraian/2026/09/19/civil-servant-divorce-permission-purbalingga/
+pair: /perkawinan-perceraian/2026/09/19/civil-servant-divorce-permission-purbalingga/
 ref: perceraian-pns-izin-atasan-purbalingga
 ---
 
@@ -50,7 +53,7 @@ Karena taruhannya adalah karier Anda, jangan pernah mendaftarkan gugatan cerai s
 
 ## Urutan yang Benar: Izin Dulu, Baru ke Pengadilan
 
-Kesalahan paling umum adalah membalik urutannya. Yang benar: selesaikan izin atau surat keterangan dari atasan terlebih dahulu, baru bawa perkara ke **Pengadilan Agama** (Muslim) atau **Pengadilan Negeri** (non-Islam); proses persidangannya sendiri sama dengan warga lain. Untuk alasan sah dan tahapan cerai di pengadilan secara umum, baca [Hukum Perceraian di Indonesia](/perkawinan%20&%20perceraian/2025/01/30/hukum-perceraian-indonesia/).
+Kesalahan paling umum adalah membalik urutannya. Yang benar: selesaikan izin atau surat keterangan dari atasan terlebih dahulu, baru bawa perkara ke **Pengadilan Agama** (Muslim) atau **Pengadilan Negeri** (non-Islam); proses persidangannya sendiri sama dengan warga lain. Untuk alasan sah dan tahapan cerai di pengadilan secara umum, baca [Hukum Perceraian di Indonesia](/perkawinan-perceraian/2025/01/30/hukum-perceraian-indonesia/).
 
 ## Langkah Praktis di Purbalingga
 

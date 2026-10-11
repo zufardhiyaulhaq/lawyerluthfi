@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2025/10/17/panduan-ringkas-perjanjian-pranikah-purbalingga-en/"
 title: "A Short Guide to the Prenuptial Agreement (Perjanjian Pranikah) in Purbalingga"
 date: 2025-10-17 00:00:01
 categories:

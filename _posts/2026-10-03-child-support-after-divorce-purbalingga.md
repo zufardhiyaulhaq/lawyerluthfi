@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2026/10/03/child-support-after-divorce-purbalingga/"
 title: "Child Support After Divorce in Purbalingga: The Father's Duty and How to Enforce It"
 date: 2026-10-03 00:00:01
 categories:
@@ -10,7 +13,7 @@ image_license: "Pexels License"
 image_author: "Atlantic Ambience"
 large_header: false
 lang: en
-pair: /perkawinan%20&%20perceraian/2026/10/03/nafkah-anak-setelah-cerai-purbalingga/
+pair: /perkawinan-perceraian/2026/10/03/nafkah-anak-setelah-cerai-purbalingga/
 ref: nafkah-anak-setelah-cerai-purbalingga
 hidden_from_blog: true
 ---
@@ -68,7 +71,7 @@ For a fuller explanation of aanmaning, seizure, and auction, see our article on 
 4. **Attend the aanmaning** when the court summons the parties to confirm the duty.
 5. **Consult an advocate** to prepare the file and calculate the arrears before filing.
 
-For an overview of the divorce process, see our guide on [divorce law in Indonesia](/perkawinan%20&%20perceraian/2025/01/30/hukum-perceraian-indonesia/).
+For an overview of the divorce process, see our guide on [divorce law in Indonesia](/perkawinan-perceraian/2025/01/30/hukum-perceraian-indonesia/).
 
 ## Conclusion
 

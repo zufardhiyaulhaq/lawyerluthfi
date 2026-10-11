@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2026/09/19/perceraian-pns-izin-atasan-purbalingga-zh/"
 title: "普博林加公务员（PNS）离婚：必须取得上级许可与纪律处分风险"
 date: 2026-09-19 00:00:02
 categories:
@@ -48,7 +51,7 @@ PP 10/1983 和 PP 45/1990 制定时，纪律的依据是 PP 30/1980。该规定�
 
 ## 正确的顺序：先许可，再上法院
 
-最常见的错误是把顺序颠倒。正确的做法是：先办妥上级的许可或证明函，再把案件带到 **Pengadilan Agama（宗教法院，适用于穆斯林）** 或 **Pengadilan Negeri（地方法院，适用于非伊斯兰教）**；庭审本身与其他公民并无不同。关于合法理由和法院离婚的一般阶段，请阅读[印度尼西亚离婚法](/perkawinan%20&%20perceraian/2025/01/30/hukum-perceraian-indonesia/)（印尼语）。
+最常见的错误是把顺序颠倒。正确的做法是：先办妥上级的许可或证明函，再把案件带到 **Pengadilan Agama（宗教法院，适用于穆斯林）** 或 **Pengadilan Negeri（地方法院，适用于非伊斯兰教）**；庭审本身与其他公民并无不同。关于合法理由和法院离婚的一般阶段，请阅读[印度尼西亚离婚法](/perkawinan-perceraian/2025/01/30/hukum-perceraian-indonesia/)（印尼语）。
 
 ## 普博林加实务步骤
 

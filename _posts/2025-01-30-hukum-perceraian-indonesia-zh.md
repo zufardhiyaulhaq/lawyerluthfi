@@ -1,4 +1,7 @@
 ---
+permalink: /perkawinan-perceraian/:year/:month/:day/:title/
+redirect_from:
+  - "/perkawinan & perceraian/2025/01/30/hukum-perceraian-indonesia-zh/"
 title: "印尼的离婚法：要件、程序与法律后果"
 date: 2025-01-30 00:00:02
 author_staff_member: luthfi-asshiddieqy
@@ -65,7 +68,7 @@ hidden_from_blog: true
 - 适用 **50:50 原则**，除非另有婚前协议（《婚姻法》第 37 条）。
 - 婚前财产与受赠物归还原所有人。
 - 婚姻期间产生的债务依协议或法院判决分担。
-*（延伸阅读：[印尼的夫妻共同财产法](/perkawinan%20&%20perceraian/2025/01/29/harta-gono-gini-zh/)）*
+*（延伸阅读：[印尼的夫妻共同财产法](/perkawinan-perceraian/2025/01/29/harta-gono-gini-zh/)）*
 
 ## 离婚的法律后果
 
