@@ -31,7 +31,7 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 					{% assign hlc = p.lang | default: "id" | replace: "zh", "zh-Hans" %}
 					<link rel="alternate" hreflang="{{ hlc }}" href="{{ site.url }}{{ p.url }}">
 				{% endfor %}
-				{% assign hl_default = hl_group | where_exp: "p", "p.lang != 'en' and p.lang != 'zh' and p.lang != 'ja'" | first %}
+				{% assign hl_default = hl_group | where_exp: "p", "p.lang != 'en'" | where_exp: "p", "p.lang != 'zh'" | where_exp: "p", "p.lang != 'ja'" | first %}
 				{% if hl_default %}<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ hl_default.url }}">{% endif %}
 			{% elsif page.pair and page.pair != "" %}
 				{% assign hl_cur = page.lang | default: "id" %}

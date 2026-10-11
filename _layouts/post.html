@@ -12,7 +12,7 @@ newest first, so the entry before this one is the newer article.
 {%- endcomment -%}
 {% assign current_lang = page.lang | default: 'id' %}
 {% if current_lang == 'id' %}
-	{% assign lang_posts = site.posts | where_exp: "p", "p.lang != 'en' and p.lang != 'zh' and p.lang != 'ja'" %}
+	{% assign lang_posts = site.posts | where_exp: "p", "p.lang != 'en'" | where_exp: "p", "p.lang != 'zh'" | where_exp: "p", "p.lang != 'ja'" %}
 {% else %}
 	{% assign lang_posts = site.posts | where: "lang", current_lang %}
 {% endif %}

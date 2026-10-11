@@ -21,7 +21,7 @@ Driver filter: canonical posts are Indonesian (lang: id or lang unset). en/zh/ja
 posts are excluded here because they are rendered as a driver's translations — so
 they never become drivers themselves and never produce duplicate rows.
 {%- endcomment -%}
-{% assign id_posts = site.posts | where_exp: "p", "p.lang != 'en' and p.lang != 'zh' and p.lang != 'ja'" %}
+{% assign id_posts = site.posts | where_exp: "p", "p.lang != 'en'" | where_exp: "p", "p.lang != 'zh'" | where_exp: "p", "p.lang != 'ja'" %}
 {% assign visible_posts = id_posts | where_exp: "p", "p.hidden_from_blog != true" %}
 {% assign featured = visible_posts | first %}
 {% if featured.ref and featured.ref != '' %}
