@@ -13,6 +13,93 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 		{% feed_meta %}
 
 		{%- comment -%}
+		Rich schema.org JSON-LD for the law firm. This ENRICHES jekyll-seo-tag's
+		basic WebSite node above (which has no @id) rather than replacing it —
+		our node carries a stable @id so search engines and AI agents resolve one
+		coherent LegalService entity. Every value is real: name/address/phone/
+		email from _data/company.yml, geo + the Google Business link (cid) from
+		the contact-page map embed, the 5.0 / 27 aggregate and the review bodies
+		are the real Google reviews shown on the home page (review[] is emitted
+		only where those reviews actually render, i.e. when page.testimonials is
+		set), areaServed = the Banyumas Raya service region, knowsLanguage tracks
+		the i18n LANGS. No Wikipedia/Wikidata @id — the firm genuinely has none.
+		{%- endcomment -%}
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": ["LegalService", "Attorney"],
+			"@id": "{{ site.url }}/#legalservice",
+			"name": "Advokat Luthfi Asshiddieqy, S.H.",
+			"alternateName": "Advokat Pengacara Luthfi",
+			"url": "{{ site.url }}/",
+			"logo": "{{ site.url }}/siteicon.png",
+			"image": "{{ site.url }}/uploads/building.jpg",
+			"description": {{ site.description | strip_html | normalize_whitespace | jsonify }},
+			"telephone": "+6282393395426",
+			"email": "formatimes@gmail.com",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "Jl. Purbalingga - Klampok, Kedung Menjangan",
+				"addressLocality": "Purbalingga",
+				"addressRegion": "Jawa Tengah",
+				"postalCode": "53315",
+				"addressCountry": "ID"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": -7.4095328,
+				"longitude": 109.3726552
+			},
+			"areaServed": [
+				{ "@type": "City", "name": "Purbalingga" },
+				{ "@type": "City", "name": "Banjarnegara" },
+				{ "@type": "City", "name": "Purwokerto" },
+				{ "@type": "City", "name": "Banyumas" },
+				{ "@type": "City", "name": "Cilacap" },
+				{ "@type": "AdministrativeArea", "name": "Banyumas Raya" },
+				{ "@type": "AdministrativeArea", "name": "Jawa Tengah" }
+			],
+			"knowsLanguage": ["id", "en", "zh-Hans", "ja"],
+			"sameAs": [
+				"https://instagram.com/luthfisidd",
+				"https://maps.google.com/?cid=7422915483541733085",
+				"https://www.trustindex.io/reviews/advokatluthfi.com"
+			],
+			"founder": {
+				"@type": "Person",
+				"@id": "{{ site.url }}/#luthfi",
+				"name": "Luthfi Asshiddieqy, S.H.",
+				"jobTitle": "Advokat",
+				"image": "{{ site.url }}/uploads/luthfi.jpg",
+				"url": "{{ site.url }}/about/",
+				"worksFor": { "@id": "{{ site.url }}/#legalservice" },
+				"memberOf": { "@type": "Organization", "name": "PERADI (Perhimpunan Advokat Indonesia)" },
+				"identifier": { "@type": "PropertyValue", "propertyID": "NIA (Nomor Induk Advokat)", "value": "17.01703" },
+				"knowsLanguage": ["id", "en", "zh-Hans", "ja"]
+			},
+			"employee": { "@id": "{{ site.url }}/#luthfi" },
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "5.0",
+				"reviewCount": "27",
+				"bestRating": "5",
+				"worstRating": "1"
+			}{%- if page.testimonials %},
+			"review": [
+				{%- for t in page.testimonials %}
+				{
+					"@type": "Review",
+					"author": { "@type": "Person", "name": {{ t.name | jsonify }} },
+					"reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1" },
+					"reviewBody": {{ t.message | jsonify }},
+					"publisher": { "@type": "Organization", "name": "Google" }
+				}{%- unless forloop.last %},{%- endunless %}
+				{%- endfor %}
+			]{%- endif %}
+		}
+		</script>
+
+		{%- comment -%}
 		hreflang alternates for posts that exist in more than one language. Each
 		language version lives at its own URL, so this tells search engines (and
 		the zh/ja searchers this expansion targets) about the siblings. Built from
