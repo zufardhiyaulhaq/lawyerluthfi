@@ -8,6 +8,7 @@ image: "https://marinews.mahkamahagung.go.id/static/2025/08/07/campuran-antara-w
 large_header: false
 lang: en
 pair: /perkawinan%20&%20perceraian/2026/05/05/perkawinan-wni-dengan-wna-purbalingga/
+ref: perkawinan-wni-dengan-wna-purbalingga
 hidden_from_blog: true
 ---
 

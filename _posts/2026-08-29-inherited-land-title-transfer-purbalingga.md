@@ -11,6 +11,7 @@ image_author: "Atlantic Ambience"
 large_header: false
 lang: en
 pair: /warisan/2026/08/29/balik-nama-tanah-warisan-purbalingga/
+ref: balik-nama-tanah-warisan-purbalingga
 hidden_from_blog: true
 ---
 

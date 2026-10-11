@@ -11,6 +11,7 @@ image_author: "Sora Shimazaki"
 large_header: false
 lang: en
 pair: /perkawinan%20&%20perceraian/2026/09/19/perceraian-pns-izin-atasan-purbalingga/
+ref: perceraian-pns-izin-atasan-purbalingga
 hidden_from_blog: true
 ---
 

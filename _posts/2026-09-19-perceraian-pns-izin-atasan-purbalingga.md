@@ -11,6 +11,7 @@ image_author: "Sora Shimazaki"
 large_header: false
 lang: id
 pair: /perkawinan%20&%20perceraian/2026/09/19/civil-servant-divorce-permission-purbalingga/
+ref: perceraian-pns-izin-atasan-purbalingga
 ---
 
 Banyak Pegawai Negeri Sipil (PNS) di Purbalingga baru menyadari satu hal penting saat rumah tangganya sudah di ujung tanduk: mereka tidak bisa langsung mengajukan cerai ke pengadilan seperti warga pada umumnya. Ada satu lapisan tambahan yang wajib dilewati lebih dulu, yaitu izin dari atasan. Wilayah Banyumas Raya menampung ribuan PNS dan guru, sehingga persoalan ini menyentuh banyak keluarga di Purbalingga dan sekitarnya.

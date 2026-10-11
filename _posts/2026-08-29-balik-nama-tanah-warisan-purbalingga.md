@@ -11,6 +11,7 @@ image_author: "Atlantic Ambience"
 large_header: false
 lang: id
 pair: /warisan/2026/08/29/inherited-land-title-transfer-purbalingga/
+ref: balik-nama-tanah-warisan-purbalingga
 ---
 
 Di banyak keluarga di Purbalingga, sertipikat tanah masih tertulis atas nama orang tua atau kakek yang sudah lama meninggal. Selama tidak ada persoalan, keadaan itu terasa aman: tanahnya ditempati dan pajaknya dibayar. Masalah muncul saat tanah hendak dijual, dijaminkan ke bank, atau dipecah untuk anak-anak.

@@ -11,6 +11,7 @@ image_author: "Olha Ruskykh"
 large_header: false
 lang: id
 pair: /hukum%20perdata/2026/09/06/collecting-unpaid-debt-court-purbalingga/
+ref: menagih-utang-jalur-hukum-purbalingga
 ---
 
 Anda meminjamkan uang kepada rekan usaha, atau sudah mengirim barang tetapi pembayaran tak kunjung masuk; telepon sulit dihubungi dan janji bayar terus mundur. Banyak warga Purbalingga dan Banyumas Raya menghadapi hal serupa: utang yang jelas ada, tetapi debitur enggan membayar. Pertanyaannya bukan lagi apakah Anda berhak menagih, melainkan bagaimana menagih lewat cara yang diakui hukum agar uang benar-benar bisa ditarik.

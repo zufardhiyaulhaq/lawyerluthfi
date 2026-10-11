@@ -11,6 +11,7 @@ image_author: "Atlantic Ambience"
 large_header: false
 lang: id
 pair: /perkawinan%20&%20perceraian/2026/10/03/child-support-after-divorce-purbalingga/
+ref: nafkah-anak-setelah-cerai-purbalingga
 ---
 
 Setelah perceraian, anak biasanya tinggal bersama salah satu orang tua. Persoalan yang paling sering muncul kemudian bukan soal siapa yang mengasuh, melainkan soal biaya: siapa yang menanggung uang sekolah, makan, dan kesehatan anak. Banyak warga Purbalingga berkonsultasi bukan karena bingung aturannya, tetapi karena uang untuk anak berhenti dikirim beberapa bulan setelah putusan.
