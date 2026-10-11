@@ -6,6 +6,8 @@ categories:
 author_staff_member: luthfi-asshiddieqy
 image: "https://ik.imagekit.io/4mjt7d3c3/Foto-by-SeputarIlmu.jpg"
 large_header: false
+lang: id
+ref: tanah-sengketa-purbalingga-hukum-girik-eigendom-shm
 ---
 
 Sengketa tanah seringkali berawal dari masalah yang dianggap sepele: warisan yang batasnya tidak jelas, penjualan tanah oleh pihak yang tidak berhak, atau sekadar mengandalkan surat-surat lama sebagai bukti kepemilikan. Di Purbalingga, kasus sengketa tanah bukanlah cerita fiktif, melainkan kenyataan pahit yang kerap terjadi dan berakhir di meja hijau Pengadilan Negeri. Banyak warga merasa aman hanya karena memegang surat tanah warisan leluhur, seperti Girik atau Eigendom, tanpa menyadari bahwa di mata hukum modern, surat-surat tersebut memiliki kekuatan yang sangat lemah.

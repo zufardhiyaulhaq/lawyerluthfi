@@ -6,6 +6,8 @@ categories:
 author_staff_member: luthfi-asshiddieqy
 image: "https://images.pexels.com/photos/6077797/pexels-photo-6077797.jpeg"
 large_header: false
+lang: id
+ref: panduan-melawan-hukum-ranah-digital-indonesia
 ---
 
 Reputasi bisnis Anda hancur dalam semalam karena ulasan palsu? Nama baik Anda tercoreng oleh fitnah di grup WhatsApp? Atau data pribadi Anda disebar oleh oknum pinjaman online (pinjol) untuk meneror? Banyak yang merasa tak berdaya dan berpikir satu-satunya jalan adalah lapor polisi. Namun, ada jalan lain yang sering terlewatkan: menuntut ganti rugi finansial secara langsung kepada pelaku.

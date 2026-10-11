@@ -6,6 +6,8 @@ categories:
 author_staff_member: luthfi-asshiddieqy
 image: "https://media.bareksa.com/cms/media/assets/image/2020/05/15862_77c891a7b25269aa24966d045719a0a6.jpg"
 large_header: false
+lang: id
+ref: panduan-ringkas-perjanjian-pranikah-purbalingga
 ---
 
 Dulu, perjanjian pranikah sering dianggap tabu. Kini, perjanjian ini dipandang sebagai alat perencanaan yang cerdas dan wujud kedewasaan sebuah hubungan. Tujuannya bukan untuk bersiap cerai, melainkan membangun fondasi pernikahan yang kokoh dengan keterbukaan finansial, mencegah konflik di masa depan, dan memberikan perlindungan hukum bagi kedua pihak. Proses pembuatannya justru mendorong pasangan untuk berkomunikasi secara jujur mengenai aset, utang, dan harapan, yang menandakan kesiapan menghadapi tantangan hidup bersama.  

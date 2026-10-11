@@ -6,6 +6,8 @@ categories:
 author_staff_member: luthfi-asshiddieqy
 image: "https://www.latestlaws.com/media/2020/12/1607497434-0.jpg"
 large_header: false
+lang: id
+ref: adakah-mens-rea-dalam-ranah-perdata
 ---
 
 Pertanyaan mengenai keberadaan mens rea di hukum perdata menyoroti titik kebingungan yang sering terjadi antara dua cabang utama hukum di Indonesia. blog ini akan secara sistematis mendekonstruksi premis tersebut. Secara ortodoks, mens rea, yang secara harfiah berarti "pikiran yang bersalah" (guilty mind), adalah landasan hukum pidana yang secara intrinsik terkait dengan konsep hukuman dan pemidanaan. Penerapannya secara langsung dalam hukum perdata adalah sebuah kekeliruan doktrinal.  
