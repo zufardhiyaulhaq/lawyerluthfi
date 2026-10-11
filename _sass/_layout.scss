@@ -618,6 +618,33 @@ html[data-lang="ja"] .lang-trigger .trigger-flag[data-tf="ja"] { display: inline
 .testimonial-card .who { font-size: 13px; font-weight: 500; }
 .testimonial-card .where { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
 
+/* Aggregate Google rating in the testimonials section header */
+.review-rating {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	align-items: flex-start;
+}
+@media (min-width: 821px) {
+	.review-rating { align-items: flex-end; text-align: right; }
+}
+.review-rating .rating-line {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+.review-rating .stars {
+	color: var(--accent);
+	font-size: 15px;
+	letter-spacing: 2px;
+	line-height: 1;
+}
+.review-rating .rating-text { font-size: 14px; color: var(--muted); }
+.review-rating .rating-text strong { color: var(--ink); font-weight: 600; }
+.review-rating .review-all { font-size: 13px; color: var(--accent-2); letter-spacing: 0.02em; }
+.review-rating .review-all:hover { text-decoration: underline; }
+
 /* ==== Posts grid ==== */
 .posts {
 	display: grid;
