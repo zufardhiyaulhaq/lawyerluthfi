@@ -6,6 +6,8 @@ categories:
 author_staff_member: luthfi-asshiddieqy
 image: "https://i.ibb.co.com/VcWBSq2B/12133-1.jpg"
 large_header: false
+lang: id
+ref: konsultan-hukum-bantu-sengketa
 ---
 
 ![Konsultan hukum atasi sengketa](https://i.ibb.co.com/VcWBSq2B/12133-1.jpg)  

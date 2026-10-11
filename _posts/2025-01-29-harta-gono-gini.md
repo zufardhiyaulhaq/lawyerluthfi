@@ -6,6 +6,8 @@ categories:
 author_staff_member: luthfi-asshiddieqy
 image: "https://i.ibb.co.com/d0sZTx4D/2151202429.jpg"
 large_header: false
+lang: id
+ref: harta-gono-gini
 ---
 
 ![Harta Gono-Gini](https://i.ibb.co.com/d0sZTx4D/2151202429.jpg)  

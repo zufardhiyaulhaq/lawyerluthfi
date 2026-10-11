@@ -6,6 +6,8 @@ image: "https://i.ibb.co.com/qMg3nfs8/ilustrasi-perceraian-169.jpg"
 large_header: false
 categories:
   - Perkawinan & Perceraian
+lang: id
+ref: hukum-perceraian-indonesia
 ---
 
 ![Hukum Perceraian di Indonesia](https://i.ibb.co.com/qMg3nfs8/ilustrasi-perceraian-169.jpg)  

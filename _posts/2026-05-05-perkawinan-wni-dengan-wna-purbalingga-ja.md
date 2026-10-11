@@ -4,7 +4,10 @@ date: 2026-05-05 00:00:03
 categories:
   - Perkawinan & Perceraian
 author_staff_member: luthfi-asshiddieqy
-image: "https://marinews.mahkamahagung.go.id/static/2025/08/07/campuran-antara-wni-dengan-wna-ZcPke.jpg"
+image: "https://images.pexels.com/photos/288008/pexels-photo-288008.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_source: "https://www.pexels.com/photo/two-rings-on-opened-book-288008/"
+image_license: "Pexels License"
+image_author: "Alejandro Avila"
 large_header: false
 lang: ja
 ref: perkawinan-wni-dengan-wna-purbalingga

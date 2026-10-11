@@ -6,6 +6,8 @@ categories:
 author_staff_member: luthfi-asshiddieqy
 image: "https://media.bareksa.com/cms/media/assets/image/2020/05/15862_77c891a7b25269aa24966d045719a0a6.jpg"
 large_header: false
+lang: id
+ref: panduan-warisan-emas-saham
 ---
 
 Investasi saham dan emas telah menjadi pilihan populer masyarakat Indonesia untuk mengamankan masa depan finansial. Namun, banyak yang belum memahami aspek krusial lainnya: bagaimana proses pewarisan aset ini jika pemiliknya meninggal dunia? Kurangnya pemahaman seringkali berujung pada proses klaim yang rumit, potensi sengketa keluarga, bahkan hilangnya aset yang seharusnya menjadi hak ahli waris.
