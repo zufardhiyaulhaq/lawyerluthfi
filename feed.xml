@@ -36,9 +36,6 @@ so no page URL or category name changes — SEO is untouched.
   {% if site.author %}
     <author>
       <name>{{ site.author.name | default: site.author | xml_escape }}</name>
-      {% if site.author.email %}
-        <email>{{ site.author.email | xml_escape }}</email>
-      {% endif %}
       {% if site.author.uri %}
         <uri>{{ site.author.uri | xml_escape }}</uri>
       {% endif %}
@@ -69,9 +66,6 @@ so no page URL or category name changes — SEO is untouched.
       {% assign post_author_name = post_author.name | default: post_author %}
       <author>
         <name>{{ post_author_name | default: "" | xml_escape }}</name>
-        {% if post_author_email %}
-          <email>{{ post_author_email | xml_escape }}</email>
-        {% endif %}
         {% if post_author_uri %}
           <uri>{{ post_author_uri | xml_escape }}</uri>
         {% endif %}
