@@ -7,7 +7,7 @@ permalink: /llms.txt
 
 > Law office of Luthfi Asshiddieqy, S.H., a licensed Indonesian advocate (advokat / pengacara). Bar number (NIA) 17.01703, member of PERADI (Perhimpunan Advokat Indonesia). Based in Purbalingga, Central Java, and serving the Banyumas Raya area: Purbalingga, Banjarnegara, Purwokerto, Banyumas, and Cilacap. The first consultation is free.
 
-The website is bilingual. Indonesian is the primary language; an English version is available through the language switch on each page.
+The website is available in four languages, switchable on every page: Indonesian (the primary language), English, Simplified Chinese (简体中文), and Japanese (日本語). Every article below is published in all four languages. The Chinese and Japanese versions are aimed at foreign nationals and investors, including those looking at business or property in the Purbalingga / Banyumas Raya area.
 
 ## Practice areas
 - Marriage and divorce (Perkawinan & Perceraian)
@@ -29,7 +29,7 @@ The website is bilingual. Indonesian is the primary language; an English version
 - Email: {{ site.data.company.contact_email_address }}
 
 ## Articles
-{% assign llm_posts = site.posts | where_exp: "p", "p.lang != 'en'" | where_exp: "p", "p.hidden_from_blog != true" -%}
+{% assign llm_posts = site.posts | where_exp: "p", "p.lang != 'en'" | where_exp: "p", "p.lang != 'zh'" | where_exp: "p", "p.lang != 'ja'" | where_exp: "p", "p.hidden_from_blog != true" -%}
 {%- for post in llm_posts %}
 - [{{ post.title }}]({{ site.url }}{{ post.url }})
 {%- endfor %}
