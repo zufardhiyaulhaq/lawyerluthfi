@@ -1077,6 +1077,62 @@
 }
 .keep-reading .eyebrow { margin-bottom: 24px; }
 
+/* ==== Social share (post page) ==== */
+.post-share {
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 28px 24px;
+	border-top: 1px solid var(--rule);
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	flex-wrap: wrap;
+}
+.post-share-label {
+	font-family: var(--font-mono);
+	font-size: 11px;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--muted);
+}
+.post-share-row {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+.share-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 38px;
+	height: 38px;
+	padding: 0;
+	border: 1px solid var(--rule);
+	border-radius: 50%;
+	background: var(--paper);
+	color: var(--ink-2);
+	cursor: pointer;
+	text-decoration: none;
+	transition: color .2s ease, border-color .2s ease, transform .15s ease;
+}
+.share-btn:hover {
+	color: var(--accent-2);
+	border-color: var(--accent-2);
+	transform: translateY(-1px);
+}
+.share-btn svg { width: 18px; height: 18px; display: block; }
+.share-btn:focus-visible {
+	outline: 2px solid var(--accent-2);
+	outline-offset: 2px;
+}
+.share-copied {
+	font-size: 12px;
+	font-weight: 500;
+	color: var(--accent-2);
+}
+.share-copied[hidden] { display: none; }
+
 /* CloudCannon editor link spacing */
 .editor-link { margin: 0 0 16px; }
 

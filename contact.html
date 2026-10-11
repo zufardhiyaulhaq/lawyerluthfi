@@ -32,7 +32,7 @@ i18n_key: nav.contact
 				</div>
 				<div class="item">
 					<div class="k" data-i18n="contact.k.email">Email</div>
-					<a class="v small" href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a>
+					{% include email-link.html class="v small" %}
 				</div>
 				<div class="item">
 					<div class="k" data-i18n="contact.k.address">Alamat Kantor</div>

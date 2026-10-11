@@ -225,7 +225,7 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 						<h2 data-i18n="footer.contact">Kontak</h2>
 						<ul>
 							<li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a></li>
-							<li><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></li>
+							<li>{% include email-link.html %}</li>
 							<li><a href="{{ site.baseurl }}/feed.xml" data-i18n="footer.rss">Subscribe with RSS</a></li>
 						</ul>
 					</div>

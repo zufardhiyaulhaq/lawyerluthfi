@@ -9,7 +9,7 @@ post-card.html: post, lang, group, show_langs.
 <a class="blog-hero" href="{{ site.baseurl }}{{ hero.url }}" data-card-group="{{ hero_group }}" data-card-lang="{{ hero_lang }}" data-show-langs="{{ hero_show }}" style="text-decoration: none; color: inherit;">
 	<div class="feat-thumb">
 		{% if hero.image %}
-			<img src="{% include relative-src.html src=hero.image %}" alt="{{ hero.title }}" width="1600" height="1000" decoding="async">
+			<img src="{% include relative-src.html src=hero.image %}"{% include pexels-srcset.html src=hero.image sizes="(max-width: 820px) 100vw, 600px" %} alt="{{ hero.title }}" width="1600" height="1000" decoding="async">
 		{% else %}
 			<div class="stripes"></div>
 		{% endif %}

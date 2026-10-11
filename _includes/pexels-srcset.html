@@ -1,0 +1,16 @@
+{%- comment -%}
+Emits ` srcset="..." sizes="..."` (with a leading space) for a hotlinked Pexels
+hero image that uses the `?...w=1200` query param, so smaller viewports download a
+smaller file — Pexels resizes on the fly from the `w=` value. For any other image
+(local /uploads, a different host, or a Pexels URL without w=1200) it emits
+NOTHING, so the caller's plain `src` is used unchanged and no widths are fabricated
+for an image that cannot actually be resized.
+
+Note: `src` is read from each post's existing front-matter image URL at render time;
+posts are never modified.
+
+  src    the image URL as stored in the post front matter
+  sizes  the CSS `sizes` hint for this slot (defaults to 100vw)
+{%- endcomment -%}
+{%- assign _img = include.src -%}
+{%- if _img contains 'w=1200' %} srcset="{{ _img | replace: 'w=1200','w=480' }} 480w, {{ _img | replace: 'w=1200','w=768' }} 768w, {{ _img | replace: 'w=1200','w=1024' }} 1024w, {{ _img }} 1200w" sizes="{{ include.sizes | default: '100vw' }}"{%- endif -%}

@@ -1,0 +1,23 @@
+{%- comment -%}
+Renders an <img>, upgraded to a <picture> with a WebP source WHEN a .webp sibling
+of the (local) source image actually exists in the repo. The existence check against
+site.static_files is what makes this safe and generic: if no .webp is present (e.g. a
+future staff photo that was never converted) it falls back to a plain <img>, so a
+<source> never points at a missing file. Remote images (http...) have no local webp
+sibling, so they also fall through to a plain <img>.
+
+  src           required — local image path, e.g. /uploads/luthfi.jpg
+  alt           alt text
+  width,height  intrinsic dimensions (keep them to reserve layout space / avoid CLS)
+  class, loading, decoding, fetchpriority   optional passthrough attributes
+{%- endcomment -%}
+{%- assign _src = include.src -%}
+{%- assign _webp = _src | replace: '.jpg', '.webp' | replace: '.jpeg', '.webp' | replace: '.png', '.webp' -%}
+{%- assign _has_webp = false -%}
+{%- if _webp != _src -%}
+	{%- for sf in site.static_files -%}
+		{%- if sf.path == _webp -%}{%- assign _has_webp = true -%}{%- break -%}{%- endif -%}
+	{%- endfor -%}
+{%- endif -%}
+{%- capture _attrs -%} alt="{{ include.alt }}"{% if include.width %} width="{{ include.width }}"{% endif %}{% if include.height %} height="{{ include.height }}"{% endif %}{% if include.class %} class="{{ include.class }}"{% endif %}{% if include.loading %} loading="{{ include.loading }}"{% endif %}{% if include.decoding %} decoding="{{ include.decoding }}"{% endif %}{% if include.fetchpriority %} fetchpriority="{{ include.fetchpriority }}"{% endif %}{%- endcapture -%}
+{%- if _has_webp -%}<picture><source srcset="{% include relative-src.html src=_webp %}" type="image/webp"><img src="{% include relative-src.html src=_src %}" {{ _attrs }}></picture>{%- else -%}<img src="{% include relative-src.html src=_src %}" {{ _attrs }}>{%- endif -%}

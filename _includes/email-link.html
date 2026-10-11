@@ -1,0 +1,14 @@
+{%- comment -%}
+Clickable mailto link with the address lightly protected against naive email
+harvesters: the `@` and `.` are written as HTML character entities (&#64; / &#46;)
+in both the href and the visible text. A regex scanning the raw HTML no longer
+sees a literal `name@domain.tld`, while browsers and screen readers decode the
+entities normally — the link stays fully clickable and accessible WITHOUT any
+JavaScript, so there is no no-JS fallback to maintain. The address stays
+data-driven from _data/company.yml.
+
+  class  optional class attribute for the <a> (e.g. "v small")
+{%- endcomment -%}
+{%- assign _email = site.data.company.contact_email_address -%}
+{%- assign _enc = _email | replace: '@', '&#64;' | replace: '.', '&#46;' -%}
+<a{% if include.class %} class="{{ include.class }}"{% endif %} href="mailto:{{ _enc }}">{{ _enc }}</a>

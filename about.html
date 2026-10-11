@@ -52,7 +52,7 @@ i18n_key: nav.about
 		{% for member in site.staff_members %}
 			<div class="about-grid" style="margin-top: 32px;">
 				<div class="portrait">
-					<img src="{% include relative-src.html src=member.image %}" alt="{{ member.name }}" width="1024" height="1063" loading="lazy" decoding="async">
+					{% include img-webp.html src=member.image alt=member.name width="1024" height="1063" loading="lazy" decoding="async" %}
 				</div>
 				<div>
 					<div class="eyebrow"><span class="dot"></span><span data-i18n="about.team.role">Advokat</span></div>
@@ -62,7 +62,7 @@ i18n_key: nav.about
 						<li><span class="k" data-i18n="home.about.cred.nia">NIA</span><span>{{ member.credentials }}</span></li>
 						<li><span class="k" data-i18n="home.about.cred.assoc">Asosiasi</span><span data-i18n="home.about.cred.assoc_v">PERADI — Perhimpunan Advokat Indonesia</span></li>
 						<li><span class="k" data-i18n="about.creds.phone">Telepon</span><span><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a></span></li>
-						<li><span class="k" data-i18n="about.creds.email">Email</span><span><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></span></li>
+						<li><span class="k" data-i18n="about.creds.email">Email</span><span>{% include email-link.html %}</span></li>
 					</ul>
 				</div>
 			</div>
