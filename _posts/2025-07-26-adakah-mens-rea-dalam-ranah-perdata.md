@@ -78,4 +78,4 @@ Hukum pidana bertanya, "Apakah keadaan batin orang ini cukup tercela untuk dijat
 
 Memahami perbedaan ini sangat penting. Hal ini menjelaskan mengapa seseorang dapat dinyatakan tidak bersalah dalam sidang pidana (karena standar pembuktian yang tinggi tidak terpenuhi), namun tetap dihukum untuk membayar ganti rugi jutaan rupiah dalam gugatan perdata atas perbuatan yang sama. Kedua cabang hukum tersebut, dalam kebijaksanaannya, hanya sedang mengajukan—dan menjawab—dua pertanyaan yang secara fundamental berbeda.
 
-<b><a href="https://advokatluthfi.com/contact/">Konsultasikan dengan kantor hukum Advokat Luthfi</a></b> untuk dapatkan solusi efektif atas perbuatan hukum di ranah perdata ataupun perdana.
+<b><a href="https://advokatluthfi.com/contact/">Konsultasikan dengan kantor hukum Advokat Luthfi</a></b> untuk dapatkan solusi efektif atas perbuatan hukum di ranah perdata ataupun pidana.
