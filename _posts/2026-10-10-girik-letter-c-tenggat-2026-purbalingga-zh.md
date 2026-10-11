@@ -1,0 +1,69 @@
+---
+title: "2026 年 2 月 2 日 girik 期限已过：您的土地会失去吗？——给普博林加地主的说明"
+date: 2026-10-10 00:00:02
+categories:
+  - Sengketa
+author_staff_member: luthfi-asshiddieqy
+image: "https://images.pexels.com/photos/3148866/pexels-photo-3148866.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_source: "https://www.pexels.com/photo/aerial-photo-of-rice-terraces-3148866/"
+image_license: "Pexels License"
+image_author: "Tom Fisk"
+large_header: false
+lang: zh
+ref: girik-letter-c-tenggat-2026-purbalingga
+hidden_from_blog: true
+---
+
+在普博林加（Purbalingga），许多家庭持有的继承土地，只凭 girik、petok D 或 Letter C——父母传下来的旧式土地凭证，长期被当作所有权的证明。整个 2026 年，印尼的新闻标题不断警告说“girik 和 Letter C 自 2026 年 2 月 2 日起不再有效”“五类土地凭证被废除”。如今这一期限已过，Banyumas Raya（巴纽马斯地区）各地许多 girik 持有人都在担心：我的地是不是没了，或者被国家收走了？
+
+简短的回答是：不会。那些标题把一条规定简化到指向了错误的方向。本文说明这条规定究竟写了什么、“作为证据的效力减弱”与“丧失对土地的权利”之间的区别，以及您现在应该做什么。
+
+## “2026 年废除 girik”——把新闻标题和规定分开
+
+真正发生的只是一个登记窗口期的结束，而不是土地被没收。印尼土地事务部（ATR/BPN）已公开否认会收走民众的土地，并确认尚未登记的 girik 土地仍可办理。相关措辞微妙、容易被误引，所以让我们直接读规定本身。
+
+## PP No. 18 Tahun 2021 第 96 条究竟规定了什么
+
+所有这些标题都源自 **PP No. 18 Tahun 2021 第 96 条第 (1) 款（2021 年第 18 号政府条例，关于《创造就业法》在土地领域的实施）**：tanah bekas milik adat——个人持有的原习惯所有权土地——的书面凭证**必须在本条例生效起最多 5 年内登记**。该条例自 2021 年 2 月 2 日生效，因此期限落在 2026 年 2 月 2 日。
+
+关键在于下一款。**PP No. 18 Tahun 2021 第 96 条第 (2) 款**规定，期限届满后，该书面凭证“被宣告不再有效，不能作为土地权利的证明，而**仅作为**土地登记中的**指引**（petunjuk）”。
+
+请注意被降级的是什么：**girik 作为证据的价值**，而不是**您对土地的权利**。girik 不再单独作为所有权的证明，但仍可作为 petunjuk（指引）——登记的合法起点。您的 bekas milik adat（原习惯所有权）权利并不因错过期限而被抹去；减弱的只是那张纸的证据效力。
+
+## 多数文章含糊其辞的关键区别
+
+这正是许多文章出错的地方。PP 18/2021 规定了三件常被混为一谈的不同事项：
+
+- **第 95 条**——tanah bekas hak barat（原西方／殖民地土地权利，如 eigendom、erfpacht、opstal）。只有这一类的凭证被宣告无效，其土地成为由国家直接管辖的土地。
+- **第 96 条**——tanah bekas milik adat（girik、petok D、Letter C）。如上所述，凭证变为指引，权利不丧失。
+- **第 97 条**——Surat Keterangan Tanah（SKT，土地说明书）、补偿说明书，或由村长、camat（乡长）出具的村级说明书，也“仅作为”登记中的指引。
+
+因此不要把 girik（习惯地）与 eigendom（西方权利）混为一谈；把两者混在一起的标题正是恐慌的源头。我们土地法的根基仍是 **UU No. 5 Tahun 1960（1960 年第 5 号，UUPA 土地基本法）**，它承认习惯土地权利，使之可登记为所有权。
+
+## 您的 girik 或 Letter C 仍然有用——把它办成 SHM
+
+现在正确的做法不是扔掉 girik，而是把它当作 alas hak（法律依据）来登记土地、取得 **SHM（Sertifikat Hak Milik，所有权证书）**。若您所在区域今年列入计划，登记可通过 **PTSL（Pendaftaran Tanah Sistematis Lengkap，政府系统性土地登记计划）**办理；若未列入，则在 **Kantor Pertanahan（土地局）**办理 pendaftaran sporadik（个人自行申请登记）。PTSL 的依据是 **Permen ATR/BPN No. 6 Tahun 2018**。
+
+由于 girik 现已变为指引，请用以下辅助证据加以巩固：
+
+- **土地沿革**：土地从何人取得、何时取得，以及历次转手的链条。
+- **村里的 Buku Letter C 或记录**，登记为所有人或其前手的名字。
+- **纳税凭证**，如历年的 SPPT PBB（土地与建筑物税）。
+- **实际占有声明**，以及来自邻居的**边界见证人**。
+- **继承文件**，若继承土地尚未过户。
+
+要了解 girik、eigendom 与 SHM 在法律效力上的区别，请阅读我们的[普博林加 girik、eigendom 与 SHM 指南](/sengketa/2025/09/05/tanah-sengketa-purbalingga-hukum-girik-eigendom-shm/)（印尼语）。若该土地要出售或购买，另见我们的[安全买地指南](/sengketa/2026/09/13/beli-tanah-aman-ppat-purbalingga/)（印尼语）。请注意，较旧的登记规定 **PP No. 24 Tahun 1997** 在被一项部长条例宣告废止后，其效力现存争议，故请向当地土地局确认现行程序。
+
+## 普博林加实务步骤
+
+1. **核查您的文件。** 收集 girik／petok D／Letter C 原件，并与土地所在村或 kelurahan（社区）办公室的 Buku Letter C 核对。
+2. **确认土地没有处于 sengketa（争议）。** 查看是否有他人主张所有权、边界重叠，或正在进行的诉讼。
+3. **收集上述清单中的辅助证据**，尤其是土地沿革和边界见证人。
+4. **到普博林加土地局登记。** 若您的村今年列入计划，参加 PTSL；若未列入，自行申请 pendaftaran sporadik。
+5. **若沿革复杂，请先咨询。** 尚未分割的继承土地、边界不清，或登记在已故者名下的 girik，宜先理顺。
+
+## 结语
+
+错过 2026 年 2 月 2 日的期限，并不会使您的 girik 土地消失或变成国家财产。改变的只是 girik 的地位：从可独立成立的证据，变为登记中的指引。您的 bekas milik adat（原习惯所有权）权利仍受 UUPA 承认，girik 仍是通往 SHM 的合法入口——“变成国家土地”的规定只适用于 eigendom 等原西方权利。最好的应对不是恐慌，而是尽快登记。
+
+如果您在普博林加（Purbalingga）、班贾内加拉（Banjarnegara）、普沃克托（Purwokerto）、巴纽马斯（Banyumas）或芝拉扎（Cilacap）持有 girik 或 Letter C，却不确定它的状态和下一步，<b><a href="https://advokatluthfi.com/contact/">Advokat Luthfi</a></b>（卢特菲律师）愿帮助您追溯土地沿革、准备文件，并陪同登记直至证书出具。您的首次咨询免费。

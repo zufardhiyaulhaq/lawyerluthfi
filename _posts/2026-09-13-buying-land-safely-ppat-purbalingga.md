@@ -11,6 +11,7 @@ image_author: "Jakub Zerdzicki"
 large_header: false
 lang: en
 pair: /sengketa/2026/09/13/beli-tanah-aman-ppat-purbalingga/
+ref: beli-tanah-aman-ppat-purbalingga
 hidden_from_blog: true
 ---
 

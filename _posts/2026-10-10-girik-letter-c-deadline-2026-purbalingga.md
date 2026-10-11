@@ -11,6 +11,7 @@ image_author: "Tom Fisk"
 large_header: false
 lang: en
 pair: /sengketa/2026/10/10/girik-letter-c-tenggat-2026-purbalingga/
+ref: girik-letter-c-tenggat-2026-purbalingga
 hidden_from_blog: true
 ---
 

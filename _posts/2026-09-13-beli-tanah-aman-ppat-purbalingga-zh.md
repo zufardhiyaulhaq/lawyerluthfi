@@ -1,0 +1,76 @@
+---
+title: "在普博林加安全购买土地：kwitansi（收据）、PPJB、AJB 的区别，以及为什么必须经过 PPAT"
+date: 2026-09-13 00:00:02
+categories:
+  - Sengketa
+author_staff_member: luthfi-asshiddieqy
+image: "https://images.pexels.com/photos/34135038/pexels-photo-34135038.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_source: "https://www.pexels.com/photo/real-estate-keys-and-documents-with-house-models-34135038/"
+image_license: "Pexels License"
+image_author: "Jakub Zerdzicki"
+large_header: false
+lang: zh
+ref: beli-tanah-aman-ppat-purbalingga
+hidden_from_blog: true
+---
+
+在普博林加（Purbalingga），许多人买地只凭一张贴了印花税票的收据和在村长家里的一次握手。因为卖方是邻居或亲戚，这样做感觉很安全。可是多年以后，当他们想办理证书或转卖时，却发现这块地在登记上仍属于别人的名下。
+
+本文说明印尼土地买卖中的“文件阶梯”——kwitansi（收据）、PPJB、AJB——以及为什么其中只有一份才真正完成所有权转移。对于外国人或刚到 Banyumas Raya（巴纽马斯地区）的人来说，弄懂这道阶梯，才能避免在错误的一级台阶上既丢钱又丢地。
+
+## kwitansi 与 “Segel”：付款凭证，而非产权转移凭证
+
+在本地许多村庄，土地买卖至今仍习惯以 kwitansi（收据）成交，因其贴有印花税票（segel／meterai）并有村干部见证，常被称为 kwitansi segel。收据有其意义——它能证明已付款以及付了多少——但作用仅此而已：它是付款凭证，而不是土地已经易主的凭证。
+
+根据 **UU No. 5 Tahun 1960 tentang Peraturan Dasar Pokok-Pokok Agraria（UUPA，1960 年第 5 号《土地基本法》）**，Hak Milik（所有权，印尼最完整、最强的土地权利）是一个人所能拥有的最强、最完整的权利，不可能凭一张付款单据转移。只要手上仅有收据，土地在登记上仍属卖方名下：在国家眼中，买方尚未成为合法所有人，也无法仅凭收据办理 balik nama（将证书过户到买方名下）。
+
+后果很危险：由于产权尚未转移，不诚实的卖方可以把同一块地再卖给别人，卖方去世后其继承人可以主张权利，或这块地其实已经抵押给银行——这些都落到止步于收据的买方身上。
+
+## PPJB：它约束交易，却不转移权利
+
+PPJB（Perjanjian Pengikatan Jual Beli，具约束力的买卖预约协议）约束买卖双方日后完成交易。它比收据更强，因为锁定了交易、价格和条件——但它仍不是产权转移契据：它约束双方，却不转移 Hak Milik（所有权）。
+
+PPJB 在某些特定情形下合理使用，例如：
+
+- 款项分期支付、尚未付清。
+- 证书仍在从母证书中 pemecahan（分割）。
+- 还有未了结的条件，例如卖方尚未办完继承过户。
+
+一旦价款付清、各项条件满足，PPJB 就必须以 AJB 跟进；最好在 notaris（公证人）面前签立，使条款清晰，而不是日后容易被推翻的私下文书。
+
+## 在 PPAT 面前签立 AJB：真正转移产权的契据
+
+AJB（Akta Jual Beli，买卖契据）是在 PPAT（Pejabat Pembuat Akta Tanah，持证土地契约官员）面前作成的公证契据。这才是依法将土地权利从卖方转移给买方的文件。PPAT 的职务与权限由 **PP No. 37 Tahun 1998 jo. PP No. 24 Tahun 2016 tentang Peraturan Jabatan Pejabat Pembuat Akta Tanah（PPAT 职务条例）** 规定。
+
+与属私下协议的 kwitansi 和 PPJB 不同，AJB 由有权的公职人员作成，签署前必须核验证书是否有效。PPAT 只能就其 wilayah kerja（辖区）内的土地作成契据，因此普博林加的土地要找辖区涵盖普博林加县的 PPAT。AJB 签署前，须先结清过户税费：买方承担 BPHTB（土地与建筑物取得税），卖方承担 PPh（所得税），税额视交易金额而定。
+
+## 在土地局办理 balik nama
+
+AJB 之后的最后一步是 balik nama——在普博林加县的 Kantor Pertanahan（Kantah，当地土地局）办理证书过户，使买方被登记为权利人；在办妥之前，证书上仍是卖方的名字。具体做法见我们的[普博林加继承土地过户指南](/warisan/2026/08/29/balik-nama-tanah-warisan-purbalingga/)（印尼语），买卖过户的原理相同。
+
+长期以来土地登记的依据是 **PP No. 24 Tahun 1997 tentang Pendaftaran Tanah（1997 年第 24 号《土地登记条例》）**；因其被一项部长条例宣告废止、而大部分条款在实务中仍在适用，其效力现存争议，故具体技术步骤最好直接向当地 Kantah 确认。
+
+## 付款前如何安全购买
+
+在交出任何款项之前，请做以下核查：
+
+- **核验证书真伪**，到普博林加土地局确认证书为真且与土地登记簿一致。不要只信复印件。
+- **确认证书上的名字与卖方一致。** 若对方自称继承人或受托人，请索取有效证明，如继承权证明书或经公证的授权委托书。
+- **确认状态为 SHM**（Sertifikat Hak Milik，所有权证书），且土地没有处于争议、被查封，或作为银行担保（hak tanggungan，抵押权）。
+- **到现场核查实地边界**，并与邻地所有人核对。
+- **只通过在 PPAT 面前签立的 AJB 交易**，且该 PPAT 的辖区须涵盖土地所在地——绝不要仅凭收据或私下协议。
+
+对于仍以 girik、Letter C 或 eigendom（旧的、未经登记的凭证）持有的土地，风险更高——详见我们的[普博林加 girik、eigendom 与 SHM 土地指南](/sengketa/2025/09/05/tanah-sengketa-purbalingga-hukum-girik-eigendom-shm/)（印尼语）。
+
+## 普博林加实务步骤
+
+1. 到普博林加土地局核验证书的真伪与数据，并确认 SHM 状态、无争议、未作抵押。
+2. 若款项分期或证书仍在办理中，先在公证人面前签立 PPJB。
+3. 结清过户税费，然后在辖区涵盖普博林加的 PPAT 面前签立 AJB，并按实际支付的价格填写。
+4. 向普博林加 Kantah 申请 balik nama，使权利登记在您名下。
+
+## 结语
+
+kwitansi 证明您付了钱；PPJB 约束了交易；但只有在 PPAT 面前签立的 AJB 才转移权利，也只有 balik nama 才让您在国家眼中成为登记在册的所有人。为省时间而跳过这道阶梯，只会为日后更昂贵的争议敞开大门。
+
+如果您打算在普博林加（Purbalingga）、班贾内加拉（Banjarnegara）、普沃克托（Purwokerto）、巴纽马斯（Banyumas）或芝拉扎（Cilacap）买卖土地，并希望确保每一份文件都稳妥——<b><a href="https://advokatluthfi.com/contact/">Advokat Luthfi</a></b>（卢特菲律师）愿为您提供协助，从核验证书、起草 PPJB，到陪同办理 AJB 与 balik nama。您的首次咨询免费。

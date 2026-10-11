@@ -11,6 +11,7 @@ image_author: "Jakub Zerdzicki"
 large_header: false
 lang: id
 pair: /sengketa/2026/09/13/buying-land-safely-ppat-purbalingga/
+ref: beli-tanah-aman-ppat-purbalingga
 ---
 
 Banyak warga Purbalingga membeli tanah hanya berbekal kwitansi bermeterai dan jabat tangan di rumah kepala desa. Prosesnya cepat dan terasa cukup karena penjualnya tetangga sendiri. Baru bertahun-tahun kemudian, saat hendak mengurus sertifikat atau menjual kembali, pembeli sadar bahwa tanah yang sudah ditempati itu masih tercatat atas nama orang lain.

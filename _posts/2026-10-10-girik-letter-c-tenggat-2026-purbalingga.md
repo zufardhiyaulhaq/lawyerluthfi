@@ -11,6 +11,7 @@ image_author: "Tom Fisk"
 large_header: false
 lang: id
 pair: /sengketa/2026/10/10/girik-letter-c-deadline-2026-purbalingga/
+ref: girik-letter-c-tenggat-2026-purbalingga
 ---
 
 Banyak warga Purbalingga memegang tanah warisan dengan bukti berupa girik, petok D, atau Letter C — surat lama peninggalan orang tua yang dianggap cukup sebagai tanda kepemilikan. Sepanjang 2026, beredar deras judul berita seperti "girik dan Letter C resmi tak berlaku 2 Februari 2026" dan "5 surat tanah dihapus negara". Karena tenggat itu kini sudah lewat, banyak pemegang girik di Banyumas Raya panik: apakah tanah saya hilang atau diambil negara?
