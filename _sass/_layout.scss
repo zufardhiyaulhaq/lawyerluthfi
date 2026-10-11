@@ -153,6 +153,16 @@
 }
 .lang-trigger .chev { opacity: 0.7; transition: transform 0.15s ease; }
 .lang-trigger[aria-expanded="true"] .chev { transform: rotate(180deg); }
+/* Active-language flag inside the compact trigger, before the code letters. All
+   four flags are rendered; CSS keyed on html[data-lang] (set by applyLang) reveals
+   only the active one — zero JS, so it can never desync from the code/text. The
+   html:not([data-lang]) fallback shows the id flag to match DEFAULT_LANG. */
+.lang-trigger .trigger-flag { display: none; align-items: center; }
+html:not([data-lang]) .lang-trigger .trigger-flag[data-tf="id"],
+html[data-lang="id"] .lang-trigger .trigger-flag[data-tf="id"],
+html[data-lang="en"] .lang-trigger .trigger-flag[data-tf="en"],
+html[data-lang="zh"] .lang-trigger .trigger-flag[data-tf="zh"],
+html[data-lang="ja"] .lang-trigger .trigger-flag[data-tf="ja"] { display: inline-flex; }
 .lang-menu {
 	position: absolute;
 	top: calc(100% + 6px);

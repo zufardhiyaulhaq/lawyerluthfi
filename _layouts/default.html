@@ -113,6 +113,11 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 					<div class="nav-actions">
 						<div class="lang-picker" data-lang-picker>
 							<button type="button" class="lang-trigger" aria-expanded="false" aria-controls="lang-menu-nav" aria-label="Pilih bahasa" data-i18n-attr="aria-label:lang.switch">
+								{%- comment -%}All four flags render; CSS keyed on html[data-lang] shows only the active one (no JS, can never desync from the code).{%- endcomment -%}
+								<span class="trigger-flag" data-tf="id" aria-hidden="true">{% include lang-flag.html lang="id" %}</span>
+								<span class="trigger-flag" data-tf="en" aria-hidden="true">{% include lang-flag.html lang="en" %}</span>
+								<span class="trigger-flag" data-tf="zh" aria-hidden="true">{% include lang-flag.html lang="zh" %}</span>
+								<span class="trigger-flag" data-tf="ja" aria-hidden="true">{% include lang-flag.html lang="ja" %}</span>
 								<span class="lang-code" data-lang-code aria-hidden="true">ID</span>
 								<svg class="chev" viewBox="0 0 12 12" width="11" height="11" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" /></svg>
 							</button>
