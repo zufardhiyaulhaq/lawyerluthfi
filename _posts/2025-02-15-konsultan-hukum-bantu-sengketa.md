@@ -4,13 +4,16 @@ date: 2025-02-15 00:00:00
 categories:
   - Sengketa
 author_staff_member: luthfi-asshiddieqy
-image: "https://i.ibb.co.com/VcWBSq2B/12133-1.jpg"
+image: "https://images.pexels.com/photos/9870223/pexels-photo-9870223.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_source: "https://www.pexels.com/photo/unrecognizable-hands-handshaking-over-table-9870223/"
+image_license: "Pexels License"
+image_author: "Ron Lach"
 large_header: false
 lang: id
 ref: konsultan-hukum-bantu-sengketa
 ---
 
-![Konsultan hukum atasi sengketa](https://i.ibb.co.com/VcWBSq2B/12133-1.jpg)  
+![Konsultan hukum atasi sengketa](https://images.pexels.com/photos/9870223/pexels-photo-9870223.jpeg?auto=compress&cs=tinysrgb&w=1200)  
 
 Dalam setiap hubungan hukum, baik dalam dunia bisnis, ketenagakerjaan, maupun kerja sama lainnya, sering kali muncul sengketa yang sulit diselesaikan secara damai. Ketika konflik terjadi, keberadaan konsultan hukum menjadi sangat penting untuk membantu para pihak menemukan solusi terbaik sesuai dengan ketentuan hukum yang berlaku. Dengan pengalaman dan keahlian yang dimilikinya, konsultan hukum dapat memberikan nasihat serta pendampingan dalam proses penyelesaian sengketa, baik melalui litigasi maupun alternatif lain seperti arbitrase dan mediasi.
 

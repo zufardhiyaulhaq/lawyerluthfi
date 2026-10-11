@@ -22,7 +22,7 @@ Gugatan perdata (PMH) bertujuan untuk memulihkan kerugian Anda, berbeda dengan l
 
 1. Perusakan Reputasi Bisnis & Pribadi (Pencemaran Nama Baik)
 
-Sebuah unggahan negatif, ulasan palsu, atau komentar jahat di media sosial dapat merusak reputasi yang dibangun bertahun-tahun. Meskipun ada Pasal 27 ayat (3) UU ITE untuk pidana, Anda berhak mengajukan gugatan perdata terpisah untuk meminta ganti rugi atas kerusakan citra dan kerugian finansial yang ditimbulkan. Kasus tuduhan pesugihan terhadap bisnis Ruben Onsu adalah contoh nyata bagaimana fitnah online dapat menyebabkan kerugian bisnis yang dapat dituntut.  
+Sebuah unggahan negatif, ulasan palsu, atau komentar jahat di media sosial dapat merusak reputasi yang dibangun bertahun-tahun. Meskipun ada Pasal 27 ayat (3) UU ITE untuk pidana, Anda berhak mengajukan gugatan perdata terpisah untuk meminta ganti rugi atas kerusakan citra dan kerugian finansial yang ditimbulkan. Kasus tuduhan pesugihan terhadap bisnis seorang tokoh publik terkenal adalah contoh nyata bagaimana fitnah online dapat menyebabkan kerugian bisnis yang dapat dituntut.  
 
 2. Kerugian Akibat Hoax & Disinformasi oleh Influencer
 

@@ -4,7 +4,10 @@ date: 2025-01-29 00:00:03
 categories:
   - Perkawinan & Perceraian
 author_staff_member: luthfi-asshiddieqy
-image: "https://i.ibb.co.com/d0sZTx4D/2151202429.jpg"
+image: "https://images.pexels.com/photos/8293714/pexels-photo-8293714.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_source: "https://www.pexels.com/photo/8293714/"
+image_license: "Pexels License"
+image_author: "RDNE Stock project"
 large_header: false
 lang: ja
 ref: harta-gono-gini

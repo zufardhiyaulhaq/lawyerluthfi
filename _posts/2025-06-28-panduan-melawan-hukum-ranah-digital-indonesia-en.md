@@ -23,7 +23,7 @@ A civil (PMH) claim aims to restore your loss, unlike a criminal complaint (unde
 
 1. Damage to business and personal reputation (defamation)
 
-A single negative post, a fake review, or a malicious comment on social media can destroy a reputation built over years. Although **Article 27 paragraph (3) of the UU ITE** covers the criminal side, you are entitled to file a separate civil claim to seek compensation for the damage to your image and the financial loss it caused. The *pesugihan* (ritual wealth-seeking) accusations against the businesses of Ruben Onsu are a real example of how online slander can cause business losses that can be sued over.
+A single negative post, a fake review, or a malicious comment on social media can destroy a reputation built over years. Although **Article 27 paragraph (3) of the UU ITE** covers the criminal side, you are entitled to file a separate civil claim to seek compensation for the damage to your image and the financial loss it caused. The *pesugihan* (ritual wealth-seeking) accusations against the businesses of a well-known public figure are a real example of how online slander can cause business losses that can be sued over.
 
 2. Losses caused by hoaxes and disinformation by influencers
 

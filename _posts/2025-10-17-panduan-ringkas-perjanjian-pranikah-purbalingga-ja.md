@@ -4,7 +4,10 @@ date: 2025-10-17 00:00:03
 categories:
   - Perkawinan & Perceraian
 author_staff_member: luthfi-asshiddieqy
-image: "https://media.bareksa.com/cms/media/assets/image/2020/05/15862_77c891a7b25269aa24966d045719a0a6.jpg"
+image: "https://images.pexels.com/photos/8470836/pexels-photo-8470836.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_source: "https://www.pexels.com/photo/8470836/"
+image_license: "Pexels License"
+image_author: "Thirdman"
 large_header: false
 lang: ja
 ref: panduan-ringkas-perjanjian-pranikah-purbalingga

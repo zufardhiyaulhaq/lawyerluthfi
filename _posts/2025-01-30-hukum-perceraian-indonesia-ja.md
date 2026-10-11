@@ -2,7 +2,10 @@
 title: "インドネシアの離婚法：要件・手続き・法的効果"
 date: 2025-01-30 00:00:03
 author_staff_member: luthfi-asshiddieqy
-image: "https://i.ibb.co.com/qMg3nfs8/ilustrasi-perceraian-169.jpg"
+image: "https://images.pexels.com/photos/6077326/pexels-photo-6077326.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_source: "https://www.pexels.com/photo/brown-wooden-gavel-on-brown-wooden-table-6077326/"
+image_license: "Pexels License"
+image_author: "Katrin Bolovtsova"
 large_header: false
 categories:
   - Perkawinan & Perceraian

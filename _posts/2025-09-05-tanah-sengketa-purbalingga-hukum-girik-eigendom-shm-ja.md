@@ -4,7 +4,10 @@ date: 2025-09-05 00:00:03
 categories:
   - Sengketa
 author_staff_member: luthfi-asshiddieqy
-image: "https://ik.imagekit.io/4mjt7d3c3/Foto-by-SeputarIlmu.jpg"
+image: "https://images.pexels.com/photos/8280924/pexels-photo-8280924.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_source: "https://www.pexels.com/photo/aerial-photography-of-paddy-field-during-golden-hour-8280924/"
+image_license: "Pexels License"
+image_author: "RaFah"
 large_header: false
 lang: ja
 ref: tanah-sengketa-purbalingga-hukum-girik-eigendom-shm

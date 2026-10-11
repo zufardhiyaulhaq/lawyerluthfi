@@ -4,13 +4,16 @@ date: 2025-01-29 00:00:00
 categories:
   - Perkawinan & Perceraian
 author_staff_member: luthfi-asshiddieqy
-image: "https://i.ibb.co.com/d0sZTx4D/2151202429.jpg"
+image: "https://images.pexels.com/photos/8293714/pexels-photo-8293714.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_source: "https://www.pexels.com/photo/8293714/"
+image_license: "Pexels License"
+image_author: "RDNE Stock project"
 large_header: false
 lang: id
 ref: harta-gono-gini
 ---
 
-![Harta Gono-Gini](https://i.ibb.co.com/d0sZTx4D/2151202429.jpg)  
+![Harta Gono-Gini](https://images.pexels.com/photos/8293714/pexels-photo-8293714.jpeg?auto=compress&cs=tinysrgb&w=1200)  
 
 ## Apa Itu Harta Gono-Gini? 
 **Harta Gono-Gini** merujuk pada harta bersama yang diperoleh suami dan istri selama masa perkawinan. Istilah ini berasal dari tradisi Jawa, tetapi diakui secara hukum di Indonesia sebagai **harta bersama** (_community property_). Contohnya meliputi rumah, mobil, tabungan, atau investasi yang dibeli selama pernikahan. Harta bawaan (milik sebelum menikah) dan warisan/hadiah yang dinyatakan sebagai harta pribadi **tidak termasuk** dalam kategori ini.

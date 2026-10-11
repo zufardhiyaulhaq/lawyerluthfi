@@ -4,7 +4,10 @@ date: 2025-07-26 00:00:02
 categories:
   - Hukum Perdata
 author_staff_member: luthfi-asshiddieqy
-image: "https://www.latestlaws.com/media/2020/12/1607497434-0.jpg"
+image: "https://images.pexels.com/photos/8112201/pexels-photo-8112201.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_source: "https://www.pexels.com/photo/themis-sculpture-with-libra-8112201/"
+image_license: "Pexels License"
+image_author: "Pavel Danilyuk"
 large_header: false
 lang: zh
 ref: adakah-mens-rea-dalam-ranah-perdata
