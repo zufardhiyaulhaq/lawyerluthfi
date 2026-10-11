@@ -60,10 +60,16 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 		swapping in Fraunces/Inter after paint, which on the single-column mobile
 		layout reflowed the hero H1 and pushed the page down (mobile CLS 0.157).
 		Once the font is cached it loads inside the block period and shows normally.
-		Keep the preload and stylesheet URLs identical so the preload is used.
+
+		The stylesheet is also made non-render-blocking: it is fetched early by the
+		preload-as-style hint, then applied with media="print" + an onload swap to
+		media="all" so it never blocks first paint (PSI render-block ~0.76s). The
+		<noscript> copy keeps fonts working when JavaScript is off. Keep all three
+		URLs identical so the one preload is reused.
 		{%- endcomment -%}
 		<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=optional">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=optional">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=optional" media="print" onload="this.media='all'">
+		<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..600,0..100,0..1;1,9..144,300..600,0..100,0..1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=optional"></noscript>
 		{%- comment -%}
 		Critical CSS is inlined to remove the render-blocking stylesheet request.
 		scssify compiles the same partials as css/main.scss using the _sass load path.
@@ -111,10 +117,10 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 								<svg class="chev" viewBox="0 0 12 12" width="11" height="11" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" /></svg>
 							</button>
 							<ul class="lang-menu" id="lang-menu-nav" hidden>
-								<li><button type="button" data-lang="id" lang="id">Bahasa Indonesia</button></li>
-								<li><button type="button" data-lang="en" lang="en">English</button></li>
-								<li><button type="button" data-lang="zh" lang="zh-Hans">简体中文</button></li>
-								<li><button type="button" data-lang="ja" lang="ja">日本語</button></li>
+								<li><button type="button" data-lang="id" lang="id">{% include lang-flag.html lang="id" %}<span>Bahasa Indonesia</span></button></li>
+								<li><button type="button" data-lang="en" lang="en">{% include lang-flag.html lang="en" %}<span>English</span></button></li>
+								<li><button type="button" data-lang="zh" lang="zh-Hans">{% include lang-flag.html lang="zh" %}<span>简体中文</span></button></li>
+								<li><button type="button" data-lang="ja" lang="ja">{% include lang-flag.html lang="ja" %}<span>日本語</span></button></li>
 							</ul>
 						</div>
 						<a class="btn btn-primary btn-sm" href="{{ site.baseurl }}/contact/">
@@ -141,10 +147,10 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 					<li><a href="{{ site.baseurl }}/contact/" data-i18n="cta.consult_arrow">Konsultasi Gratis →</a></li>
 				</ul>
 				<div class="lang-switch-row" role="group" aria-label="Pilih bahasa" data-i18n-attr="aria-label:lang.switch">
-					<button type="button" data-lang="id" lang="id">Bahasa Indonesia</button>
-					<button type="button" data-lang="en" lang="en">English</button>
-					<button type="button" data-lang="zh" lang="zh-Hans">简体中文</button>
-					<button type="button" data-lang="ja" lang="ja">日本語</button>
+					<button type="button" data-lang="id" lang="id">{% include lang-flag.html lang="id" %}<span>Bahasa Indonesia</span></button>
+					<button type="button" data-lang="en" lang="en">{% include lang-flag.html lang="en" %}<span>English</span></button>
+					<button type="button" data-lang="zh" lang="zh-Hans">{% include lang-flag.html lang="zh" %}<span>简体中文</span></button>
+					<button type="button" data-lang="ja" lang="ja">{% include lang-flag.html lang="ja" %}<span>日本語</span></button>
 				</div>
 			</nav>
 		</header>
