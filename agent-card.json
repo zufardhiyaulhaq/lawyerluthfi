@@ -1,0 +1,24 @@
+---
+layout: null
+sitemap: false
+permalink: /.well-known/agent-card.json
+---
+{
+  "name": "Advokat Luthfi Asshiddieqy, S.H.",
+  "kind": "content-resource",
+  "url": "{{ site.url }}/",
+  "description": "Law office of Luthfi Asshiddieqy, S.H., a licensed Indonesian advocate (advokat / pengacara). Bar number (NIA) 17.01703, member of PERADI (Perhimpunan Advokat Indonesia). Based in Purbalingga, Central Java, and serving the Banyumas Raya area. Practice areas: marriage and divorce, inheritance, land law, and general civil law. The first consultation is free.",
+  "languages": ["id", "en", "zh-Hans", "ja"],
+  "areaServed": ["Purbalingga", "Banjarnegara", "Purwokerto", "Banyumas", "Cilacap"],
+  "resources": {
+    "llms_txt": "{{ site.url }}/llms.txt",
+    "sitemap": "{{ site.url }}/sitemap.xml",
+    "feed": "{{ site.url }}/feed.xml",
+    "markdown_twins": "Each article is also available as plain Markdown for agents: append `.md` to the article URL, without the trailing slash. The English, Simplified-Chinese and Japanese versions each have a `.md` twin too."
+  },
+  "contact": {
+    "url": "{{ site.url }}/contact/",
+    "map": "https://maps.google.com/?cid=7422915483541733085"
+  },
+  "note": "advokatluthfi.com is a static content website. It publishes content and does not expose a callable agent endpoint: there is no A2A agent, no MCP server, no API, and no OAuth here. This manifest describes the site only as a content resource for AI agents. The resources listed above are plain files an agent can read directly."
+}
