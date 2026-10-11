@@ -11,10 +11,10 @@ Indonesian article never points at an English one and vice versa. site.posts is
 newest first, so the entry before this one is the newer article.
 {%- endcomment -%}
 {% assign current_lang = page.lang | default: 'id' %}
-{% if current_lang == 'en' %}
-	{% assign lang_posts = site.posts | where: "lang", "en" %}
+{% if current_lang == 'id' %}
+	{% assign lang_posts = site.posts | where_exp: "p", "p.lang != 'en' and p.lang != 'zh' and p.lang != 'ja'" %}
 {% else %}
-	{% assign lang_posts = site.posts | where_exp: "p", "p.lang != 'en'" %}
+	{% assign lang_posts = site.posts | where: "lang", current_lang %}
 {% endif %}
 {% assign newer_post = nil %}
 {% assign older_post = nil %}
@@ -33,7 +33,21 @@ newest first, so the entry before this one is the newer article.
 {% endfor %}
 {% assign related_post = newer_post | default: older_post %}
 
-<article data-post-lang="{{ page.lang | default: 'id' }}" data-post-pair="{{ page.pair | default: '' }}">
+{%- comment -%}
+data-post-siblings is a {lang: url} map of this post's translations in the 4-way
+group (from the shared `ref` key), used by the language switcher to jump to a
+sibling. It is only emitted when `ref` is present; posts still on the legacy
+one-to-one `pair` fall back to data-post-pair (id<->en), so they keep working
+unchanged until the content agent migrates them.
+{%- endcomment -%}
+{% assign has_siblings = false %}
+{% if page.ref and page.ref != '' %}
+	{% assign sibs = site.posts | where: "ref", page.ref | where_exp: "s", "s.url != page.url" %}
+	{% if sibs.size > 0 %}{% assign has_siblings = true %}{% endif %}
+{% endif %}
+{% capture siblings_json %}{% if has_siblings %}{ {% for s in sibs %}"{{ s.lang | default: 'id' }}":"{{ s.url }}"{% unless forloop.last %},{% endunless %}{% endfor %} }{% endif %}{% endcapture %}
+
+<article data-post-lang="{{ page.lang | default: 'id' }}" data-post-pair="{{ page.pair | default: '' }}"{% if has_siblings %} data-post-siblings='{{ siblings_json | strip }}'{% endif %}>
 	<header class="post-header">
 		<div class="container narrow">
 			<div class="post-meta">

@@ -1,9 +1,12 @@
 {%- comment -%}
 The large featured article at the top of the journal. Same language rules as
-post-card.html: post, lang, translated.
+post-card.html: post, lang, group, show_langs.
 {%- endcomment -%}
 {% assign hero = include.post %}
-<a class="blog-hero" href="{{ site.baseurl }}{{ hero.url }}" data-card-lang="{{ include.lang | default: 'id' }}"{% if include.translated %} data-card-translated="true"{% endif %} style="text-decoration: none; color: inherit;">
+{% assign hero_lang = include.lang | default: 'id' %}
+{% assign hero_group = include.group | default: hero.url %}
+{% assign hero_show = include.show_langs | default: hero_lang %}
+<a class="blog-hero" href="{{ site.baseurl }}{{ hero.url }}" data-card-group="{{ hero_group }}" data-card-lang="{{ hero_lang }}" data-show-langs="{{ hero_show }}" style="text-decoration: none; color: inherit;">
 	<div class="feat-thumb">
 		{% if hero.image %}
 			<img src="{% include relative-src.html src=hero.image %}" alt="{{ hero.title }}" width="1600" height="1000" decoding="async">

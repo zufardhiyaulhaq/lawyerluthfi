@@ -203,22 +203,30 @@ cities:
 			<a class="btn btn-ghost" href="{{ site.baseurl }}/blog/"><span data-i18n="cta.read">Baca Artikel</span>{{ arrow }}</a>
 		</div>
 		{%- comment -%}
-		Same bilingual pairing as the journal index: Indonesian posts set the order,
-		each one carrying its English translation as a hidden sibling card.
+		Same multilingual grouping as the journal index: Indonesian (canonical) posts
+		set the order; each carries its translations (found by the shared `ref` key, or
+		the legacy `pair`) as sibling cards. CSS + data-show-langs show one per language
+		with an Indonesian fallback. en/zh/ja posts are excluded as drivers so the three
+		rows are three distinct articles, never language duplicates.
 		{%- endcomment -%}
-		{% assign home_id_posts = site.posts | where_exp: "p", "p.lang != 'en'" | where_exp: "p", "p.hidden_from_blog != true" %}
+		{% assign home_id_posts = site.posts | where_exp: "p", "p.lang != 'en' and p.lang != 'zh' and p.lang != 'ja'" | where_exp: "p", "p.hidden_from_blog != true" %}
 		<ol class="posts">
 			{% for post in home_id_posts limit:3 %}
-				{% assign post_en = nil %}
-				{% if post.pair and post.pair != '' %}
-					{% assign post_en = site.posts | where: "url", post.pair | first %}
-				{% endif %}
-				{% if post_en %}
-					{% include post-card.html post=post lang="id" translated=true index=forloop.index0 excerpt_length=140 %}
-					{% include post-card.html post=post_en lang="en" index=forloop.index0 excerpt_length=140 %}
+				{% if post.ref and post.ref != '' %}
+					{% assign post_tx = site.posts | where: "ref", post.ref | where_exp: "s", "s.url != post.url" %}
+				{% elsif post.pair and post.pair != '' %}
+					{% assign post_tx = site.posts | where: "url", post.pair %}
 				{% else %}
-					{% include post-card.html post=post lang="id" index=forloop.index0 excerpt_length=140 %}
+					{% assign post_tx = "" | split: "" %}
 				{% endif %}
+				{% assign post_group = post.ref | default: post.url %}
+				{% assign row_index = forloop.index0 %}
+				{% capture post_present %}id{% for t in post_tx %} {{ t.lang | default: 'id' }}{% endfor %}{% endcapture %}
+				{% capture post_id_show %}id{% assign tail_langs = "en,zh,ja" | split: "," %}{% for L in tail_langs %}{% unless post_present contains L %} {{ L }}{% endunless %}{% endfor %}{% endcapture %}
+				{% include post-card.html post=post lang="id" group=post_group show_langs=post_id_show index=row_index excerpt_length=140 %}
+				{% for t in post_tx %}
+					{% include post-card.html post=t lang=t.lang group=post_group show_langs=t.lang index=row_index excerpt_length=140 %}
+				{% endfor %}
 			{% endfor %}
 		</ol>
 	</div>

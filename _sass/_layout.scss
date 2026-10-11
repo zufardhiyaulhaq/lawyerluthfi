@@ -125,28 +125,84 @@
 .nav-actions {
 	display: flex; align-items: center; gap: 14px;
 }
-.lang-toggle {
+/* ==== Language picker (4-way, accessible disclosure) ==== */
+.lang-picker { position: relative; }
+.lang-trigger {
 	display: inline-flex;
+	align-items: center;
+	gap: 5px;
 	border: 1px solid var(--rule);
 	border-radius: 100px;
-	padding: 3px;
+	padding: 5px 10px;
 	background: var(--paper);
-}
-.lang-toggle button {
-	border: 0;
-	background: transparent;
+	color: var(--muted);
 	font-size: 11px;
 	font-weight: 600;
 	letter-spacing: 0.08em;
-	padding: 5px 10px;
-	border-radius: 100px;
-	color: var(--muted);
-	cursor: pointer;
 	font-family: var(--font-body);
+	cursor: pointer;
 }
-.lang-toggle button.on { background: var(--ink); color: var(--bg); }
-@media (max-width: 480px) {
-	.lang-toggle { display: none; }
+.lang-trigger .chev { opacity: 0.7; transition: transform 0.15s ease; }
+.lang-trigger[aria-expanded="true"] .chev { transform: rotate(180deg); }
+.lang-menu {
+	position: absolute;
+	top: calc(100% + 6px);
+	right: 0;
+	z-index: 70;
+	min-width: 170px;
+	list-style: none;
+	margin: 0;
+	padding: 6px;
+	background: var(--paper);
+	border: 1px solid var(--rule);
+	border-radius: var(--radius);
+	box-shadow: 0 12px 32px rgba(26, 31, 44, 0.14);
+	display: grid;
+	gap: 2px;
+}
+.lang-menu[hidden] { display: none; }
+.lang-menu button {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border: 0;
+	background: transparent;
+	padding: 9px 10px;
+	border-radius: calc(var(--radius) - 4px);
+	font-size: 13px;
+	font-family: var(--font-body);
+	color: var(--ink);
+	text-align: left;
+	cursor: pointer;
+}
+.lang-menu button:hover { background: var(--bg-soft); }
+.lang-menu button.on { color: var(--accent-2); font-weight: 600; }
+.lang-menu button.on::after { content: "\2713"; margin-left: auto; padding-left: 10px; }
+
+/* 4-way language row inside the mobile menu overlay */
+.lang-switch-row {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 8px;
+	margin-top: 24px;
+}
+.lang-switch-row button {
+	border: 1px solid var(--rule);
+	background: var(--paper);
+	border-radius: var(--radius);
+	padding: 14px 10px;
+	font-size: 15px;
+	font-family: var(--font-body);
+	color: var(--ink);
+	cursor: pointer;
+}
+.lang-switch-row button.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+.lang-trigger:focus-visible,
+.lang-menu button:focus-visible,
+.lang-switch-row button:focus-visible {
+	outline: 2px solid var(--accent-2);
+	outline-offset: 2px;
 }
 .hamburger {
 	display: none;
@@ -1024,11 +1080,16 @@
 /* CloudCannon editor link spacing */
 .editor-link { margin: 0 0 16px; }
 
-/* ==== Bilingual listings ====
-   Post cards are rendered in both languages and the active language, held on
-   <html lang>, decides which one shows. An Indonesian card with no English
-   twin stays visible in English mode so the list never goes short. */
-html[lang="id"] [data-card-lang="en"],
-html[lang="en"] [data-card-lang="id"][data-card-translated="true"] {
+/* ==== Multilingual listings ====
+   Every language version of an article is rendered as a card. Each card carries
+   data-show-langs: the set of active languages under which it should be shown,
+   computed at build time. A card for language L is shown when the active language
+   is L, PLUS (for the Indonesian canonical only) when the active language has no
+   version of that article yet — so the list always falls back to Indonesian and
+   never goes short. The active language is held on <html data-lang>. */
+html[data-lang="id"] [data-card-group]:not([data-show-langs~="id"]),
+html[data-lang="en"] [data-card-group]:not([data-show-langs~="en"]),
+html[data-lang="zh"] [data-card-group]:not([data-show-langs~="zh"]),
+html[data-lang="ja"] [data-card-group]:not([data-show-langs~="ja"]) {
 	display: none;
 }

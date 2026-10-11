@@ -2,18 +2,21 @@
 Renders one post card for a listing grid.
 
 	post             the post to render
-	lang             "id" or "en" — the language this card is written in
-	translated       true when this is an Indonesian card that has an English
-	                 twin, so it must give way in English mode
+	lang             the language this card is written in (id/en/zh/ja)
+	group            translation-group key shared by all language versions
+	show_langs       space-separated active languages under which this card shows
+	                 (see _layout.scss "Multilingual listings")
 	index            position in the grid, used for the placeholder stripes
 	featured         true when this post is also shown in the hero above
 	excerpt_length   characters of excerpt to keep (default 160)
 {%- endcomment -%}
 {% assign card = include.post %}
 {% assign card_lang = include.lang | default: 'id' %}
+{% assign card_group = include.group | default: card.url %}
+{% assign card_show = include.show_langs | default: card_lang %}
 {% assign excerpt_length = include.excerpt_length | default: 160 %}
 {% capture cat_slugs %}{% for c in card.categories %}{{ c | slugify }}{% unless forloop.last %} {% endunless %}{% endfor %}{% endcapture %}
-<li class="post-card" data-cat="{{ cat_slugs }}" data-card-lang="{{ card_lang }}"{% if include.translated %} data-card-translated="true"{% endif %}{% if include.featured %} data-featured="true"{% endif %}>
+<li class="post-card" data-cat="{{ cat_slugs }}" data-card-group="{{ card_group }}" data-card-lang="{{ card_lang }}" data-show-langs="{{ card_show }}"{% if include.featured %} data-featured="true"{% endif %}>
 	<a href="{{ site.baseurl }}{{ card.url }}" style="display:block;">
 		<div class="post-thumb">
 			{% if card.image %}

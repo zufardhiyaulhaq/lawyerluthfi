@@ -1,11 +1,54 @@
 <!DOCTYPE html>
-<html lang="id">
+{%- comment -%}
+lang = BCP47 value for SEO / screen readers (zh is Simplified = zh-Hans); data-lang
+= the internal code (id/en/zh/ja) the bilingual listing CSS keys on. The i18n engine
+rewrites both at runtime from the stored preference; "id" is the no-JS default.
+{%- endcomment -%}
+<html lang="id" data-lang="id">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		{% seo %}
 		{% feed_meta %}
+
+		{%- comment -%}
+		hreflang alternates for posts that exist in more than one language. Each
+		language version lives at its own URL, so this tells search engines (and
+		the zh/ja searchers this expansion targets) about the siblings. Built from
+		the post's `ref` translation group, with a graceful fallback to the legacy
+		one-to-one `pair`. Pages (home/about/…) switch language on one URL client
+		side, so they get no alternates — only posts do. x-default points at the
+		Indonesian canonical.
+		{%- endcomment -%}
+		{% if page.layout == "post" %}
+			{% assign hl_group = nil %}
+			{% if page.ref and page.ref != "" %}
+				{% assign hl_group = site.posts | where: "ref", page.ref %}
+			{% endif %}
+			{% if hl_group %}
+				{% for p in hl_group %}
+					{% assign hlc = p.lang | default: "id" | replace: "zh", "zh-Hans" %}
+					<link rel="alternate" hreflang="{{ hlc }}" href="{{ site.url }}{{ p.url }}">
+				{% endfor %}
+				{% assign hl_default = hl_group | where_exp: "p", "p.lang != 'en' and p.lang != 'zh' and p.lang != 'ja'" | first %}
+				{% if hl_default %}<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ hl_default.url }}">{% endif %}
+			{% elsif page.pair and page.pair != "" %}
+				{% assign hl_cur = page.lang | default: "id" %}
+				<link rel="alternate" hreflang="{{ hl_cur | replace: 'zh', 'zh-Hans' }}" href="{{ site.url }}{{ page.url }}">
+				{% assign hl_pairpost = site.posts | where: "url", page.pair | first %}
+				{% if hl_pairpost %}
+					<link rel="alternate" hreflang="{{ hl_pairpost.lang | default: 'id' | replace: 'zh', 'zh-Hans' }}" href="{{ site.url }}{{ hl_pairpost.url }}">
+					{% assign hl_default = page %}
+					{% if hl_cur != "id" %}{% assign hl_default = hl_pairpost %}{% endif %}
+					<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ hl_default.url }}">
+				{% else %}
+					{% if hl_cur == "id" %}{% assign hl_other = "en" %}{% else %}{% assign hl_other = "id" %}{% endif %}
+					<link rel="alternate" hreflang="{{ hl_other }}" href="{{ site.url }}{{ page.pair }}">
+					{% if hl_cur == "id" %}<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">{% else %}<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.pair }}">{% endif %}
+				{% endif %}
+			{% endif %}
+		{% endif %}
 
 		{% if page.url == '/' %}<link rel="preload" as="image" href="{{ site.baseurl }}/uploads/building.jpg" fetchpriority="high">{% endif %}
 
@@ -62,9 +105,17 @@
 					</ul>
 
 					<div class="nav-actions">
-						<div class="lang-toggle" role="group" aria-label="Language">
-							<button type="button" data-lang="id" class="on">ID</button>
-							<button type="button" data-lang="en">EN</button>
+						<div class="lang-picker" data-lang-picker>
+							<button type="button" class="lang-trigger" aria-expanded="false" aria-controls="lang-menu-nav" aria-label="Pilih bahasa" data-i18n-attr="aria-label:lang.switch">
+								<span class="lang-code" data-lang-code aria-hidden="true">ID</span>
+								<svg class="chev" viewBox="0 0 12 12" width="11" height="11" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 4.5 6 7.5 9 4.5" /></svg>
+							</button>
+							<ul class="lang-menu" id="lang-menu-nav" hidden>
+								<li><button type="button" data-lang="id" lang="id">Bahasa Indonesia</button></li>
+								<li><button type="button" data-lang="en" lang="en">English</button></li>
+								<li><button type="button" data-lang="zh" lang="zh-Hans">简体中文</button></li>
+								<li><button type="button" data-lang="ja" lang="ja">日本語</button></li>
+							</ul>
 						</div>
 						<a class="btn btn-primary btn-sm" href="{{ site.baseurl }}/contact/">
 							<span data-i18n="cta.consult">Konsultasi Gratis</span>
@@ -89,6 +140,12 @@
 					{% endfor %}
 					<li><a href="{{ site.baseurl }}/contact/" data-i18n="cta.consult_arrow">Konsultasi Gratis →</a></li>
 				</ul>
+				<div class="lang-switch-row" role="group" aria-label="Pilih bahasa" data-i18n-attr="aria-label:lang.switch">
+					<button type="button" data-lang="id" lang="id">Bahasa Indonesia</button>
+					<button type="button" data-lang="en" lang="en">English</button>
+					<button type="button" data-lang="zh" lang="zh-Hans">简体中文</button>
+					<button type="button" data-lang="ja" lang="ja">日本語</button>
+				</div>
 			</nav>
 		</header>
 
