@@ -32,7 +32,6 @@ The website is available in four languages, switchable on every page: Indonesian
 Each article is also available as plain Markdown for agents: append `.md` to the article URL, without the trailing slash (the English, Simplified-Chinese and Japanese versions each have a `.md` twin too).
 
 {% assign llm_posts = site.posts | where_exp: "p", "p.lang != 'en'" | where_exp: "p", "p.lang != 'zh'" | where_exp: "p", "p.lang != 'ja'" | where_exp: "p", "p.hidden_from_blog != true" -%}
-{%- for post in llm_posts %}
-{%- assign md_len = post.url | size | minus: 1 -%}
+{%- for post in llm_posts %}{% assign md_len = post.url | size | minus: 1 %}
 - [{{ post.title }}]({{ site.url }}{{ post.url }}) — Markdown: {{ site.url }}{{ post.url | slice: 0, md_len }}.md
 {%- endfor %}
