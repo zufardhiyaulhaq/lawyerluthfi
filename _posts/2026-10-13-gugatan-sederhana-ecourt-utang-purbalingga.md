@@ -25,7 +25,7 @@ Gugatan sederhana adalah tata cara pemeriksaan perkara perdata yang dirancang ag
 Tiga ciri membedakannya dari gugatan perdata biasa:
 
 - diperiksa oleh **hakim tunggal**, bukan majelis tiga hakim;
-- diselesaikan **paling lama 25 hari sejak sidang pertama** — batas maksimal menurut aturan, bukan jaminan waktu;
+- diselesaikan **paling lama 25 hari kerja sejak sidang pertama** — batas maksimal menurut aturan, bukan jaminan waktu;
 - para pihak **tidak wajib diwakili advokat**, sehingga pemilik usaha dapat maju sendiri.
 
 Untuk tagihan yang lahir dari kesepakatan, dasar gugatannya adalah **wanprestasi** (ingkar janji), bukan perbuatan melawan hukum.
@@ -51,7 +51,7 @@ Kecepatan gugatan sederhana datang dari alurnya yang dipangkas:
 3. **Penetapan hakim tunggal** dan panitera pengganti.
 4. **Pemeriksaan pendahuluan**, lalu penetapan hari sidang dan pemanggilan para pihak.
 5. **Sidang pertama dan upaya perdamaian.** Bila damai tercapai, dibuat putusan akta perdamaian yang mengikat dan tidak dapat dilawan.
-6. **Pembuktian** dan **putusan** — seluruhnya paling lama 25 hari sejak sidang pertama.
+6. **Pembuktian** dan **putusan** — seluruhnya paling lama 25 hari kerja sejak sidang pertama.
 
 Bila tergugat tidak hadir meski dipanggil secara patut, perkara dapat diputus **verstek**. Penggugat juga dapat memohon **sita jaminan** agar aset tergugat tidak dialihkan selama perkara berjalan.
 
@@ -83,6 +83,6 @@ Soal biaya, prinsip gugatan sederhana memang "biaya ringan", tetapi **panjar bia
 
 ## Kesimpulan
 
-Gugatan sederhana tepat untuk tagihan yang nilainya jelas sampai Rp500 juta, lahir dari perjanjian, dan tergugatnya diketahui di wilayah hukum yang sama. Perkara diperiksa hakim tunggal, selesai paling lama 25 hari sejak sidang pertama, dapat didaftarkan lewat e-court tanpa menyewa advokat, dan hanya mengenal satu upaya hukum: keberatan. Batasnya pun tegas — bukan untuk sengketa tanah, tergugat yang tidak diketahui, atau nilai di atas Rp500 juta.
+Gugatan sederhana tepat untuk tagihan yang nilainya jelas sampai Rp500 juta, lahir dari perjanjian, dan tergugatnya diketahui di wilayah hukum yang sama. Perkara diperiksa hakim tunggal, selesai paling lama 25 hari kerja sejak sidang pertama, dapat didaftarkan lewat e-court tanpa menyewa advokat, dan hanya mengenal satu upaya hukum: keberatan. Batasnya pun tegas — bukan untuk sengketa tanah, tergugat yang tidak diketahui, atau nilai di atas Rp500 juta.
 
 Bila Anda pemilik usaha atau warga di Purbalingga, Banjarnegara, Purwokerto, Banyumas, atau Cilacap yang menghadapi tagihan tak dibayar dan ingin menempuh jalur yang cepat dan hemat — <b><a href="https://advokatluthfi.com/contact/">Advokat Luthfi</a></b> siap membantu Anda menilai kelayakan perkara, menyiapkan berkas gugatan sederhana, mendampingi pendaftaran e-court, hingga mengawal eksekusi putusan. Konsultasi pertama Anda gratis.

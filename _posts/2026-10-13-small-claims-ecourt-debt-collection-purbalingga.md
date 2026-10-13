@@ -26,7 +26,7 @@ A *gugatan sederhana* (small-claims suit) is a civil procedure built to be fast,
 Three features set it apart from an ordinary civil suit:
 
 - it is examined by a **single judge** (*hakim tunggal*), not a panel of three;
-- it must be resolved **within 25 days of the first hearing** — a legal maximum, not a guaranteed timeline;
+- it must be resolved **within 25 working days of the first hearing** — a legal maximum, not a guaranteed timeline;
 - the parties **need not be represented by an advocate**, so a business owner can appear in person.
 
 For a debt that arises from an agreement, the ground is *wanprestasi* (breach of contract), not *perbuatan melawan hukum* (an unlawful act, or tort).
@@ -52,7 +52,7 @@ The speed comes from a trimmed sequence:
 3. **Appointment of the single judge** and a substitute registrar.
 4. **Preliminary examination**, then the hearing date and the summons.
 5. **First hearing and an attempt at settlement.** If settlement is reached, a binding settlement deed (*akta perdamaian*) is issued that cannot be contested.
-6. **Evidence** and **judgment** — all within 25 days of the first hearing.
+6. **Evidence** and **judgment** — all within 25 working days of the first hearing.
 
 If the defendant fails to appear despite a proper summons, the case may be decided by *verstek* (default judgment). The plaintiff may also request *sita jaminan* (a conservatory attachment) so the defendant's assets are not moved while the case runs.
 
@@ -84,6 +84,6 @@ As for cost, the principle is "low-cost", but the **advance court fee (*panjar b
 
 ## Conclusion
 
-A *gugatan sederhana* is the right route for a debt with a clear value up to Rp500 million, arising from an agreement, with a known defendant in the same jurisdiction. It is heard by a single judge, resolved within 25 days of the first hearing, filed through e-court without hiring an advocate, and subject to only one remedy: *keberatan*. Its limits are firm — not for land disputes, not for an unknown defendant, and not for a value above Rp500 million.
+A *gugatan sederhana* is the right route for a debt with a clear value up to Rp500 million, arising from an agreement, with a known defendant in the same jurisdiction. It is heard by a single judge, resolved within 25 working days of the first hearing, filed through e-court without hiring an advocate, and subject to only one remedy: *keberatan*. Its limits are firm — not for land disputes, not for an unknown defendant, and not for a value above Rp500 million.
 
 If you are a business owner or a resident in Purbalingga, Banjarnegara, Purwokerto, Banyumas, or Cilacap facing an unpaid debt and want a fast, economical route — <b><a href="https://advokatluthfi.com/contact/">Advokat Luthfi</a></b> is ready to help you assess whether the case qualifies, prepare the small-claims file, assist the e-court filing, and see the judgment through to execution. Your first consultation is free.
