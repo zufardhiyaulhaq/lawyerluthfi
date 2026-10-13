@@ -1,0 +1,59 @@
+# Client guide content: the 4 "Cara Kerja" steps (homepage strip + /panduan-klien/)
+# and the 7 FAQ entries (/panduan-klien/ + its FAQPage JSON-LD).
+# Source: copy deck "Panduan Klien", sections 2 and 3. Every legal citation in it
+# was verified by the law-article writer: do not change a pasal number, a time
+# limit or a law name, and do not reword an answer.
+#
+# The Indonesian text here is what renders before JavaScript runs AND what the
+# FAQPage JSON-LD carries, so the two always match. The en / zh / ja versions
+# live in _includes/i18n.html under the *_key names. Keep each Indonesian line
+# here identical to its id table entry.
+# Confidentiality paragraph with the pasal references (copy deck 1b).
+confidential_key: guide.confidential.html
+confidential: "Cerita Anda aman bersama kami. Advokat wajib merahasiakan segala sesuatu yang diketahui atau diperoleh dari kliennya karena hubungan profesinya, kecuali ditentukan lain oleh undang-undang (<strong>Pasal 19 ayat (1) UU No. 18 Tahun 2003 tentang Advokat</strong>). Kewajiban ini tetap berlaku setelah hubungan Anda dengan advokat berakhir (<strong>Pasal 4 huruf h Kode Etik Advokat Indonesia</strong>)."
+steps:
+  - title_key: guide.step.1.title
+    title: "Hubungi via WhatsApp"
+    body_key: guide.step.1.body.html
+    body: "Ceritakan singkat masalah Anda; kami balas paling lambat 24 jam."
+  - title_key: guide.step.2.title
+    title: "Konsultasi gratis"
+    body_key: guide.step.2.body.html
+    body: "Pilih yang paling nyaman: online lewat WhatsApp atau video call, di kantor kami di Purbalingga, atau kunjungan ke rumah dengan janji temu."
+  - title_key: guide.step.3.title
+    title: "Kesepakatan & surat kuasa"
+    body_key: guide.step.3.body.html
+    body: "Setelah paham langkah hukumnya, Anda yang memutuskan; jika lanjut, Anda menandatangani surat kuasa agar advokat dapat mewakili Anda."
+  - title_key: guide.step.4.title
+    title: "Pendampingan sampai putusan"
+    body_key: guide.step.4.body.html
+    body: "Advokat mendampingi Anda di setiap tahap, termasuk sidang di pengadilan luar kota se-Banyumas Raya."
+faq:
+  - q_key: guide.faq.1.q
+    q: "Apakah konsultasi pertama benar-benar gratis?"
+    a_key: guide.faq.1.a.html
+    a: "<p>Ya. Konsultasi pertama gratis dan tanpa kewajiban apa pun. Anda boleh bercerita dan bertanya sampai paham pilihan langkah hukumnya. Setelah itu, Anda bebas memutuskan lanjut atau tidak.</p>"
+  - q_key: guide.faq.2.q
+    q: "Apakah bisa konsultasi online?"
+    a_key: guide.faq.2.a.html
+    a: "<p>Bisa. Konsultasi dapat lewat chat WhatsApp atau video call, jadi Anda tidak perlu datang ke kantor. Dokumen bisa dikirim sebagai foto atau PDF. Cara ini juga memudahkan Anda yang sedang merantau atau tinggal di luar negeri.</p>"
+  - q_key: guide.faq.3.q
+    q: "Saya tinggal di luar Purbalingga. Apakah bisa ditangani?"
+    a_key: guide.faq.3.a.html
+    a: "<p>Bisa. Kami melayani Purbalingga, Banjarnegara, Purwokerto, Banyumas, dan Cilacap, dan advokat hadir langsung di sidang Pengadilan Agama maupun Pengadilan Negeri di wilayah tersebut. Konsultasi bisa online, di kantor, atau kunjungan ke rumah dengan janji temu.</p>"
+  - q_key: guide.faq.4.q
+    q: "Apakah cerita saya dijaga kerahasiaannya?"
+    a_key: guide.faq.4.a.html
+    a: "<p>Ya. Advokat wajib merahasiakan segala sesuatu yang diketahui atau diperoleh dari kliennya karena hubungan profesinya, kecuali ditentukan lain oleh undang-undang (<strong>Pasal 19 ayat (1) UU No. 18 Tahun 2003 tentang Advokat</strong>). Kewajiban ini berlaku sejak konsultasi, karena konsultasi hukum termasuk jasa hukum advokat. Rahasia itu tetap dijaga setelah hubungan Anda dengan advokat berakhir (<strong>Pasal 4 huruf h Kode Etik Advokat Indonesia</strong>).</p>"
+  - q_key: guide.faq.5.q
+    q: "Apa yang perlu saya siapkan sebelum konsultasi?"
+    a_key: guide.faq.5.a.html
+    a: "<p>Siapkan foto atau fotokopi dokumen yang Anda punya, plus kronologi singkat: apa yang terjadi, kapan, dan siapa yang terlibat. Jika dokumen belum lengkap, tidak apa-apa. Ceritakan saja dulu.</p><ul><li><strong>Semua perkara:</strong> KTP dan kartu keluarga.</li><li><strong>Perkawinan &amp; perceraian:</strong> buku nikah dan akta kelahiran anak.</li><li><strong>Waris:</strong> akta kematian pewaris (orang yang meninggal), nama-nama ahli waris, dan bukti harta seperti sertifikat atau buku tabungan.</li><li><strong>Tanah:</strong> sertifikat, girik/Letter C (bukti tanah lama dari desa), SPPT PBB (tagihan pajak tanah tahunan), dan AJB (akta jual beli) atau kwitansi.</li><li><strong>Utang &amp; kontrak:</strong> surat perjanjian, nota atau invoice, bukti transfer, dan percakapan chat yang terkait.</li></ul>"
+  - q_key: guide.faq.6.q
+    q: "Apakah saya harus hadir sendiri di persidangan?"
+    a_key: guide.faq.6.a.html
+    a: "<p>Sering kali tidak: dengan surat kuasa khusus dari Anda, advokat dapat mewakili Anda di banyak tahap sidang. Namun beberapa tahap mewajibkan Anda hadir sendiri, misalnya mediasi (perundingan damai dengan penengah di pengadilan), termasuk dalam perkara cerai (<strong>Pasal 6 Perma No. 1 Tahun 2016</strong>). Dalam gugatan sederhana (gugatan perdata bernilai sampai Rp500 juta), Anda wajib hadir di setiap sidang (<strong>Pasal 4 ayat (4) Perma No. 2 Tahun 2015 jo. Perma No. 4 Tahun 2019</strong>). Saat konsultasi, kami jelaskan tahap mana yang perlu Anda hadiri.</p><p>Untuk mediasi, Anda hanya boleh tidak hadir dengan alasan sah, misalnya sakit dengan surat keterangan dokter atau tinggal di luar negeri. Pertemuan mediasi juga dapat dilakukan lewat video jarak jauh, dan kehadiran seperti itu dianggap hadir langsung (<strong>Pasal 5 ayat (3) dan Pasal 6 ayat (2)–(4) Perma No. 1 Tahun 2016</strong>). Dalam cerai gugat (gugatan cerai yang diajukan istri) di Pengadilan Agama, suami dan istri juga harus datang secara pribadi pada sidang perdamaian, kecuali salah satu tinggal di luar negeri dan tidak dapat datang (<strong>Pasal 82 ayat (2) UU No. 7 Tahun 1989 tentang Peradilan Agama</strong>).</p>"
+  - q_key: guide.faq.7.q
+    q: "Berapa lama proses perkara biasanya?"
+    a_key: guide.faq.7.a.html
+    a: "<p>Tidak ada jawaban pasti, karena lamanya bergantung pada jenis perkara, bukti, dan sikap pihak lawan. Sebagai patokan, Mahkamah Agung menargetkan perkara di pengadilan tingkat pertama (Pengadilan Negeri atau Pengadilan Agama) selesai paling lambat 5 bulan (<strong>SEMA No. 2 Tahun 2014</strong>). Gugatan sederhana dibatasi paling lama 25 hari kerja sejak sidang pertama (<strong>Pasal 5 ayat (3) Perma No. 2 Tahun 2015</strong>). Angka ini target dan batas aturan, bukan jaminan, dan belum termasuk banding atau kasasi (upaya ke pengadilan yang lebih tinggi).</p>"

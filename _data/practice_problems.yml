@@ -1,0 +1,69 @@
+# Problems a client may have, per practice area, in the client's own words
+# (copy deck "Panduan Klien", section 4, legal-checked by the law-article writer).
+#
+#   key   = i18n key in _includes/i18n.html. The en / zh / ja text lives there.
+#   text  = the Indonesian text rendered before JavaScript runs. Keep it identical
+#           to the id table entry for the same key.
+#   home  = true -> also listed on the homepage (the starred items in the deck).
+#           Every item is listed on the Services page.
+#   note  = optional small line under the item (Services page only).
+#
+# The topic names (perkawinan, waris, tanah, perdata) are also the WhatsApp
+# message topics in _data/whatsapp.yml and the #anchors on the Services page.
+perkawinan:
+  - key: problem.perkawinan.0
+    home: true
+    text: "Ingin bercerai (cerai gugat / cerai talak)"
+  - key: problem.perkawinan.1
+    home: true
+    text: "Pembagian harta gono-gini"
+  - key: problem.perkawinan.2
+    home: true
+    text: "Berebut hak asuh anak"
+  - key: problem.perkawinan.3
+    home: true
+    text: "Nafkah anak dan istri tidak dibayar"
+  - key: problem.perkawinan.4
+    home: false
+    text: "Nikah belum tercatat (itsbat nikah)"
+  - key: problem.perkawinan.5
+    home: false
+    text: "Menikah dengan WNA (perkawinan campuran)"
+waris:
+  - key: problem.waris.0
+    home: true
+    text: "Warisan tidak kunjung dibagi"
+  - key: problem.waris.1
+    home: true
+    text: "Mengurus surat keterangan waris"
+  - key: problem.waris.2
+    home: true
+    text: "Balik nama tanah warisan"
+  - key: problem.waris.3
+    home: false
+    text: "Warisan emas, saham, atau rekening"
+tanah:
+  - key: problem.tanah.0
+    home: true
+    text: "Tanah diserobot atau sengketa batas"
+  - key: problem.tanah.1
+    home: true
+    text: "Girik/Letter C ingin jadi SHM"
+  - key: problem.tanah.2
+    home: true
+    text: "Cek legalitas sebelum beli tanah"
+perdata:
+  - key: problem.perdata.0
+    home: true
+    text: "Utang tidak dibayar (gugatan sederhana)"
+    note_key: problem.perdata.0.note
+    note: "Gugatan sederhana berlaku untuk wanprestasi atau perbuatan melawan hukum dengan nilai gugatan paling banyak Rp500 juta; sengketa hak atas tanah tidak termasuk."
+  - key: problem.perdata.1
+    home: true
+    text: "Kontrak atau perjanjian dilanggar"
+  - key: problem.perdata.2
+    home: true
+    text: "Menuntut ganti rugi"
+  - key: problem.perdata.3
+    home: false
+    text: "Mengirim atau menerima somasi"

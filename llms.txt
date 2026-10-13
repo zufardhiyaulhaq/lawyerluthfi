@@ -19,6 +19,7 @@ The website is available in four languages, switchable on every page: Indonesian
 - [Home]({{ site.url }}/): the firm, its practice areas, and the service region.
 - [About]({{ site.url }}/about/): profile of advocate Luthfi Asshiddieqy.
 - [Services]({{ site.url }}/services/): full list of legal services.
+- [Client Guide]({{ site.url }}/panduan-klien/) (Panduan Klien): how a consultation works in 4 steps, what to prepare, client confidentiality, and answers to common questions.
 - [Contact]({{ site.url }}/contact/): office address, phone, WhatsApp, and map.
 - [Journal]({{ site.url }}/blog/): legal articles and practical guides.
 - [Terms of Use]({{ site.url }}/terms/): website terms.

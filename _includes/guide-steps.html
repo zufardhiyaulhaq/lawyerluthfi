@@ -1,0 +1,17 @@
+{%- comment -%}
+The 4 "Cara Kerja" steps from _data/client_guide.yml. Used as a compact strip on
+the homepage and in full on /panduan-klien/. Body keys end in .html because the
+English step 3 italicises the Indonesian term "surat kuasa".
+  include guide-steps.html compact=true   -> number + title only (homepage)
+{%- endcomment -%}
+<ol class="steps-strip{% if include.compact %} steps-strip--compact{% endif %}">
+	{%- for s in site.data.client_guide.steps %}
+	<li>
+		<span class="n">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+		<span class="t" data-i18n="{{ s.title_key }}">{{ s.title | xml_escape }}</span>
+		{%- unless include.compact %}
+		<span class="b" data-i18n="{{ s.body_key }}">{{ s.body }}</span>
+		{%- endunless %}
+	</li>
+	{%- endfor %}
+</ol>

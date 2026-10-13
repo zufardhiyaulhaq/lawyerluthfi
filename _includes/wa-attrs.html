@@ -1,0 +1,14 @@
+{%- comment -%}
+Attributes for a WhatsApp consultation link. Include it inside an <a> tag,
+after a space, with topic = umum (general) | perkawinan | waris | tanah | perdata.
+
+The href built here is the Indonesian message from _data/whatsapp.yml plus the
+" (dari website)" tag, URL-encoded (url_encode, then "+" -> "%20", which is
+byte-identical to encodeURIComponent with !'()* also escaped). It is what a
+visitor gets before JavaScript runs. The i18n engine reads data-wa and swaps
+in the active language's message (wa.msg.<topic>).
+{%- endcomment -%}
+{%- assign wa = site.data.whatsapp -%}
+{%- assign wa_topic = include.topic | default: "umum" -%}
+{%- assign wa_text = wa.message_id[wa_topic] | append: wa.suffix | url_encode | replace: "+", "%20" -%}
+href="https://wa.me/{{ wa.number }}?text={{ wa_text }}" data-wa="{{ wa_topic }}" target="_blank" rel="noopener"

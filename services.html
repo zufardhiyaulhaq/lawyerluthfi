@@ -9,6 +9,7 @@ navigation_order: 2
 i18n_key: nav.services
 blocks:
   - num: "01"
+    topic: perkawinan
     i18n_title: home.practice.0.name
     title: Perkawinan & Perceraian
     i18n_desc: services.0.desc
@@ -22,6 +23,7 @@ blocks:
       - { id: Itsbat Nikah (Pengesahan Perkawinan), en: "Marriage validation (Itsbat Nikah)", zh: "婚姻追认（Itsbat Nikah）", ja: "婚姻の承認（Itsbat Nikah）" }
       - { id: Pembatalan Perkawinan, en: "Marriage annulment", zh: "婚姻撤销", ja: "婚姻の取消し" }
   - num: "02"
+    topic: perdata
     i18n_title: home.practice.3.name
     title: Perdata Umum
     i18n_desc: services.1.desc
@@ -36,6 +38,7 @@ blocks:
       - { id: Permohonan Ganti Nama, en: "Name change petitions", zh: "改名申请", ja: "改名の申立て" }
       - { id: Permohonan Eksekusi, en: "Execution petitions", zh: "强制执行申请", ja: "執行の申立て" }
   - num: "03"
+    topic: tanah
     i18n_title: home.practice.2.name
     title: Pertanahan
     i18n_desc: services.2.desc
@@ -50,6 +53,7 @@ blocks:
       - { id: Pemalsuan Dokumen Tanah, en: "Land document fraud", zh: "土地文件造假", ja: "土地書類の偽造" }
       - { id: Penempatan Tanah Tanpa Hak, en: "Unauthorized occupation", zh: "无权占用土地", ja: "権原のない土地占有" }
   - num: "04"
+    topic: waris
     i18n_title: home.practice.1.name
     title: Waris
     i18n_desc: services.3.desc
@@ -79,6 +83,8 @@ i18n_extra:
     ja: "現行法に基づき、公平で透明性のある遺産分割を行います。"
 ---
 
+{% capture arrow %}<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 8h10M9 4l4 4-4 4" /></svg>{% endcapture %}
+
 <section class="section no-rule" style="padding-bottom: 0;">
 	<div class="container">
 		<div class="sec-head page-head" style="margin-bottom: 0;">
@@ -93,15 +99,28 @@ i18n_extra:
 
 <section class="section no-rule" style="padding-top: 0;">
 	<div class="container">
+		{%- comment -%}
+		Each block first lists the problems a client may have in this area (all of
+		_data/practice_problems.yml for the block's topic, in the client's words) and
+		a WhatsApp button with this area's own prefilled message, then the formal
+		list of services. The block id is the #anchor the homepage links to.
+		{%- endcomment -%}
 		{% for b in page.blocks %}
-			<div class="service-block">
+			<div class="service-block" id="{{ b.topic }}">
 				<div>
 					<div class="num-tag">/ {{ b.num }}</div>
 					<h2 data-i18n="{{ b.i18n_title }}">{{ b.title }}</h2>
 				</div>
 				<div>
 					<p class="lead" data-i18n="{{ b.i18n_desc }}">{{ b.desc }}</p>
-					<ul>
+					<ul class="problem-list">
+						{% for it in site.data.practice_problems[b.topic] %}
+							<li><span data-i18n="{{ it.key }}">{{ it.text | xml_escape }}</span>{% if it.note_key %}<small class="problem-note" data-i18n="{{ it.note_key }}">{{ it.note | xml_escape }}</small>{% endif %}</li>
+						{% endfor %}
+					</ul>
+					<a class="btn btn-primary btn-sm wa-btn" {% include wa-attrs.html topic=b.topic %}><span data-i18n="cta.whatsapp_chat">Chat WhatsApp</span>{{ arrow }}</a>
+					<div class="eyebrow service-items-label"><span class="dot"></span><span data-i18n="services.eyebrow">Layanan</span></div>
+					<ul class="service-items">
 						{% for item in b.items %}
 							<li><span{% if item.en %} data-i18n-en="{{ item.en | xml_escape }}"{% endif %}{% if item.zh %} data-i18n-zh="{{ item.zh | xml_escape }}"{% endif %}{% if item.ja %} data-i18n-ja="{{ item.ja | xml_escape }}"{% endif %}>{{ item.id }}</span></li>
 						{% endfor %}

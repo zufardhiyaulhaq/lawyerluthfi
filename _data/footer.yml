@@ -10,6 +10,9 @@
     - name: Layanan
       i18n_key: nav.services
       link: /services/
+    - name: Panduan
+      i18n_key: nav.guide
+      link: /panduan-klien/
     - name: Kontak
       i18n_key: nav.contact
       link: /contact/

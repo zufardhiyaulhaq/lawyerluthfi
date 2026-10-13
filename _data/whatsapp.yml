@@ -1,0 +1,21 @@
+# WhatsApp click-to-chat. Every consultation button on the site opens WhatsApp
+# with one of these messages already typed in (see _includes/wa-attrs.html).
+#
+# number: international format, digits only (wa.me wants no "+" and no leading 0).
+number: "6282393395426"
+
+# Added to the end of every message, in Indonesian in ALL four languages on
+# purpose: it is a tag, not text for the visitor. Search WhatsApp for
+# "dari website" to find every lead that came from the site.
+suffix: " (dari website)"
+
+# The Indonesian message per topic. This is the link a visitor gets before
+# JavaScript runs (or without it). The language switcher then swaps in the
+# visitor's language from the wa.msg.<topic> entries in _includes/i18n.html.
+# Keep each line here identical to the wa.msg.<topic> entry of the id table.
+message_id:
+  umum: "Halo Pak Luthfi, saya ingin konsultasi soal masalah hukum."
+  perkawinan: "Halo Pak Luthfi, saya ingin konsultasi soal perkawinan atau perceraian."
+  waris: "Halo Pak Luthfi, saya ingin konsultasi soal warisan."
+  tanah: "Halo Pak Luthfi, saya ingin konsultasi soal tanah."
+  perdata: "Halo Pak Luthfi, saya ingin konsultasi soal utang, kontrak, atau ganti rugi."

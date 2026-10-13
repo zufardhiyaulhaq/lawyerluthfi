@@ -183,7 +183,7 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 					<a class="brand" href="{{ site.baseurl }}/">
 						<span class="brand-name">
 							Advokat Pengacara Luthfi
-							<span class="sub" data-i18n="brand.sub">Bantuan Hukum Proffesional · Purbalingga</span>
+							<span class="sub" data-i18n="brand.sub">Bantuan Hukum Profesional · Purbalingga</span>
 						</span>
 					</a>
 
@@ -192,7 +192,7 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 						<li><a href="{{ site.baseurl }}/" data-i18n="nav.home" {% if page.url == '/' %}class="active"{% endif %}>Beranda</a></li>
 						{% for nav_page in nav_pages %}
 							{% assign nav_key = nav_page.i18n_key | default: '' %}
-							<li><a href="{{ site.baseurl }}{{ nav_page.url }}" {% if nav_key != '' %}data-i18n="{{ nav_key }}"{% endif %} {% if nav_page.url == page.url %}class="active"{% endif %}>{{ nav_page.title }}</a></li>
+							<li><a href="{{ site.baseurl }}{{ nav_page.url }}" {% if nav_key != '' %}data-i18n="{{ nav_key }}"{% endif %} {% if nav_page.url == page.url %}class="active"{% endif %}>{{ nav_page.nav_title | default: nav_page.title }}</a></li>
 						{% endfor %}
 					</ul>
 
@@ -214,7 +214,7 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 								<li><button type="button" data-lang="ja" lang="ja">{% include lang-flag.html lang="ja" %}<span>日本語</span></button></li>
 							</ul>
 						</div>
-						<a class="btn btn-primary btn-sm" href="{{ site.baseurl }}/contact/">
+						<a class="btn btn-primary btn-sm" {% include wa-attrs.html topic="umum" %}>
 							<span data-i18n="cta.consult">Konsultasi Gratis</span>
 							<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
 						</a>
@@ -225,26 +225,32 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 					</div>
 				</div>
 			</div>
-
-			<input type="checkbox" id="nav-toggle">
-			<nav class="mobile-menu">
-				<label class="close" for="nav-toggle"><span aria-hidden="true">×</span><span class="sr-only" data-i18n="nav.close">Tutup menu</span></label>
-				<ul>
-					<li><a href="{{ site.baseurl }}/" data-i18n="nav.home">Beranda</a></li>
-					{% for nav_page in nav_pages %}
-						{% assign nav_key = nav_page.i18n_key | default: '' %}
-						<li><a href="{{ site.baseurl }}{{ nav_page.url }}" {% if nav_key != '' %}data-i18n="{{ nav_key }}"{% endif %}>{{ nav_page.title }}</a></li>
-					{% endfor %}
-					<li><a href="{{ site.baseurl }}/contact/" data-i18n="cta.consult_arrow">Konsultasi Gratis →</a></li>
-				</ul>
-				<div class="lang-switch-row" role="group" aria-label="Pilih bahasa" data-i18n-attr="aria-label:lang.switch">
-					<button type="button" data-lang="id" lang="id">{% include lang-flag.html lang="id" %}<span>Bahasa Indonesia</span></button>
-					<button type="button" data-lang="en" lang="en">{% include lang-flag.html lang="en" %}<span>English</span></button>
-					<button type="button" data-lang="zh" lang="zh-Hans">{% include lang-flag.html lang="zh" %}<span>简体中文</span></button>
-					<button type="button" data-lang="ja" lang="ja">{% include lang-flag.html lang="ja" %}<span>日本語</span></button>
-				</div>
-			</nav>
 		</header>
+
+		{%- comment -%}
+		The mobile menu lives outside <header> on purpose: the header's
+		backdrop-filter makes it the containing block for position:fixed children,
+		which shrank the "full-screen" menu to the header's height and let the page
+		show through. The checkbox stays a sibling so :checked ~ .mobile-menu works.
+		{%- endcomment -%}
+		<input type="checkbox" id="nav-toggle">
+		<nav class="mobile-menu">
+			<label class="close" for="nav-toggle"><span aria-hidden="true">×</span><span class="sr-only" data-i18n="nav.close">Tutup menu</span></label>
+			<ul>
+				<li><a href="{{ site.baseurl }}/" data-i18n="nav.home">Beranda</a></li>
+				{% for nav_page in nav_pages %}
+					{% assign nav_key = nav_page.i18n_key | default: '' %}
+					<li><a href="{{ site.baseurl }}{{ nav_page.url }}" {% if nav_key != '' %}data-i18n="{{ nav_key }}"{% endif %}>{{ nav_page.nav_title | default: nav_page.title }}</a></li>
+				{% endfor %}
+				<li><a {% include wa-attrs.html topic="umum" %} data-i18n="cta.consult_arrow">Konsultasi Gratis →</a></li>
+			</ul>
+			<div class="lang-switch-row" role="group" aria-label="Pilih bahasa" data-i18n-attr="aria-label:lang.switch">
+				<button type="button" data-lang="id" lang="id">{% include lang-flag.html lang="id" %}<span>Bahasa Indonesia</span></button>
+				<button type="button" data-lang="en" lang="en">{% include lang-flag.html lang="en" %}<span>English</span></button>
+				<button type="button" data-lang="zh" lang="zh-Hans">{% include lang-flag.html lang="zh" %}<span>简体中文</span></button>
+				<button type="button" data-lang="ja" lang="ja">{% include lang-flag.html lang="ja" %}<span>日本語</span></button>
+			</div>
+		</nav>
 
 		<main>
 			{{ content }}
@@ -259,11 +265,12 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 							<h2 style="margin-top:16px;" data-i18n="home.cta.title">Konsultasi pertama Anda — sepenuhnya gratis.</h2>
 							<p class="subtext" data-i18n="home.cta.sub">Tanpa kewajiban apa pun. Diskusikan kasus Anda dengan advokat berpengalaman dan dapatkan langkah hukum yang jelas.</p>
 						</div>
-						<div style="display:flex; gap:12px; flex-wrap:wrap; justify-content:flex-end;">
-							<a class="btn btn-accent" href="{{ site.baseurl }}/contact/">
+						<div class="cta-actions">
+							<a class="btn btn-accent" {% include wa-attrs.html topic="umum" %}>
 								<span data-i18n="cta.book">Jadwalkan Konsultasi</span>
 								<svg class="arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 8h10M9 4l4 4-4 4" /></svg>
 							</a>
+							{% include confidential-note.html %}
 						</div>
 					</div>
 				</div>
@@ -297,7 +304,7 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 						<div class="brand">
 							<span class="brand-name">
 								Advokat Pengacara Luthfi
-								<span class="sub" data-i18n="brand.sub">Bantuan Hukum Proffesional · Purbalingga</span>
+								<span class="sub" data-i18n="brand.sub">Bantuan Hukum Profesional · Purbalingga</span>
 							</span>
 						</div>
 						<p data-i18n="footer.brand_desc">{{ site.data.company.description }}</p>
@@ -323,6 +330,8 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 						<ul>
 							<li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a></li>
 							<li>{% include email-link.html %}</li>
+							<li><address class="footer-address">{{ site.data.company.address }}</address></li>
+							<li><a href="{{ site.data.company.maps_url }}" target="_blank" rel="noopener" data-i18n="footer.maps">Lihat di Google Maps</a></li>
 							<li><a href="{{ site.baseurl }}/feed.xml" data-i18n="footer.rss">Subscribe with RSS</a></li>
 						</ul>
 					</div>
@@ -335,7 +344,7 @@ rewrites both at runtime from the stored preference; "id" is the no-JS default.
 			</div>
 		</footer>
 
-		<a class="fab-wa" href="https://wa.me/6282393395426" target="_blank" rel="noopener" aria-label="WhatsApp">
+		<a class="fab-wa" {% include wa-attrs.html topic="umum" %} aria-label="WhatsApp">
 			<span class="pulse"></span>
 			<svg viewBox="0 0 32 32" aria-hidden="true">
 				<path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.4 1.7 6.3L3 29l6.9-1.7c1.8 1 3.9 1.5 6.1 1.5 7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.6c-2 0-3.9-.5-5.5-1.5l-.4-.2-4 1 1-3.9-.3-.4c-1-1.7-1.6-3.6-1.6-5.6 0-5.9 4.8-10.8 10.8-10.8s10.8 4.8 10.8 10.8S22 26.6 16 26.6zm5.9-7.9l-1.5-.7c-.2-.1-.4-.1-.5.1l-.7 1c-.2.2-.4.3-.6.1-1-.5-2.3-1.4-3-2.6-.2-.3 0-.5.2-.7l.6-.8c.1-.2.2-.4.1-.5l-.7-1.6c-.1-.2-.3-.4-.5-.4h-.7c-.3 0-.6.1-.8.3-.5.5-.8 1.2-.8 2 0 .3 0 .6.1.9.4 1.2 1.1 2.3 2 3.2.6.6 1.3 1.1 2 1.5.7.4 1.5.6 2.3.6.4 0 .7-.1 1-.3.3-.2.6-.4.8-.7.1-.2.2-.4.2-.6v-.4c-.1-.1-.3-.2-.4-.4z"/>
