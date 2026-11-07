@@ -1,0 +1,83 @@
+---
+title: "Still Holding the Old Land Certificate Book in Purbalingga: Must You Switch to Electronic?"
+date: 2026-11-07 00:00:01
+categories:
+  - Sengketa
+author_staff_member: luthfi-asshiddieqy
+image: "https://images.pexels.com/photos/4792288/pexels-photo-4792288.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_source: "https://www.pexels.com/photo/opened-folder-for-documents-on-table-4792288/"
+image_license: "Pexels License"
+image_author: "Anete Lusina"
+large_header: false
+lang: en
+pair: /sengketa/2026/11/07/sertifikat-tanah-buku-lama-elektronik-purbalingga/
+ref: sertifikat-tanah-buku-lama-elektronik-purbalingga
+hidden_from_blog: true
+---
+
+Many landowners in Purbalingga still keep their land certificate (*sertifikat*; in regulations, *sertipikat*) as a green booklet, and they worry when they hear it must be replaced soon. The Kementerian ATR/BPN (Ministry of Agrarian Affairs and Spatial Planning/National Land Agency) recorded 9,774,933 electronic certificates issued through October 2026 (detik, 29 October 2026). In Purbalingga, the head of the Kantor Pertanahan (land office) said only 35,981 of 373,592 certificates were electronic, as of the first week of June 2026 (Radar Banyumas, 7 June 2026).
+
+This article explains, for landowners in Banyumas Raya and the relatives who help them: whether the old booklet must be replaced, when the change happens, what becomes of the booklet, and how to protect your certificate.
+
+## Must the Old Booklet Be Replaced?
+
+The main rule is **Peraturan Menteri ATR/BPN (Permen ATR/BPN) No. 3 Tahun 2023 tentang Penerbitan Dokumen Elektronik dalam Kegiatan Pendaftaran Tanah**, the ministerial regulation on electronic land documents. After reading all its articles and annexes: **there is no deadline in this Permen** for owners to replace an old certificate. The time limits it contains apply only to administrative steps. For rules outside this Permen, ask the Kantor Pertanahan.
+
+The sentence "old certificates remain valid" is not written in the Permen. It is a statement by the Kementerian ATR/BPN:
+
+- **February 2025:** old certificates *masih berlaku dan tidak akan ditarik* (remain valid and will not be withdrawn), ATR/BPN's official account.
+- **10 July 2025:** the public will not be sanctioned for not converting, an ATR/BPN official said (ANTARA).
+- **29 October 2026:** in legal strength, analog and electronic certificates are *sama saja* (the same), ATR/BPN said in a written statement (detik). *Analog* means a paper certificate.
+
+ATR/BPN does encourage owners to convert, but encouragement is not a deadline.
+
+## Correcting What Has Been Circulating
+
+Since early 2025 a video has circulated linking old certificates to losing land. ATR/BPN called that video a hoax and stated that people's assets will not be taken by the state. **Pasal 27 UU No. 5 Tahun 1960 (UUPA, the Basic Agrarian Law)** lists the causes that end a *hak milik* (ownership right), and the form of the certificate is not among them.
+
+The 2 February 2026 deadline in **Pasal 96 PP No. 18 Tahun 2021** (Government Regulation 18 of 2021) concerns written proof of former customary land, such as *girik*, not certificates already issued.
+
+## When Does the Old Booklet Change?
+
+The official term is **alih media** (media conversion): moving land data from paper records into the electronic system. **Pasal 33 ayat (2) Permen ATR/BPN No. 3 Tahun 2023** gives two routes: village by village, or at a *layanan pemeliharaan data* (data-maintenance service). In practice there are four situations:
+
+- **When the land data changes.** ATR/BPN names *balik nama* (recording a new owner), *roya* (removing a recorded debt security), splitting a plot, and *hak tanggungan* services (a security right over land). So when land is sold and transferred, the new certificate is electronic.
+- **Village by village.** What is converted is the *surat ukur* (survey document) and the *buku tanah* (land register), the records held at the Kantor Pertanahan (**Pasal 33 ayat (1)**). This Permen contains no duty for the owner to hand over the certificate on this route.
+- **At your own request.** **Pasal 40 ayat (1) huruf f** recognises replacing a certificate with a *Sertipikat-el* (the regulation's term for an electronic certificate), and ATR/BPN (October 2026) said owners may apply.
+- **When lost or damaged.** The replacement is issued in electronic form (Kantor Pertanahan Cilacap, 9 June 2026; detik, August 2026).
+
+According to ATR/BPN (February 2025), as long as you do not apply for *alih media* or another service, the old booklet does not change.
+
+## What Happens to the Old Booklet
+
+**Pasal 39 ayat (3)** provides that the *Sertipikat-el* is issued as edition 1 and the old certificate is kept as *warkah*, the land registration file. So the green booklet is handed to the Kantor Pertanahan.
+
+In its place, the owner receives an *akun pertanahan* (land account) (**Pasal 19**). An owner who is not yet familiar with the technology, cannot access the system, or simply asks may be given a **salinan resmi** (official copy) printed on special paper (**Pasal 20**). If the data is incomplete or the land is still in dispute, issue of the *Sertipikat-el* is suspended until the note is removed (**Pasal 18** read with **Pasal 39 ayat (4)**).
+
+## Checking and Protecting Your Certificate
+
+- **Sentuh Tanahku**, ATR/BPN's official app. For an old certificate, open Cari Bidang (find a plot) and enter the type of right, Kantor Pertanahan, village, and certificate number. The result is a plot map, so treat it as a first indication. A *Sertipikat-el* is checked through its QR code.
+- **Kantor Pertanahan.** *Pengecekan Sertipikat* (certificate check) is an information service (**Pasal 32 ayat (1)**) and is not recorded in the electronic land register.
+- **PPAT (Pejabat Pembuat Akta Tanah, the land deed official).** Before making a deed, the PPAT must confirm that the certificate data matches the database (**Pasal 97 ayat (1) PMNA/Kepala BPN No. 3 Tahun 1997 jo. Permen ATR/BPN No. 16 Tahun 2021**). If you plan to buy land, read our [guide to buying land safely](/sengketa/2026/09/13/buying-land-safely-ppat-purbalingga/).
+
+Keep the original booklet somewhere dry and safe; the head of the Kantor Pertanahan in Purbalingga said booklet certificates are still often damaged or lost. After conversion, the *Perhatian* (attention) column on the *Sertipikat-el* bars sharing it with people who have no interest in it, and its printout may not be used as security for a debt other than through *hak tanggungan*.
+
+## What to Watch Out For
+
+- **People posing as officers.** In December 2025 the Kantor Pertanahan of Banjarbaru City warned of a scam built on *alih media*: the perpetrator poses as a BPN employee, asks for a payment, then digs for bank account numbers and NIK (national ID numbers). That office stressed that BPN never contacts residents to ask them to convert. Do not hand your certificate to anyone who claims to be an officer.
+- **"Processing" services.** The Kantor Pertanahan of Pekalongan City (July 2025) reminded residents that they do not need a third party. If you do appoint someone, do it in writing and ask for a receipt for original documents.
+- **Links and files.** Do not open links or install files from unknown numbers. Download Sentuh Tanahku only from Google Play or the App Store.
+
+## Practical Steps in Purbalingga
+
+1. **Check your booklet.** Compare the name, right number, area, and location with your KTP (ID card) and SPPT PBB (land tax bill).
+2. **Check the plot** in Sentuh Tanahku. If the data does not appear, take the certificate to the Kantor Pertanahan Kabupaten Purbalingga.
+3. **Decide without rushing.** If you plan to sell, transfer inherited land, or use the land as security, the change happens through that service.
+4. **If you want to apply yourself,** go to the Kantor Pertanahan where the land is located with the application form, copies of your KTP and KK (family card), a *surat kuasa* (power of attorney) if someone acts for you, and the original certificate. Requirements and fees differ by service and can change; check Sentuh Tanahku or the Kantor Pertanahan.
+5. **Keep the receipt.** Once the certificate is issued, compare the *Sertipikat-el* with your old data and scan its QR code.
+
+## Conclusion
+
+According to ATR/BPN, the green booklet has the same legal strength as an electronic certificate, and there is no deadline in Permen ATR/BPN No. 3 Tahun 2023 for replacing it. The booklet changes through a land service or your own request, and is then kept as *warkah*.
+
+If you hold an old certificate in Purbalingga, Banjarnegara, Purwokerto, Banyumas, or Cilacap and are unsure about its data, an inheritance, or an offer you have received, <b><a href="https://advokatluthfi.com/contact/">Advokat Luthfi</a></b> is ready to help you trace your documents and prepare your steps at the Kantor Pertanahan. Your first consultation is free.
